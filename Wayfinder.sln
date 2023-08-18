@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{15D51858-DB9C-4498-8417-152A76F267F9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayfinder.WebApp", "src\Wayfinder.WebApp\Wayfinder.WebApp.csproj", "{0746B348-74E3-4A47-942F-9EE2207A89D4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayfinder.Services", "src\Wayfinder.Services\Wayfinder.Services.csproj", "{6C8071A0-C537-4226-89C8-C24F2AD1BD83}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayfinder.Tests", "tests\Wayfinder.Tests\Wayfinder.Tests.csproj", "{E1DCB9FC-B629-4E7D-A580-D21846E763AC}"
@@ -25,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0746B348-74E3-4A47-942F-9EE2207A89D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0746B348-74E3-4A47-942F-9EE2207A89D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0746B348-74E3-4A47-942F-9EE2207A89D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0746B348-74E3-4A47-942F-9EE2207A89D4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6C8071A0-C537-4226-89C8-C24F2AD1BD83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6C8071A0-C537-4226-89C8-C24F2AD1BD83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C8071A0-C537-4226-89C8-C24F2AD1BD83}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -60,7 +54,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0746B348-74E3-4A47-942F-9EE2207A89D4} = {15D51858-DB9C-4498-8417-152A76F267F9}
 		{6C8071A0-C537-4226-89C8-C24F2AD1BD83} = {15D51858-DB9C-4498-8417-152A76F267F9}
 		{CF01F3D6-0D68-44E5-8F52-3EEA1C003049} = {15D51858-DB9C-4498-8417-152A76F267F9}
 		{FF8DAA32-36D1-435D-80D8-EAEB8F5AD4E0} = {15D51858-DB9C-4498-8417-152A76F267F9}
