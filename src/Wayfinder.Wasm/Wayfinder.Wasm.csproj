@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Wayfinder.Pages\Wayfinder.Pages.csproj" />
+    <ProjectReference Include="..\Wayfinder.App\Wayfinder.App.csproj" />
   </ItemGroup>
 
 </Project>
