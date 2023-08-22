@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Wayfinder.App;
 
 namespace Wayfinder.Maui
 {
@@ -14,7 +15,9 @@ namespace Wayfinder.Maui
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 });
 
-            builder.Services.AddMauiBlazorWebView();
+            builder.Services
+                .AddWayfinder()
+                .AddMauiBlazorWebView();
 
 #if DEBUG
     		builder.Services.AddBlazorWebViewDeveloperTools();

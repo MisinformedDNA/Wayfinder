@@ -1,12 +1,39 @@
 ﻿@inherits LayoutComponentBase
 
-<header>
-    <NavMenu />
-</header>
+<MudThemeProvider IsDarkMode="true" />
+<MudDialogProvider />
+<MudSnackbarProvider />
 
-<main>
-    <div class="container">
-        @Body
-    </div>
-</main>
+<MudLayout>
 
+    <MudLayout>
+        <MudAppBar>
+            <MudIconButton Icon="@Icons.Material.Filled.Menu" OnClick="ToggleDrawer" />
+        </MudAppBar>
+
+        <MudDrawer @bind-Open="@drawerOpen" Elevation="1">
+            <MudNavMenu>
+                <MudNavLink Href="">Home</MudNavLink>
+                <MudNavLink Href="relic-costs">Relic Costs</MudNavLink>
+                <MudNavLink Href="required-relics">Required Relics</MudNavLink>
+                <MudNavLink Href="required-ships">Required Ships</MudNavLink>
+            </MudNavMenu>
+        </MudDrawer>
+
+        <MudMainContent>
+            <MudContainer>
+                 @Body
+            </MudContainer>
+        </MudMainContent>
+    </MudLayout>
+
+</MudLayout>
+
+@code {
+    private bool drawerOpen = false;
+
+    private void ToggleDrawer()
+    {
+        drawerOpen = !drawerOpen;
+    }
+}

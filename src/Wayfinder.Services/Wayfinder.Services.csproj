@@ -1,18 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="RewardTier1.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="data\krayt-personal.csv" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="30.0.1" />
@@ -20,6 +12,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="data\krayt-personal.csv" />
+    <EmbeddedResource Include="data\relic-costs.csv" />
   </ItemGroup>
 
 </Project>

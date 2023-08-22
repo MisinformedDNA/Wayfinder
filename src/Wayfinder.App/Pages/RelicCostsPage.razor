@@ -1,0 +1,56 @@
+@page "/relic-costs"
+
+@using MudBlazor
+@using Wayfinder.Services.Relics;
+@using Wayfinder.App.Components;
+@inherits MudComponentBase
+
+<MudCard Style="width: max-content;">
+    <MudCardHeader Class="mud-theme-primary">
+        <MudText>Relic Costs</MudText>
+    </MudCardHeader>
+
+    <MudCardContent>
+        <MudCard>
+            <MudCardHeader Class="mud-theme-secondary">
+                <MudText>Cost Per Relic Level</MudText>
+            </MudCardHeader>
+
+            <MudCardContent>
+                @foreach (var relicCost in RelicCosts)
+                {
+                    <RelicCostGridRow RelicCost="@relicCost" />
+                }
+            </MudCardContent>
+        </MudCard>
+
+        <MudCard>
+            <MudCardHeader Class="mud-theme-secondary">
+                <MudText>Total Relic Cost</MudText>
+            </MudCardHeader>
+
+            <MudCardContent>
+                @{
+                    var total = new RelicCost { RelicLevel = 0 };
+                }
+
+                @foreach (var relicCost in RelicCosts)
+                {
+                    total += relicCost;
+
+                    <RelicCostGridRow RelicCost="@total" />
+                }
+            </MudCardContent>
+        </MudCard>
+    </MudCardContent>
+</MudCard>
+
+@code {
+    public List<RelicCost> RelicCosts { get; private set; } = null!;
+
+    protected override void OnInitialized()
+    {
+        RelicCosts = RelicService.GetRelicCosts();
+        base.OnInitialized();
+    }
+}

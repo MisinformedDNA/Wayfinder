@@ -1,8 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Components.Routing
 @using Wayfinder.App.Shared;
 
-<Router AppAssembly="@typeof(App).Assembly"
-        AdditionalAssemblies="new[] { typeof(Wayfinder.Pages.Home).Assembly }">
+<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />

@@ -1,0 +1,13 @@
+<div class="d-flex align-center relic-box">
+    @if (Value > 0)
+    {
+        <img src="@ImageUrl" alt="@Name">
+        <p>@Value</p>
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired] public string Name { get; set; } = null!;
+    [Parameter, EditorRequired] public int Value { get; set; }
+    [Parameter, EditorRequired] public string ImageUrl { get; set; } = null!;
+}
