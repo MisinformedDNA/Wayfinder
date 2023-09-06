@@ -3,54 +3,78 @@
 @using MudBlazor
 @using Wayfinder.Services.Relics;
 @using Wayfinder.App.Components;
+
 @inherits MudComponentBase
 
-<MudCard Style="width: max-content;">
+<MudCard>
     <MudCardHeader Class="mud-theme-primary">
         <MudText>Relic Costs</MudText>
     </MudCardHeader>
 
+    <MudCardActions>
+        <MudSelect Label="From" T="int" @bind-Value="@_startRelic" @bind-Value:after="@(() => OnStartRelicChanged())" Variant="Variant.Outlined" Class="pr-2">
+            @for (int i = 0; i < RelicCosts.Count; i++)
+            {
+                <MudSelectItem Value="@(i)" />
+            }
+        </MudSelect>
+        <MudSelect Label="To" T="int" @bind-Value="@_endRelic" @bind-Value:after="@(() => OnEndRelicChanged())" Variant="Variant.Outlined">
+            @for (int i = 1; i <= RelicCosts.Count; i++)
+            {
+                <MudSelectItem Value="@(i)" />
+            }
+        </MudSelect>
+    </MudCardActions>
+
     <MudCardContent>
-        <MudCard>
-            <MudCardHeader Class="mud-theme-secondary">
-                <MudText>Cost Per Relic Level</MudText>
-            </MudCardHeader>
-
-            <MudCardContent>
-                @foreach (var relicCost in RelicCosts)
-                {
-                    <RelicCostGridRow RelicCost="@relicCost" />
-                }
-            </MudCardContent>
-        </MudCard>
-
-        <MudCard>
-            <MudCardHeader Class="mud-theme-secondary">
-                <MudText>Total Relic Cost</MudText>
-            </MudCardHeader>
-
-            <MudCardContent>
-                @{
-                    var total = new RelicCost { RelicLevel = 0 };
-                }
-
-                @foreach (var relicCost in RelicCosts)
-                {
-                    total += relicCost;
-
-                    <RelicCostGridRow RelicCost="@total" />
-                }
-            </MudCardContent>
-        </MudCard>
+        <MudText>Costs for R@(_startRelic) to R@(_endRelic):</MudText>
+        <RelicCostRow RelicCost="@_calculatedRelicCosts" />
     </MudCardContent>
+
 </MudCard>
 
 @code {
-    public List<RelicCost> RelicCosts { get; private set; } = null!;
+    private List<RelicCost> RelicCosts { get; set; } = null!;
+
+    private int _startRelic = 0;
+    private int _endRelic = 5;
+    private RelicCost _calculatedRelicCosts = new();
 
     protected override void OnInitialized()
     {
         RelicCosts = RelicService.GetRelicCosts();
+        CalculateRelicCosts();
         base.OnInitialized();
+    }
+
+    private void OnStartRelicChanged()
+    {
+        if (_startRelic >= _endRelic)
+        {
+            _endRelic = _startRelic + 1;
+        }
+
+        CalculateRelicCosts();
+    }
+
+    private void OnEndRelicChanged()
+    {
+        if (_endRelic <= _startRelic)
+        {
+            _startRelic = _endRelic - 1;
+        }
+
+        CalculateRelicCosts();
+    }
+
+    private void CalculateRelicCosts()
+    {
+        var tempRelicCosts = new RelicCost();
+        foreach (var relicCost in RelicCosts.Skip(_startRelic).Take(_endRelic - _startRelic))
+        {
+            tempRelicCosts += relicCost;
+        }
+
+        _calculatedRelicCosts = tempRelicCosts;
     }
 }

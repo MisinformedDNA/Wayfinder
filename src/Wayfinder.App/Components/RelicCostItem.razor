@@ -1,10 +1,10 @@
-<div class="d-flex align-center relic-box">
-    @if (Value > 0)
-    {
+@if (Value > 0)
+{
+    <MudPaper class="align-center relic-box pa-4 ma-2" Outlined="true">
         <img src="@ImageUrl" alt="@Name">
-        <p>@Value</p>
-    }
-</div>
+        <MudText Align="Align.Center">@Value</MudText>
+    </MudPaper>
+}
 
 @code {
     [Parameter, EditorRequired] public string Name { get; set; } = null!;

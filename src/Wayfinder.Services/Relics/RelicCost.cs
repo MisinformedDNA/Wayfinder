@@ -4,7 +4,7 @@ namespace Wayfinder.Services.Relics
 {
     public record RelicCost
     {
-        public required int RelicLevel { get; init; }
+        public int RelicLevel { get; init; }
         [Default(0)] public int CarboniteCircuitBoard { get; init; }
         [Default(0)] public int BronziumWiring { get; init; }
         [Default(0)] public int ChromiumTransistor { get; init; }

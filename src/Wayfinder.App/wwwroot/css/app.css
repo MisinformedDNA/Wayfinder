@@ -2,18 +2,9 @@
     padding-top: 24px;
 }
 
-.relic-box {
-    width: 53px;
-    margin-left: 4px;
+.relic-box img {
+    height: 50px;
 }
-
-    .relic-box img {
-        height: 30px;
-    }
-
-    .relic-box p {
-        margin-bottom: 0;
-    }
 
 #blazor-error-ui {
     background: lightyellow;

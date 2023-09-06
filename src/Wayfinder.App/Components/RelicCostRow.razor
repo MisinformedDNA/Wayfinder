@@ -1,0 +1,30 @@
+@using Wayfinder.Services.Relics;
+
+<div class="relic-list">
+    <div class="d-flex flex-wrap">
+
+        <div class="d-flex flex-wrap">
+            <RelicCostItem Name="Carbonite Circuit Boards" Value="@RelicCost.CarboniteCircuitBoard" ImageUrl="_content/Wayfinder.App/images/relics/carbonitecircuitboard.png" />
+            <RelicCostItem Name="Bronzium Wiring" Value="@RelicCost.BronziumWiring" ImageUrl="_content/Wayfinder.App/images/relics/bronziumwiring.png" />
+            <RelicCostItem Name="ChromiumTransistor" Value="@RelicCost.ChromiumTransistor" ImageUrl="_content/Wayfinder.App/images/relics/chromiumtransistor.png" />
+            <RelicCostItem Name="AurodiumHeatsink" Value="@RelicCost.AurodiumHeatsink" ImageUrl="_content/Wayfinder.App/images/relics/aurodiumheatsink.png" />
+            <RelicCostItem Name="ElectriumConductor" Value="@RelicCost.ElectriumConductor" ImageUrl="_content/Wayfinder.App/images/relics/electriumconductor.png" />
+            <RelicCostItem Name="Zinbiddle Cards" Value="@RelicCost.ZinbiddleCard" ImageUrl="_content/Wayfinder.App/images/relics/zinbiddlecard.png" />
+            <RelicCostItem Name="Aeromagnifiers" Value="@RelicCost.Aeromagnifier" ImageUrl="_content/Wayfinder.App/images/relics/aeromagnifier.png" />
+            <RelicCostItem Name="Impulse Detectors" Value="@RelicCost.ImpulseDetector" ImageUrl="_content/Wayfinder.App/images/relics/impulsedetector.png" />
+            <RelicCostItem Name="Gyrda Keypads" Value="@RelicCost.GyrdaKeypad" ImageUrl="_content/Wayfinder.App/images/relics/gyrdakeypad.png" />
+            <RelicCostItem Name="Droid Brains" Value="@RelicCost.DroidBrain" ImageUrl="_content/Wayfinder.App/images/relics/droidbrain.png" />
+        </div>
+
+        <div class="d-flex flex-wrap">
+            <RelicCostItem Name="Fragmented Signal Data" Value="@RelicCost.FragmentedSignal" ImageUrl="_content/Wayfinder.App/images/relics/signal-fragmented.png" />
+            <RelicCostItem Name="Incomplete Signal Data" Value="@RelicCost.IncompleteSignal" ImageUrl="_content/Wayfinder.App/images/relics/signal-incomplete.png" />
+            <RelicCostItem Name="Flawed Signal Data" Value="@RelicCost.FlawedSignal" ImageUrl="_content/Wayfinder.App/images/relics/signal-flawed.png" />
+        </div>
+
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired] public RelicCost RelicCost { get; set; } = null!;
+}
