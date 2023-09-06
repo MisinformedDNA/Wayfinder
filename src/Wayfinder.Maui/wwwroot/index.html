@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <title>Wayfinder</title>
     <base href="/" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/darkly/bootstrap.min.css"
-          integrity="sha256-KTDNnlE+GO2YxlBYvlZWnovq1J7iFKoyRSX6f5NiGhE=" crossorigin="anonymous">
-    <link rel="stylesheet" href="_content/Wayfinder.App/css/app.css" />
-    <!-- <link href="css/app.css" rel="stylesheet" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+    <link href="_content/Wayfinder.App/Wayfinder.App.bundle.scp.css" rel="stylesheet" />
+    <link href="_content/Wayfinder.App/css/app.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
     <link href="Wayfinder.Maui.styles.css" rel="stylesheet" />
 </head>
 
-<body>
+<body style="background-color: black;">
 
     <div class="status-bar-safe-area"></div>
 
-    <div id="app">Loading...</div>
+    <div id="app">
+        <div class="splash">
+            <img src="splash.png" alt="Loading screen">
+        </div>
+    </div>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
@@ -24,8 +29,8 @@
         <a class="dismiss">🗙</a>
     </div>
 
-    <script src="_framework/blazor.webview.js" autostart="false"></script>
-
+    <script src="_framework/blazor.webview.js"></script>
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
 </body>
 
 </html>

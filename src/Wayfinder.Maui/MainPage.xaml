@@ -5,7 +5,7 @@
              x:Class="Wayfinder.Maui.MainPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
 
-    <BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html">
+    <BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html" BackgroundColor="{DynamicResource PageBackgroundColor}">
         <BlazorWebView.RootComponents>
             <RootComponent Selector="#app" ComponentType="{x:Type app:App}" />
         </BlazorWebView.RootComponents>

@@ -1,0 +1,17 @@
+﻿body {
+    background-color: black;
+}
+
+.splash {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+    .splash img {
+        margin-inline: auto;
+        object-fit: contain;
+        object-position: top;
+        width: 100%;
+        max-width: 512px;
+    }

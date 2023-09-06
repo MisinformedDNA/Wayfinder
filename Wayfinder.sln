@@ -15,6 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayfinder.Maui", "src\Wayfi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayfinder.App", "src\Wayfinder.App\Wayfinder.App.csproj", "{9366E42F-3502-485A-ACBA-179829408D1D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution-items", ".solution-items", "{9CC5F43F-D046-4F4A-84E2-99BD2A646E89}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
