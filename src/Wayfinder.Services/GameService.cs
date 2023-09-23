@@ -1,8 +1,6 @@
-﻿using CsvHelper;
-using CsvHelper.Configuration;
-using System.Globalization;
-using System.Reflection;
+﻿using System.Text.Json;
 using Wayfinder.Services.Helpers;
+using Wayfinder.Services.Models;
 
 namespace Wayfinder.Services
 {
@@ -10,6 +8,7 @@ namespace Wayfinder.Services
     {
         private const string KraytGuildFileName = "Wayfinder.Services.data.krayt-guild.csv";
         private const string KraytPersonalFileName = "Wayfinder.Services.data.krayt-personal.csv";
+        private const string UnitsFileName = "Wayfinder.Services.data.swgoh.gg.units.json";
         private static readonly Assembly s_assembly = Assembly.GetExecutingAssembly();
         private static readonly CsvConfiguration s_configuration = new(CultureInfo.InvariantCulture) { HasHeaderRecord = true };
 
@@ -27,6 +26,15 @@ namespace Wayfinder.Services
         public List<RewardTier> GetPersonalKraytRaidRewards() => GetRewardTiers(KraytPersonalFileName);
 
         public List<RewardTier> GetGuildKraytRewards() => GetRewardTiers(KraytGuildFileName);
+
+        public static async Task<IReadOnlyList<Unit>> GetUnitsAsync()
+        {
+            using var stream = s_assembly.GetManifestResourceStream(UnitsFileName)
+                ?? throw new InvalidOperationException("Could not load embedded resource.");
+            var result = await JsonSerializer.DeserializeAsync<UnitRoot>(stream)
+                ?? throw new InvalidOperationException("No data found.");
+            return result.Units;
+        }
 
         private List<RewardTier> GetRewardTiers(string name)
         {
