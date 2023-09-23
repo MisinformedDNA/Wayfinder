@@ -1,0 +1,789 @@
+[
+  {
+    "UnitId": "LV",
+    "Requirements": [
+      {
+        "UnitId": "BADBATCHHUNTER",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "BADBATCHTECH",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "BADBATCHWRECKER",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "TUSKENRAIDER",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "PADMEAMIDALA",
+        "Level": "RELIC_08"
+      },
+      {
+        "UnitId": "EMBO",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "CT210408",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "BADBATCHECHO",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "COUNTDOOKU",
+        "Level": "RELIC_08"
+      },
+      {
+        "UnitId": "ZAMWESELL",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "YWINGCLONEWARS",
+        "Level": "STAR_07"
+      },
+      {
+        "UnitId": "GRANDMOFFTARKIN",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "ARCTROOPER501ST",
+        "Level": "RELIC_08"
+      },
+      {
+        "UnitId": "GENERALSKYWALKER",
+        "Level": "RELIC_08"
+      },
+      {
+        "UnitId": "NUTEGUNRAY",
+        "Level": "RELIC_07"
+      }
+    ]
+  },
+  {
+    "UnitId": "JMK",
+    "Requirements": [
+      {
+        "UnitId": "GENERALKENOBI",
+        "Level": "RELIC_08"
+      },
+      {
+        "UnitId": "CAPITALNEGOTIATOR",
+        "Level": "STAR_06"
+      },
+      {
+        "UnitId": "MACEWINDU",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "AAYLASECURA",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "BOKATAN",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "QUIGONJINN",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "MAGNAGUARD",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "CLONESERGEANTPHASEI",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "WATTAMBOR",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "GRIEVOUS",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "CADBANE",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "CC2224",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "JANGOFETT",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "SHAAKTI",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "GRANDMASTERYODA",
+        "Level": "RELIC_08"
+      }
+    ]
+  },
+  {
+    "UnitId": "JABBA",
+    "Requirements": [
+      {
+        "UnitId": "KRRSANTAN",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "HANSOLO",
+        "Level": "RELIC_08"
+      },
+      {
+        "UnitId": "GAMORREANGUARD",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "OUTRIDER",
+        "Level": "STAR_07"
+      },
+      {
+        "UnitId": "GREEDO",
+        "Level": "RELIC_06"
+      },
+      {
+        "UnitId": "UNDERCOVERLANDO",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "JEDIKNIGHTLUKE",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "JAWA",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "URORRURRR",
+        "Level": "RELIC_04"
+      },
+      {
+        "UnitId": "C3POLEGENDARY",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "BOUSHH",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "AURRA_SING",
+        "Level": "RELIC_06"
+      },
+      {
+        "UnitId": "FENNECSHAND",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "BOBAFETT",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "HUMANTHUG",
+        "Level": "RELIC_03"
+      }
+    ]
+  },
+  {
+    "UnitId": "JMLS",
+    "Requirements": [
+      {
+        "UnitId": "OLDBENKENOBI",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "REYJEDITRAINING",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "C3POLEGENDARY",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "MONMOTHMA",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "C3POCHEWBACCA",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "JEDIKNIGHTLUKE",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "R2D2_LEGENDARY",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "HANSOLO",
+        "Level": "RELIC_06"
+      },
+      {
+        "UnitId": "CHEWBACCALEGENDARY",
+        "Level": "RELIC_06"
+      },
+      {
+        "UnitId": "YWINGREBEL",
+        "Level": "STAR_06"
+      },
+      {
+        "UnitId": "PRINCESSLEIA",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "HERMITYODA",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "WEDGEANTILLES",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "BIGGSDARKLIGHTER",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "ADMINISTRATORLANDO",
+        "Level": "RELIC_05"
+      }
+    ]
+  },
+  {
+    "UnitId": "SEE",
+    "Requirements": [
+      {
+        "UnitId": "EMPERORPALPATINE",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "VADER",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "ROYALGUARD",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "ADMIRALPIETT",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "DIRECTORKRENNIC",
+        "Level": "RELIC_04"
+      },
+      {
+        "UnitId": "DARTHSIDIOUS",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "MAUL",
+        "Level": "RELIC_04"
+      },
+      {
+        "UnitId": "COUNTDOOKU",
+        "Level": "RELIC_06"
+      },
+      {
+        "UnitId": "SITHMARAUDER",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "TIEBOMBERIMPERIAL",
+        "Level": "STAR_06"
+      },
+      {
+        "UnitId": "ANAKINKNIGHT",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "GRANDADMIRALTHRAWN",
+        "Level": "RELIC_06"
+      },
+      {
+        "UnitId": "GRANDMOFFTARKIN",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "VEERS",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "COLONELSTARCK",
+        "Level": "RELIC_03"
+      }
+    ]
+  },
+  {
+    "UnitId": "Rey",
+    "Requirements": [
+      {
+        "UnitId": "REYJEDITRAINING",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "FINN",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "RESISTANCETROOPER",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "REY",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "RESISTANCEPILOT",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "POE",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "EPIXFINN",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "AMILYNHOLDO",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "ROSETICO",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "EPIXPOE",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "BB8",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "SMUGGLERCHEWBACCA",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "CAPITALRADDUS",
+        "Level": "STAR_05"
+      }
+    ]
+  },
+  {
+    "UnitId": "SLKR",
+    "Requirements": [
+      {
+        "UnitId": "KYLORENUNMASKED",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "FIRSTORDERTROOPER",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "FIRSTORDEROFFICERMALE",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "KYLOREN",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "PHASMA",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "FIRSTORDEREXECUTIONER",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "SMUGGLERHAN",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "FOSITHTROOPER",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "FIRSTORDERSPECIALFORCESPILOT",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "GENERALHUX",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "FIRSTORDERTIEPILOT",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "EMPERORPALPATINE",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "CAPITALFINALIZER",
+        "Level": "STAR_05"
+      }
+    ]
+  },
+  {
+    "UnitId": "GLLEIA",
+    "Requirements": [
+      {
+        "UnitId": "CAPTAINREX",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "PRINCESSKNEESAA",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "WICKET",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "ADMINISTRATORLANDO",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "ADMIRALACKBAR",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "SCOUTTROOPER_V3",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "R2D2_LEGENDARY",
+        "Level": "RELIC_08"
+      },
+      {
+        "UnitId": "HOTHHAN",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "HOTHLEIA",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "CHIEFCHIRPA",
+        "Level": "RELIC_03"
+      },
+      {
+        "UnitId": "CAPTAINDROGAN",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "COMMANDERLUKESKYWALKER",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "BOUSHH",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "C3POCHEWBACCA",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "LOBOT",
+        "Level": "RELIC_03"
+      }
+    ]
+  },
+  {
+    "UnitId": "Executor",
+    "Requirements": [
+      {
+        "UnitId": "VADER",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "ADMIRALPIETT",
+        "Level": "RELIC_08"
+      },
+      {
+        "UnitId": "BOBAFETT",
+        "Level": "RELIC_08"
+      },
+      {
+        "UnitId": "DENGAR",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "IG88",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "BOSSK",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "TIEFIGHTERPILOT",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "TIEADVANCED",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "TIEBOMBERIMPERIAL",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "HOUNDSTOOTH",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "SLAVE1",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "IG2000",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "TIEFIGHTERIMPERIAL",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "RAZORCREST",
+        "Level": "STAR_05"
+      }
+    ]
+  },
+  {
+    "UnitId": "Profundity",
+    "Requirements": [
+      {
+        "UnitId": "ADMIRALRADDUS",
+        "Level": "RELIC_09"
+      },
+      {
+        "UnitId": "CASSIANANDOR",
+        "Level": "RELIC_08"
+      },
+      {
+        "UnitId": "DASHRENDAR",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "MONMOTHMA",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "BISTAN",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "JYNERSO",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "HERASYNDULLAS3",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "OUTRIDER",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "UWINGROGUEONE",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "UWINGSCARIF",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "XWINGRED2",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "XWINGRED3",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "YWINGREBEL",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "GHOST",
+        "Level": "STAR_04"
+      }
+    ]
+  },
+  {
+    "UnitId": "Leviathan",
+    "Requirements": [
+      {
+        "UnitId": "DARTHREVAN",
+        "Level": "RELIC_09"
+      },
+      {
+        "UnitId": "DARTHMALAK",
+        "Level": "RELIC_09"
+      },
+      {
+        "UnitId": "SITHTROOPER",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "FOSITHTROOPER",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "MAUL",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "HK47",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "BASTILASHAN",
+        "Level": "RELIC_07"
+      },
+      {
+        "UnitId": "SITHASSASSIN",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "50RT",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "FURYCLASSINTERCEPTOR",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "SITHSUPREMACYCLASS",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "TIEDAGGER",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "SITHBOMBER",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "SITHINFILTRATOR",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "SITHFIGHTER",
+        "Level": "STAR_04"
+      },
+      {
+        "UnitId": "EBONHAWK",
+        "Level": "STAR_04"
+      }
+    ]
+  },
+  {
+    "UnitId": "GrandInquisitor",
+    "Requirements": [
+      {
+        "UnitId": "SECONDSISTER",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "NINTHSISTER",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "SEVENTHSISTER",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "EIGHTHBROTHER",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "FIFTHBROTHER",
+        "Level": "RELIC_05"
+      }
+    ]
+  },
+  {
+    "UnitId": "Starkiller",
+    "Requirements": [
+      {
+        "UnitId": "DASHRENDAR",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "KYLEKATARN",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "DARTHTALON",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "MARAJADE",
+        "Level": "RELIC_05"
+      }
+    ]
+  },
+  {
+    "UnitId": "DoctorAphra",
+    "Requirements": [
+      {
+        "UnitId": "HONDO",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "TRIPLEZERO",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "BT1",
+        "Level": "RELIC_05"
+      },
+      {
+        "UnitId": "SANASTARROS",
+        "Level": "RELIC_05"
+      }
+    ]
+  },
+  {
+    "UnitId": "CalKestisSurvivor",
+    "Requirements": [
+      {
+        "UnitId": "CALKESTIS",
+        "Level": "GEAR_12"
+      },
+      {
+        "UnitId": "CEREJUNDA",
+        "Level": "GEAR_12"
+      },
+      {
+        "UnitId": "MERRIN",
+        "Level": "GEAR_12"
+      },
+      {
+        "UnitId": "TARFFUL",
+        "Level": "GEAR_12"
+      },
+      {
+        "UnitId": "SAWGERRERA",
+        "Level": "GEAR_12"
+      }
+    ]
+  }
+]
