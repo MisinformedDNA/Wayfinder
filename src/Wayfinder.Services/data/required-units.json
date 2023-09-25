@@ -1,6 +1,6 @@
 [
   {
-    "UnitId": "LV",
+    "UnitId": "LORDVADER",
     "Requirements": [
       {
         "UnitId": "BADBATCHHUNTER",
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "UnitId": "JMK",
+    "UnitId": "JEDIMASTERKENOBI",
     "Requirements": [
       {
         "UnitId": "GENERALKENOBI",
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "UnitId": "JABBA",
+    "UnitId": "JABBATHEHUTT",
     "Requirements": [
       {
         "UnitId": "KRRSANTAN",
@@ -195,7 +195,7 @@
     ]
   },
   {
-    "UnitId": "JMLS",
+    "UnitId": "GRANDMASTERLUKE",
     "Requirements": [
       {
         "UnitId": "OLDBENKENOBI",
@@ -260,7 +260,7 @@
     ]
   },
   {
-    "UnitId": "SEE",
+    "UnitId": "SITHPALPATINE",
     "Requirements": [
       {
         "UnitId": "EMPERORPALPATINE",
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "UnitId": "Rey",
+    "UnitId": "GLREY",
     "Requirements": [
       {
         "UnitId": "REYJEDITRAINING",
@@ -382,7 +382,7 @@
     ]
   },
   {
-    "UnitId": "SLKR",
+    "UnitId": "SUPREMELEADERKYLOREN",
     "Requirements": [
       {
         "UnitId": "KYLORENUNMASKED",
@@ -504,7 +504,7 @@
     ]
   },
   {
-    "UnitId": "Executor",
+    "UnitId": "CAPITALEXECUTOR",
     "Requirements": [
       {
         "UnitId": "VADER",
@@ -565,7 +565,7 @@
     ]
   },
   {
-    "UnitId": "Profundity",
+    "UnitId": "CAPITALPROFUNDITY",
     "Requirements": [
       {
         "UnitId": "ADMIRALRADDUS",
@@ -626,7 +626,7 @@
     ]
   },
   {
-    "UnitId": "Leviathan",
+    "UnitId": "CAPITALLEVIATHAN",
     "Requirements": [
       {
         "UnitId": "DARTHREVAN",
@@ -695,7 +695,7 @@
     ]
   },
   {
-    "UnitId": "GrandInquisitor",
+    "UnitId": "GRANDINQUISITOR",
     "Requirements": [
       {
         "UnitId": "SECONDSISTER",
@@ -720,7 +720,7 @@
     ]
   },
   {
-    "UnitId": "Starkiller",
+    "UnitId": "STARKILLER",
     "Requirements": [
       {
         "UnitId": "DASHRENDAR",
@@ -741,7 +741,7 @@
     ]
   },
   {
-    "UnitId": "DoctorAphra",
+    "UnitId": "DOCTORAPHRA",
     "Requirements": [
       {
         "UnitId": "HONDO",
@@ -762,7 +762,7 @@
     ]
   },
   {
-    "UnitId": "CalKestisSurvivor",
+    "UnitId": "JEDIKNIGHTCAL",
     "Requirements": [
       {
         "UnitId": "CALKESTIS",
