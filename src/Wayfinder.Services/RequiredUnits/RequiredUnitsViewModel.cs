@@ -23,13 +23,15 @@ public partial class RequiredUnitsViewModel : ObservableObject
                     select u;
 
         SelectedUnits = query.ToList();
+
+        LoadRequiredUnits();
     }
 
     private async Task LoadUnitsAsync() => AllUnits = await GameService.GetUnitsAsync();
 
     private async Task LoadRequirementsAsync() => AllObjectives = await RequiredUnitsService.GetAllRequirementsAsync();
 
-    public void LoadRequiredUnits()
+    public virtual void LoadRequiredUnits()
     {
         var selectedUnitIds = SelectedUnits.Select(x => x.BaseId).ToArray();
         var objectives = AllObjectives.Where(x => selectedUnitIds.Contains(x.UnitId));

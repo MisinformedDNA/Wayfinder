@@ -7,5 +7,6 @@ public static class ServiceConfiguration
 {
     public static IServiceCollection AddWayfinder(this IServiceCollection services) =>
         services
-            .AddMudServices();
+            .AddMudServices()
+            .AddLocalization();
 }
