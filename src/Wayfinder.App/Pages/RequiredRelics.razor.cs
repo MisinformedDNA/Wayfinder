@@ -1,4 +1,4 @@
-using Wayfinder.Services.RequiredUnits;
+using Wayfinder.App.Features.RequiredUnits;
 
 namespace Wayfinder.App.Pages
 {

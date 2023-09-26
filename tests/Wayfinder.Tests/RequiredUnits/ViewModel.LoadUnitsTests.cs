@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using Wayfinder.Services.RequiredUnits;
+using Wayfinder.App.Features.RequiredUnits;
 
 namespace Wayfinder.Tests.RequiredUnits
 {

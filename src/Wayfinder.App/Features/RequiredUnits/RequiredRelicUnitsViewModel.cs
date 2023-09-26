@@ -1,4 +1,4 @@
-﻿namespace Wayfinder.Services.RequiredUnits
+﻿namespace Wayfinder.App.Features.RequiredUnits
 {
     public class RequiredRelicUnitsViewModel : RequiredUnitsViewModel
     {

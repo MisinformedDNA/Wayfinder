@@ -1,7 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using Wayfinder.Services;
 using Wayfinder.Services.Models;
+using Wayfinder.Services.RequiredUnits;
 
-namespace Wayfinder.Services.RequiredUnits;
+namespace Wayfinder.App.Features.RequiredUnits;
 
 public partial class RequiredUnitsViewModel : ObservableObject
 {
