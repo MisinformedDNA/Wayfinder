@@ -1,23 +1,32 @@
 ﻿@page "/required-relics"
-@using Microsoft.Extensions.Localization;
-@using Wayfinder.Services.RequiredUnits;
+@using Wayfinder.Services.Challenges;
+@using Wayfinder.Services.Models;
 
-@inject IStringLocalizer<Localization> _localization
+@inherits OwningComponentBase
 
 <MudCard>
     <MudCardHeader Class="mud-theme-primary">
         <MudText>Required Relics</MudText>
     </MudCardHeader>
 
+    <MudCardContent>
+        <MudSelect T="Challenge" Label="Challenges" MultiSelection="true" SelectedValues="_viewModel.SelectedChallenges" ToStringFunc="@_challengeConverter" SelectedValuesChanged="@OnSelectedChallengesChanged">
+            @foreach (var challenge in _viewModel.Challenges)
+            {
+                <MudSelectItem T="Challenge" Value="challenge">@(Localizer[challenge.ChallengeId])</MudSelectItem>
+            }
+        </MudSelect>
+    </MudCardContent>
+
     <MudList>
 
-        @if (_viewModel.Units is not null)
+        @if (_viewModel.Requirements is not null)
         {
-            var units = _viewModel.Units.OrderBy(x => _localization[x.UnitId].Value);
+            var units = _viewModel.Requirements.OrderBy(x => Localizer[x.UnitId].Value);
             foreach (var unit in units)
             {
                 <MudListItem>
-                    <strong>@(_localization[unit.UnitId]):</strong>
+                    <strong>@(Localizer[unit.UnitId]):</strong>
                     <span> </span>
 
                     @{
@@ -29,7 +38,7 @@
                                 <span>, </span>
                             }
 
-                            <span>@(_localization[item.Level].Value) (@(_localization[item.GoalUnitId]))</span>
+                            <span>@(Localizer[item.Level].Value) (@(Localizer[item.GoalUnitId]))</span>
                             isFirst = false;
                         }
                     }
@@ -39,4 +48,3 @@
 
     </MudList>
 </MudCard>
-

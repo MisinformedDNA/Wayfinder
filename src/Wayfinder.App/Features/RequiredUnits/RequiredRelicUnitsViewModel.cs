@@ -1,25 +1,56 @@
-﻿namespace Wayfinder.App.Features.RequiredUnits
+﻿using Microsoft.Extensions.Localization;
+using System.Text.RegularExpressions;
+using Wayfinder.Services.Challenges;
+
+namespace Wayfinder.App.Features.RequiredUnits
 {
-    public class RequiredRelicUnitsViewModel : RequiredUnitsViewModel
+    public partial class RequiredRelicUnitsViewModel : RequiredUnitsViewModel
     {
+        private readonly IStringLocalizer<Localization> _localizer;
+
+        [GeneratedRegex("^RELIC")]
+        private static partial Regex IsRelicRequirement();
+
+        public RequiredRelicUnitsViewModel(IStringLocalizer<Localization> localizer)
+        {
+            _localizer = localizer;
+        }
+
+        public override async Task InitializeAsync()
+        {
+            await LoadAllUnitsAsync();
+            await LoadChallengesAsync();
+
+            SelectedChallenges = new(Challenges);
+        }
+
+        protected async Task LoadChallengesAsync()
+        {
+            await base.LoadAllChallengesAsync();
+
+            List<Challenge> challenges = new();
+            foreach (var challenge in AllChallenges)
+            {
+                var requirements = challenge.Requirements
+                    .Where(x => IsRelicRequirement().IsMatch(x.Level))
+                    .ToList();
+
+                if (requirements.Any())
+                    challenges.Add(new Challenge(challenge.ChallengeId, requirements));
+            }
+
+            Challenges = challenges;
+        }
+
         public override void LoadRequiredUnits()
         {
-            var selectedUnitIds = SelectedUnits.Select(x => x.BaseId).ToArray();
-            var objectives = AllObjectives.Where(x => selectedUnitIds.Contains(x.UnitId));
-            var requirements = objectives
-                .SelectMany(x => x.Requirements)
-                .Where(x => x.Level.StartsWith("RELIC"))
-                .ToList();
-
-            var unitDict = AllUnits.ToDictionary(x => x.BaseId, x => x.Name);
-
-            var query = from g in objectives
+            var query = from g in SelectedChallenges
                         from r in g.Requirements
-                        select new { GoalUnit = g.UnitId, RequiredUnit = r.UnitId, RequiredLevel = r.Level } into d
+                        select new { GoalUnit = g.ChallengeId, RequiredUnit = r.UnitId, RequiredLevel = r.Level } into d
                         group d by d.RequiredUnit into ru
-                        select new RequiredUnit(ru.Key, ru.Select(x => new RequiredDetail(x.GoalUnit, x.RequiredLevel)).ToList());
+                        select new RequiredUnit(_localizer[ru.Key], ru.Select(x => new RequiredDetail(_localizer[x.GoalUnit], _localizer[x.RequiredLevel])).ToList());
 
-            Units = query.ToList();
+            Requirements = query.ToList();
         }
     }
 }

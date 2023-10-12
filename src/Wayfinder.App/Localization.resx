@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- 
+  <!-- 
     Microsoft ResX Schema 
     
     Version 2.0
@@ -59,1067 +59,1112 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-		<xsd:element name="root" msdata:IsDataSet="true">
-			<xsd:complexType>
-				<xsd:choice maxOccurs="unbounded">
-					<xsd:element name="metadata">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" />
-							</xsd:sequence>
-							<xsd:attribute name="name" use="required" type="xsd:string" />
-							<xsd:attribute name="type" type="xsd:string" />
-							<xsd:attribute name="mimetype" type="xsd:string" />
-							<xsd:attribute ref="xml:space" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="assembly">
-						<xsd:complexType>
-							<xsd:attribute name="alias" type="xsd:string" />
-							<xsd:attribute name="name" type="xsd:string" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="data">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-							<xsd:attribute ref="xml:space" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="resheader">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
-						</xsd:complexType>
-					</xsd:element>
-				</xsd:choice>
-			</xsd:complexType>
-		</xsd:element>
-	</xsd:schema>
-	<resheader name="resmimetype">
-		<value>text/microsoft-resx</value>
-	</resheader>
-	<resheader name="version">
-		<value>2.0</value>
-	</resheader>
-	<resheader name="reader">
-		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-	<resheader name="writer">
-		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-	<data name="STAR_01" xml:space="default">
-		<value>1*</value>
-	</data>
-	<data name="STAR_02" xml:space="default">
-		<value>2*</value>
-	</data>
-	<data name="STAR_03" xml:space="default">
-		<value>3*</value>
-	</data>
-	<data name="STAR_04" xml:space="default">
-		<value>4*</value>
-	</data>
-	<data name="STAR_05" xml:space="default">
-		<value>5*</value>
-	</data>
-	<data name="STAR_06" xml:space="default">
-		<value>6*</value>
-	</data>
-	<data name="STAR_07" xml:space="default">
-		<value>7*</value>
-	</data>
-	<data name="RELIC_01" xml:space="default">
-		<value>R1</value>
-	</data>
-	<data name="RELIC_02" xml:space="default">
-		<value>R2</value>
-	</data>
-	<data name="RELIC_03" xml:space="default">
-		<value>R3</value>
-	</data>
-	<data name="RELIC_04" xml:space="default">
-		<value>R4</value>
-	</data>
-	<data name="RELIC_05" xml:space="default">
-		<value>R5</value>
-	</data>
-	<data name="RELIC_06" xml:space="default">
-		<value>R6</value>
-	</data>
-	<data name="RELIC_07" xml:space="default">
-		<value>R7</value>
-	</data>
-	<data name="RELIC_08" xml:space="default">
-		<value>R8</value>
-	</data>
-	<data name="RELIC_09" xml:space="default">
-		<value>R9</value>
-	</data>
-	<data name="TRIPLEZERO" xml:space="default">
-		<value>0-0-0</value>
-	</data>
-	<data name="50RT" xml:space="default">
-		<value>50R-T</value>
-	</data>
-	<data name="ARCTROOPER501ST" xml:space="default">
-		<value>ARC Trooper</value>
-	</data>
-	<data name="AAYLASECURA" xml:space="default">
-		<value>Aayla Secura</value>
-	</data>
-	<data name="ADMIRALACKBAR" xml:space="default">
-		<value>Admiral Ackbar</value>
-	</data>
-	<data name="ADMIRALPIETT" xml:space="default">
-		<value>Admiral Piett</value>
-	</data>
-	<data name="ADMIRALRADDUS" xml:space="default">
-		<value>Admiral Raddus</value>
-	</data>
-	<data name="TRENCH" xml:space="default">
-		<value>Admiral Trench</value>
-	</data>
-	<data name="AHSOKATANO" xml:space="default">
-		<value>Ahsoka Tano</value>
-	</data>
-	<data name="FULCRUMAHSOKA" xml:space="default">
-		<value>Ahsoka Tano (Fulcrum)</value>
-	</data>
-	<data name="AMILYNHOLDO" xml:space="default">
-		<value>Amilyn Holdo</value>
-	</data>
-	<data name="ASAJVENTRESS" xml:space="default">
-		<value>Asajj Ventress</value>
-	</data>
-	<data name="AURRA_SING" xml:space="default">
-		<value>Aurra Sing</value>
-	</data>
-	<data name="B1BATTLEDROIDV2" xml:space="default">
-		<value>B1 Battle Droid</value>
-	</data>
-	<data name="B2SUPERBATTLEDROID" xml:space="default">
-		<value>B2 Super Battle Droid</value>
-	</data>
-	<data name="BB8" xml:space="default">
-		<value>BB-8</value>
-	</data>
-	<data name="BT1" xml:space="default">
-		<value>BT-1</value>
-	</data>
-	<data name="BARRISSOFFEE" xml:space="default">
-		<value>Barriss Offee</value>
-	</data>
-	<data name="BASTILASHAN" xml:space="default">
-		<value>Bastila Shan</value>
-	</data>
-	<data name="BASTILASHANDARK" xml:space="default">
-		<value>Bastila Shan (Fallen)</value>
-	</data>
-	<data name="BAZEMALBUS" xml:space="default">
-		<value>Baze Malbus</value>
-	</data>
-	<data name="BENSOLO" xml:space="default">
-		<value>Ben Solo</value>
-	</data>
-	<data name="BIGGSDARKLIGHTER" xml:space="default">
-		<value>Biggs Darklighter</value>
-	</data>
-	<data name="BISTAN" xml:space="default">
-		<value>Bistan</value>
-	</data>
-	<data name="BOKATAN" xml:space="default">
-		<value>Bo-Katan Kryze</value>
-	</data>
-	<data name="BOBAFETT" xml:space="default">
-		<value>Boba Fett</value>
-	</data>
-	<data name="BOBAFETTSCION" xml:space="default">
-		<value>Boba Fett, Scion of Jango</value>
-	</data>
-	<data name="BODHIROOK" xml:space="default">
-		<value>Bodhi Rook</value>
-	</data>
-	<data name="BOSSK" xml:space="default">
-		<value>Bossk</value>
-	</data>
-	<data name="BOUSHH" xml:space="default">
-		<value>Boushh (Leia Organa)</value>
-	</data>
-	<data name="C3POLEGENDARY" xml:space="default">
-		<value>C-3PO</value>
-	</data>
-	<data name="CC2224" xml:space="default">
-		<value>CC-2224 "Cody"</value>
-	</data>
-	<data name="CT210408" xml:space="default">
-		<value>CT-21-0408 "Echo"</value>
-	</data>
-	<data name="CT5555" xml:space="default">
-		<value>CT-5555 "Fives"</value>
-	</data>
-	<data name="CT7567" xml:space="default">
-		<value>CT-7567 "Rex"</value>
-	</data>
-	<data name="CADBANE" xml:space="default">
-		<value>Cad Bane</value>
-	</data>
-	<data name="CALKESTIS" xml:space="default">
-		<value>Cal Kestis</value>
-	</data>
-	<data name="CANDEROUSORDO" xml:space="default">
-		<value>Canderous Ordo</value>
-	</data>
-	<data name="CAPTAINDROGAN" xml:space="default">
-		<value>Captain Drogan</value>
-	</data>
-	<data name="HOTHHAN" xml:space="default">
-		<value>Captain Han Solo</value>
-	</data>
-	<data name="PHASMA" xml:space="default">
-		<value>Captain Phasma</value>
-	</data>
-	<data name="CAPTAINREX" xml:space="default">
-		<value>Captain Rex</value>
-	</data>
-	<data name="CARADUNE" xml:space="default">
-		<value>Cara Dune</value>
-	</data>
-	<data name="CARTHONASI" xml:space="default">
-		<value>Carth Onasi</value>
-	</data>
-	<data name="CASSIANANDOR" xml:space="default">
-		<value>Cassian Andor</value>
-	</data>
-	<data name="CEREJUNDA" xml:space="default">
-		<value>Cere Junda</value>
-	</data>
-	<data name="CHEWBACCALEGENDARY" xml:space="default">
-		<value>Chewbacca</value>
-	</data>
-	<data name="CHIEFCHIRPA" xml:space="default">
-		<value>Chief Chirpa</value>
-	</data>
-	<data name="CHIEFNEBIT" xml:space="default">
-		<value>Chief Nebit</value>
-	</data>
-	<data name="CHIRRUTIMWE" xml:space="default">
-		<value>Chirrut Îmwe</value>
-	</data>
-	<data name="CHOPPERS3" xml:space="default">
-		<value>Chopper</value>
-	</data>
-	<data name="CLONESERGEANTPHASEI" xml:space="default">
-		<value>Clone Sergeant - Phase I</value>
-	</data>
-	<data name="CLONEWARSCHEWBACCA" xml:space="default">
-		<value>Clone Wars Chewbacca</value>
-	</data>
-	<data name="COLONELSTARCK" xml:space="default">
-		<value>Colonel Starck</value>
-	</data>
-	<data name="COMMANDERAHSOKA" xml:space="default">
-		<value>Commander Ahsoka Tano</value>
-	</data>
-	<data name="COMMANDERLUKESKYWALKER" xml:space="default">
-		<value>Commander Luke Skywalker</value>
-	</data>
-	<data name="CORUSCANTUNDERWORLDPOLICE" xml:space="default">
-		<value>Coruscant Underworld Police</value>
-	</data>
-	<data name="COUNTDOOKU" xml:space="default">
-		<value>Count Dooku</value>
-	</data>
-	<data name="DARKTROOPER" xml:space="default">
-		<value>Dark Trooper</value>
-	</data>
-	<data name="DARTHMALAK" xml:space="default">
-		<value>Darth Malak</value>
-	</data>
-	<data name="DARTHMALGUS" xml:space="default">
-		<value>Darth Malgus</value>
-	</data>
-	<data name="MAUL" xml:space="default">
-		<value>Darth Maul</value>
-	</data>
-	<data name="DARTHNIHILUS" xml:space="default">
-		<value>Darth Nihilus</value>
-	</data>
-	<data name="DARTHREVAN" xml:space="default">
-		<value>Darth Revan</value>
-	</data>
-	<data name="DARTHSIDIOUS" xml:space="default">
-		<value>Darth Sidious</value>
-	</data>
-	<data name="DARTHSION" xml:space="default">
-		<value>Darth Sion</value>
-	</data>
-	<data name="DARTHTALON" xml:space="default">
-		<value>Darth Talon</value>
-	</data>
-	<data name="DARTHTRAYA" xml:space="default">
-		<value>Darth Traya</value>
-	</data>
-	<data name="VADER" xml:space="default">
-		<value>Darth Vader</value>
-	</data>
-	<data name="DASHRENDAR" xml:space="default">
-		<value>Dash Rendar</value>
-	</data>
-	<data name="DATHCHA" xml:space="default">
-		<value>Dathcha</value>
-	</data>
-	<data name="DEATHTROOPER" xml:space="default">
-		<value>Death Trooper</value>
-	</data>
-	<data name="DENGAR" xml:space="default">
-		<value>Dengar</value>
-	</data>
-	<data name="DIRECTORKRENNIC" xml:space="default">
-		<value>Director Krennic</value>
-	</data>
-	<data name="DOCTORAPHRA" xml:space="default">
-		<value>Doctor Aphra</value>
-	</data>
-	<data name="DROIDEKA" xml:space="default">
-		<value>Droideka</value>
-	</data>
-	<data name="BADBATCHECHO" xml:space="default">
-		<value>Echo</value>
-	</data>
-	<data name="EETHKOTH" xml:space="default">
-		<value>Eeth Koth</value>
-	</data>
-	<data name="EIGHTHBROTHER" xml:space="default">
-		<value>Eighth Brother</value>
-	</data>
-	<data name="EMBO" xml:space="default">
-		<value>Embo</value>
-	</data>
-	<data name="EMPERORPALPATINE" xml:space="default">
-		<value>Emperor Palpatine</value>
-	</data>
-	<data name="ENFYSNEST" xml:space="default">
-		<value>Enfys Nest</value>
-	</data>
-	<data name="EWOKELDER" xml:space="default">
-		<value>Ewok Elder</value>
-	</data>
-	<data name="EWOKSCOUT" xml:space="default">
-		<value>Ewok Scout</value>
-	</data>
-	<data name="EZRABRIDGERS3" xml:space="default">
-		<value>Ezra Bridger</value>
-	</data>
-	<data name="FENNECSHAND" xml:space="default">
-		<value>Fennec Shand</value>
-	</data>
-	<data name="FIFTHBROTHER" xml:space="default">
-		<value>Fifth Brother</value>
-	</data>
-	<data name="FINN" xml:space="default">
-		<value>Finn</value>
-	</data>
-	<data name="FIRSTORDEREXECUTIONER" xml:space="default">
-		<value>First Order Executioner</value>
-	</data>
-	<data name="FIRSTORDEROFFICERMALE" xml:space="default">
-		<value>First Order Officer</value>
-	</data>
-	<data name="FIRSTORDERSPECIALFORCESPILOT" xml:space="default">
-		<value>First Order SF TIE Pilot</value>
-	</data>
-	<data name="FIRSTORDERTROOPER" xml:space="default">
-		<value>First Order Stormtrooper</value>
-	</data>
-	<data name="FIRSTORDERTIEPILOT" xml:space="default">
-		<value>First Order TIE Pilot</value>
-	</data>
-	<data name="GAMORREANGUARD" xml:space="default">
-		<value>Gamorrean Guard</value>
-	</data>
-	<data name="GARSAXON" xml:space="default">
-		<value>Gar Saxon</value>
-	</data>
-	<data name="ZEBS3" xml:space="default">
-		<value>Garazeb "Zeb" Orrelios</value>
-	</data>
-	<data name="GRIEVOUS" xml:space="default">
-		<value>General Grievous</value>
-	</data>
-	<data name="GENERALHUX" xml:space="default">
-		<value>General Hux</value>
-	</data>
-	<data name="GENERALKENOBI" xml:space="default">
-		<value>General Kenobi</value>
-	</data>
-	<data name="GENERALSKYWALKER" xml:space="default">
-		<value>General Skywalker</value>
-	</data>
-	<data name="VEERS" xml:space="default">
-		<value>General Veers</value>
-	</data>
-	<data name="GEONOSIANBROODALPHA" xml:space="default">
-		<value>Geonosian Brood Alpha</value>
-	</data>
-	<data name="GEONOSIANSOLDIER" xml:space="default">
-		<value>Geonosian Soldier</value>
-	</data>
-	<data name="GEONOSIANSPY" xml:space="default">
-		<value>Geonosian Spy</value>
-	</data>
-	<data name="GRANDADMIRALTHRAWN" xml:space="default">
-		<value>Grand Admiral Thrawn</value>
-	</data>
-	<data name="GRANDINQUISITOR" xml:space="default">
-		<value>Grand Inquisitor</value>
-	</data>
-	<data name="GRANDMASTERYODA" xml:space="default">
-		<value>Grand Master Yoda</value>
-	</data>
-	<data name="GRANDMOFFTARKIN" xml:space="default">
-		<value>Grand Moff Tarkin</value>
-	</data>
-	<data name="GREEDO" xml:space="default">
-		<value>Greedo</value>
-	</data>
-	<data name="GREEFKARGA" xml:space="default">
-		<value>Greef Karga</value>
-	</data>
-	<data name="HK47" xml:space="default">
-		<value>HK-47</value>
-	</data>
-	<data name="HANSOLO" xml:space="default">
-		<value>Han Solo</value>
-	</data>
-	<data name="HERASYNDULLAS3" xml:space="default">
-		<value>Hera Syndulla</value>
-	</data>
-	<data name="HERMITYODA" xml:space="default">
-		<value>Hermit Yoda</value>
-	</data>
-	<data name="HONDO" xml:space="default">
-		<value>Hondo Ohnaka</value>
-	</data>
-	<data name="HOTHREBELSCOUT" xml:space="default">
-		<value>Hoth Rebel Scout</value>
-	</data>
-	<data name="HOTHREBELSOLDIER" xml:space="default">
-		<value>Hoth Rebel Soldier</value>
-	</data>
-	<data name="BADBATCHHUNTER" xml:space="default">
-		<value>Hunter</value>
-	</data>
-	<data name="MAGNAGUARD" xml:space="default">
-		<value>IG-100 MagnaGuard</value>
-	</data>
-	<data name="IG11" xml:space="default">
-		<value>IG-11</value>
-	</data>
-	<data name="IG86SENTINELDROID" xml:space="default">
-		<value>IG-86 Sentinel Droid</value>
-	</data>
-	<data name="IG88" xml:space="default">
-		<value>IG-88</value>
-	</data>
-	<data name="IDENVERSIOEMPIRE" xml:space="default">
-		<value>Iden Versio</value>
-	</data>
-	<data name="IMAGUNDI" xml:space="default">
-		<value>Ima-Gun Di</value>
-	</data>
-	<data name="IMPERIALPROBEDROID" xml:space="default">
-		<value>Imperial Probe Droid</value>
-	</data>
-	<data name="IMPERIALSUPERCOMMANDO" xml:space="default">
-		<value>Imperial Super Commando</value>
-	</data>
-	<data name="JABBATHEHUTT" xml:space="default">
-		<value>Jabba the Hutt</value>
-	</data>
-	<data name="JANGOFETT" xml:space="default">
-		<value>Jango Fett</value>
-	</data>
-	<data name="JAWA" xml:space="default">
-		<value>Jawa</value>
-	</data>
-	<data name="JAWAENGINEER" xml:space="default">
-		<value>Jawa Engineer</value>
-	</data>
-	<data name="JAWASCAVENGER" xml:space="default">
-		<value>Jawa Scavenger</value>
-	</data>
-	<data name="JEDIKNIGHTCONSULAR" xml:space="default">
-		<value>Jedi Consular</value>
-	</data>
-	<data name="ANAKINKNIGHT" xml:space="default">
-		<value>Jedi Knight Anakin</value>
-	</data>
-	<data name="JEDIKNIGHTCAL" xml:space="default">
-		<value>Jedi Knight Cal Kestis</value>
-	</data>
-	<data name="JEDIKNIGHTGUARDIAN" xml:space="default">
-		<value>Jedi Knight Guardian</value>
-	</data>
-	<data name="JEDIKNIGHTLUKE" xml:space="default">
-		<value>Jedi Knight Luke Skywalker</value>
-	</data>
-	<data name="JEDIKNIGHTREVAN" xml:space="default">
-		<value>Jedi Knight Revan</value>
-	</data>
-	<data name="JEDIMASTERKENOBI" xml:space="default">
-		<value>Jedi Master Kenobi</value>
-	</data>
-	<data name="GRANDMASTERLUKE" xml:space="default">
-		<value>Jedi Master Luke Skywalker</value>
-	</data>
-	<data name="JOLEEBINDO" xml:space="default">
-		<value>Jolee Bindo</value>
-	</data>
-	<data name="JUHANI" xml:space="default">
-		<value>Juhani</value>
-	</data>
-	<data name="JYNERSO" xml:space="default">
-		<value>Jyn Erso</value>
-	</data>
-	<data name="K2SO" xml:space="default">
-		<value>K-2SO</value>
-	</data>
-	<data name="KANANJARRUSS3" xml:space="default">
-		<value>Kanan Jarrus</value>
-	</data>
-	<data name="KIADIMUNDI" xml:space="default">
-		<value>Ki-Adi-Mundi</value>
-	</data>
-	<data name="KITFISTO" xml:space="default">
-		<value>Kit Fisto</value>
-	</data>
-	<data name="KRRSANTAN" xml:space="default">
-		<value>Krrsantan</value>
-	</data>
-	<data name="KUIIL" xml:space="default">
-		<value>Kuiil</value>
-	</data>
-	<data name="KYLEKATARN" xml:space="default">
-		<value>Kyle Katarn</value>
-	</data>
-	<data name="KYLOREN" xml:space="default">
-		<value>Kylo Ren</value>
-	</data>
-	<data name="KYLORENUNMASKED" xml:space="default">
-		<value>Kylo Ren (Unmasked)</value>
-	</data>
-	<data name="L3_37" xml:space="default">
-		<value>L3-37</value>
-	</data>
-	<data name="ADMINISTRATORLANDO" xml:space="default">
-		<value>Lando Calrissian</value>
-	</data>
-	<data name="GLLEIA" xml:space="default">
-		<value>Leia Organa</value>
-	</data>
-	<data name="LOBOT" xml:space="default">
-		<value>Lobot</value>
-	</data>
-	<data name="LOGRAY" xml:space="default">
-		<value>Logray</value>
-	</data>
-	<data name="LORDVADER" xml:space="default">
-		<value>Lord Vader</value>
-	</data>
-	<data name="LUKESKYWALKER" xml:space="default">
-		<value>Luke Skywalker (Farmboy)</value>
-	</data>
-	<data name="LUMINARAUNDULI" xml:space="default">
-		<value>Luminara Unduli</value>
-	</data>
-	<data name="MACEWINDU" xml:space="default">
-		<value>Mace Windu</value>
-	</data>
-	<data name="MAGMATROOPER" xml:space="default">
-		<value>Magmatrooper</value>
-	</data>
-	<data name="MARAJADE" xml:space="default">
-		<value>Mara Jade, The Emperor's Hand</value>
-	</data>
-	<data name="MAULS7" xml:space="default">
-		<value>Maul</value>
-	</data>
-	<data name="MERRIN" xml:space="default">
-		<value>Merrin</value>
-	</data>
-	<data name="MISSIONVAO" xml:space="default">
-		<value>Mission Vao</value>
-	</data>
-	<data name="HUMANTHUG" xml:space="default">
-		<value>Mob Enforcer</value>
-	</data>
-	<data name="MOFFGIDEONS1" xml:space="default">
-		<value>Moff Gideon</value>
-	</data>
-	<data name="MONMOTHMA" xml:space="default">
-		<value>Mon Mothma</value>
-	</data>
-	<data name="MOTHERTALZIN" xml:space="default">
-		<value>Mother Talzin</value>
-	</data>
-	<data name="NIGHTSISTERACOLYTE" xml:space="default">
-		<value>Nightsister Acolyte</value>
-	</data>
-	<data name="NIGHTSISTERINITIATE" xml:space="default">
-		<value>Nightsister Initiate</value>
-	</data>
-	<data name="NIGHTSISTERSPIRIT" xml:space="default">
-		<value>Nightsister Spirit</value>
-	</data>
-	<data name="NIGHTSISTERZOMBIE" xml:space="default">
-		<value>Nightsister Zombie</value>
-	</data>
-	<data name="NINTHSISTER" xml:space="default">
-		<value>Ninth Sister</value>
-	</data>
-	<data name="NUTEGUNRAY" xml:space="default">
-		<value>Nute Gunray</value>
-	</data>
-	<data name="OLDBENKENOBI" xml:space="default">
-		<value>Obi-Wan Kenobi (Old Ben)</value>
-	</data>
-	<data name="DAKA" xml:space="default">
-		<value>Old Daka</value>
-	</data>
-	<data name="BADBATCHOMEGA" xml:space="default">
-		<value>Omega</value>
-	</data>
-	<data name="PADMEAMIDALA" xml:space="default">
-		<value>Padmé Amidala</value>
-	</data>
-	<data name="PAO" xml:space="default">
-		<value>Pao</value>
-	</data>
-	<data name="PAPLOO" xml:space="default">
-		<value>Paploo</value>
-	</data>
-	<data name="PLOKOON" xml:space="default">
-		<value>Plo Koon</value>
-	</data>
-	<data name="POE" xml:space="default">
-		<value>Poe Dameron</value>
-	</data>
-	<data name="POGGLETHELESSER" xml:space="default">
-		<value>Poggle the Lesser</value>
-	</data>
-	<data name="PRINCESSKNEESAA" xml:space="default">
-		<value>Princess Kneesaa</value>
-	</data>
-	<data name="PRINCESSLEIA" xml:space="default">
-		<value>Princess Leia</value>
-	</data>
-	<data name="QIRA" xml:space="default">
-		<value>Qi'ra</value>
-	</data>
-	<data name="QUIGONJINN" xml:space="default">
-		<value>Qui-Gon Jinn</value>
-	</data>
-	<data name="R2D2_LEGENDARY" xml:space="default">
-		<value>R2-D2</value>
-	</data>
-	<data name="RANGETROOPER" xml:space="default">
-		<value>Range Trooper</value>
-	</data>
-	<data name="HOTHLEIA" xml:space="default">
-		<value>Rebel Officer Leia Organa</value>
-	</data>
-	<data name="EPIXFINN" xml:space="default">
-		<value>Resistance Hero Finn</value>
-	</data>
-	<data name="EPIXPOE" xml:space="default">
-		<value>Resistance Hero Poe</value>
-	</data>
-	<data name="RESISTANCEPILOT" xml:space="default">
-		<value>Resistance Pilot</value>
-	</data>
-	<data name="RESISTANCETROOPER" xml:space="default">
-		<value>Resistance Trooper</value>
-	</data>
-	<data name="GLREY" xml:space="default">
-		<value>Rey</value>
-	</data>
-	<data name="REYJEDITRAINING" xml:space="default">
-		<value>Rey (Jedi Training)</value>
-	</data>
-	<data name="REY" xml:space="default">
-		<value>Rey (Scavenger)</value>
-	</data>
-	<data name="ROSETICO" xml:space="default">
-		<value>Rose Tico</value>
-	</data>
-	<data name="ROYALGUARD" xml:space="default">
-		<value>Royal Guard</value>
-	</data>
-	<data name="SABINEWRENS3" xml:space="default">
-		<value>Sabine Wren</value>
-	</data>
-	<data name="SANASTARROS" xml:space="default">
-		<value>Sana Starros</value>
-	</data>
-	<data name="SAVAGEOPRESS" xml:space="default">
-		<value>Savage Opress</value>
-	</data>
-	<data name="SAWGERRERA" xml:space="default">
-		<value>Saw Gerrera</value>
-	</data>
-	<data name="SCARIFREBEL" xml:space="default">
-		<value>Scarif Rebel Pathfinder</value>
-	</data>
-	<data name="SCOUTTROOPER_V3" xml:space="default">
-		<value>Scout Trooper</value>
-	</data>
-	<data name="SECONDSISTER" xml:space="default">
-		<value>Second Sister</value>
-	</data>
-	<data name="SEVENTHSISTER" xml:space="default">
-		<value>Seventh Sister</value>
-	</data>
-	<data name="SHAAKTI" xml:space="default">
-		<value>Shaak Ti</value>
-	</data>
-	<data name="SHORETROOPER" xml:space="default">
-		<value>Shoretrooper</value>
-	</data>
-	<data name="SITHASSASSIN" xml:space="default">
-		<value>Sith Assassin</value>
-	</data>
-	<data name="SITHTROOPER" xml:space="default">
-		<value>Sith Empire Trooper</value>
-	</data>
-	<data name="SITHPALPATINE" xml:space="default">
-		<value>Sith Eternal Emperor</value>
-	</data>
-	<data name="SITHMARAUDER" xml:space="default">
-		<value>Sith Marauder</value>
-	</data>
-	<data name="FOSITHTROOPER" xml:space="default">
-		<value>Sith Trooper</value>
-	</data>
-	<data name="UNDERCOVERLANDO" xml:space="default">
-		<value>Skiff Guard (Lando Calrissian)</value>
-	</data>
-	<data name="SNOWTROOPER" xml:space="default">
-		<value>Snowtrooper</value>
-	</data>
-	<data name="STARKILLER" xml:space="default">
-		<value>Starkiller</value>
-	</data>
-	<data name="STORMTROOPER" xml:space="default">
-		<value>Stormtrooper</value>
-	</data>
-	<data name="STORMTROOPERHAN" xml:space="default">
-		<value>Stormtrooper Han</value>
-	</data>
-	<data name="SUNFAC" xml:space="default">
-		<value>Sun Fac</value>
-	</data>
-	<data name="SUPREMELEADERKYLOREN" xml:space="default">
-		<value>Supreme Leader Kylo Ren</value>
-	</data>
-	<data name="T3_M4" xml:space="default">
-		<value>T3-M4</value>
-	</data>
-	<data name="TIEFIGHTERPILOT" xml:space="default">
-		<value>TIE Fighter Pilot</value>
-	</data>
-	<data name="TALIA" xml:space="default">
-		<value>Talia</value>
-	</data>
-	<data name="TARFFUL" xml:space="default">
-		<value>Tarfful</value>
-	</data>
-	<data name="TARONMALICOS" xml:space="default">
-		<value>Taron Malicos</value>
-	</data>
-	<data name="BADBATCHTECH" xml:space="default">
-		<value>Tech</value>
-	</data>
-	<data name="TEEBO" xml:space="default">
-		<value>Teebo</value>
-	</data>
-	<data name="ARMORER" xml:space="default">
-		<value>The Armorer</value>
-	</data>
-	<data name="THEMANDALORIAN" xml:space="default">
-		<value>The Mandalorian</value>
-	</data>
-	<data name="THEMANDALORIANBESKARARMOR" xml:space="default">
-		<value>The Mandalorian (Beskar Armor)</value>
-	</data>
-	<data name="THIRDSISTER" xml:space="default">
-		<value>Third Sister</value>
-	</data>
-	<data name="C3POCHEWBACCA" xml:space="default">
-		<value>Threepio &amp; Chewie</value>
-	</data>
-	<data name="TUSKENCHIEFTAIN" xml:space="default">
-		<value>Tusken Chieftain</value>
-	</data>
-	<data name="TUSKENRAIDER" xml:space="default">
-		<value>Tusken Raider</value>
-	</data>
-	<data name="TUSKENSHAMAN" xml:space="default">
-		<value>Tusken Shaman</value>
-	</data>
-	<data name="TUSKENHUNTRESS" xml:space="default">
-		<value>Tusken Warrior</value>
-	</data>
-	<data name="URORRURRR" xml:space="default">
-		<value>URoRRuR'R'R</value>
-	</data>
-	<data name="UGNAUGHT" xml:space="default">
-		<value>Ugnaught</value>
-	</data>
-	<data name="YOUNGCHEWBACCA" xml:space="default">
-		<value>Vandor Chewbacca</value>
-	</data>
-	<data name="SMUGGLERCHEWBACCA" xml:space="default">
-		<value>Veteran Smuggler Chewbacca</value>
-	</data>
-	<data name="SMUGGLERHAN" xml:space="default">
-		<value>Veteran Smuggler Han Solo</value>
-	</data>
-	<data name="VISASMARR" xml:space="default">
-		<value>Visas Marr</value>
-	</data>
-	<data name="WAMPA" xml:space="default">
-		<value>Wampa</value>
-	</data>
-	<data name="WATTAMBOR" xml:space="default">
-		<value>Wat Tambor</value>
-	</data>
-	<data name="WEDGEANTILLES" xml:space="default">
-		<value>Wedge Antilles</value>
-	</data>
-	<data name="WICKET" xml:space="default">
-		<value>Wicket</value>
-	</data>
-	<data name="BADBATCHWRECKER" xml:space="default">
-		<value>Wrecker</value>
-	</data>
-	<data name="YOUNGHAN" xml:space="default">
-		<value>Young Han Solo</value>
-	</data>
-	<data name="YOUNGLANDO" xml:space="default">
-		<value>Young Lando Calrissian</value>
-	</data>
-	<data name="ZAALBAR" xml:space="default">
-		<value>Zaalbar</value>
-	</data>
-	<data name="ZAMWESELL" xml:space="default">
-		<value>Zam Wesell</value>
-	</data>
-	<data name="ZORIIBLISS_V2" xml:space="default">
-		<value>Zorii Bliss</value>
-	</data>
-	<data name="JEDISTARFIGHTERAHSOKATANO" xml:space="default">
-		<value>Ahsoka Tano's Jedi Starfighter</value>
-	</data>
-	<data name="JEDISTARFIGHTERANAKIN" xml:space="default">
-		<value>Anakin's Eta-2 Starfighter</value>
-	</data>
-	<data name="SITHBOMBER" xml:space="default">
-		<value>B-28 Extinction-class Bomber</value>
-	</data>
-	<data name="YWINGCLONEWARS" xml:space="default">
-		<value>BTL-B Y-wing Starfighter</value>
-	</data>
-	<data name="XWINGRED3" xml:space="default">
-		<value>Biggs Darklighter's X-wing</value>
-	</data>
-	<data name="UWINGSCARIF" xml:space="default">
-		<value>Bistan's U-wing</value>
-	</data>
-	<data name="UWINGROGUEONE" xml:space="default">
-		<value>Cassian's U-wing</value>
-	</data>
-	<data name="CAPITALCHIMAERA" xml:space="default">
-		<value>Chimaera</value>
-	</data>
-	<data name="ARC170CLONESERGEANT" xml:space="default">
-		<value>Clone Sergeant's ARC-170</value>
-	</data>
-	<data name="EBONHAWK" xml:space="default">
-		<value>Ebon Hawk</value>
-	</data>
-	<data name="EMPERORSSHUTTLE" xml:space="default">
-		<value>Emperor's Shuttle</value>
-	</data>
-	<data name="CAPITALJEDICRUISER" xml:space="default">
-		<value>Endurance</value>
-	</data>
-	<data name="CAPITALEXECUTOR" xml:space="default">
-		<value>Executor</value>
-	</data>
-	<data name="CAPITALSTARDESTROYER" xml:space="default">
-		<value>Executrix</value>
-	</data>
-	<data name="CAPITALFINALIZER" xml:space="default">
-		<value>Finalizer</value>
-	</data>
-	<data name="TIEFIGHTERFOSF" xml:space="default">
-		<value>First Order SF TIE Fighter</value>
-	</data>
-	<data name="TIEFIGHTERFIRSTORDER" xml:space="default">
-		<value>First Order TIE Fighter</value>
-	</data>
-	<data name="FURYCLASSINTERCEPTOR" xml:space="default">
-		<value>Fury-class Interceptor</value>
-	</data>
-	<data name="GAUNTLETSTARFIGHTER" xml:space="default">
-		<value>Gauntlet Starfighter</value>
-	</data>
-	<data name="GEONOSIANSTARFIGHTER2" xml:space="default">
-		<value>Geonosian Soldier's Starfighter</value>
-	</data>
-	<data name="GEONOSIANSTARFIGHTER3" xml:space="default">
-		<value>Geonosian Spy's Starfighter</value>
-	</data>
-	<data name="GHOST" xml:space="default">
-		<value>Ghost</value>
-	</data>
-	<data name="MILLENNIUMFALCON" xml:space="default">
-		<value>Han's Millennium Falcon</value>
-	</data>
-	<data name="CAPITALMONCALAMARICRUISER" xml:space="default">
-		<value>Home One</value>
-	</data>
-	<data name="HOUNDSTOOTH" xml:space="default">
-		<value>Hound's Tooth</value>
-	</data>
-	<data name="HYENABOMBER" xml:space="default">
-		<value>Hyena Bomber</value>
-	</data>
-	<data name="IG2000" xml:space="default">
-		<value>IG-2000</value>
-	</data>
-	<data name="TIEBOMBERIMPERIAL" xml:space="default">
-		<value>Imperial TIE Bomber</value>
-	</data>
-	<data name="TIEFIGHTERIMPERIAL" xml:space="default">
-		<value>Imperial TIE Fighter</value>
-	</data>
-	<data name="JEDISTARFIGHTERCONSULAR" xml:space="default">
-		<value>Jedi Consular's Starfighter</value>
-	</data>
-	<data name="COMMANDSHUTTLE" xml:space="default">
-		<value>Kylo Ren's Command Shuttle</value>
-	</data>
-	<data name="MILLENNIUMFALCONPRISTINE" xml:space="default">
-		<value>Lando's Millennium Falcon</value>
-	</data>
-	<data name="CAPITALLEVIATHAN" xml:space="default">
-		<value>Leviathan</value>
-	</data>
-	<data name="MG100STARFORTRESSSF17" xml:space="default">
-		<value>MG-100 StarFortress SF-17</value>
-	</data>
-	<data name="CAPITALMALEVOLENCE" xml:space="default">
-		<value>Malevolence</value>
-	</data>
-	<data name="SITHSUPREMACYCLASS" xml:space="default">
-		<value>Mark VI Interceptor</value>
-	</data>
-	<data name="CAPITALNEGOTIATOR" xml:space="default">
-		<value>Negotiator</value>
-	</data>
-	<data name="OUTRIDER" xml:space="default">
-		<value>Outrider</value>
-	</data>
-	<data name="PHANTOM2" xml:space="default">
-		<value>Phantom II</value>
-	</data>
-	<data name="BLADEOFDORIN" xml:space="default">
-		<value>Plo Koon's Jedi Starfighter</value>
-	</data>
-	<data name="XWINGBLACKONE" xml:space="default">
-		<value>Poe Dameron's X-wing</value>
-	</data>
-	<data name="CAPITALPROFUNDITY" xml:space="default">
-		<value>Profundity</value>
-	</data>
-	<data name="CAPITALRADDUS" xml:space="default">
-		<value>Raddus</value>
-	</data>
-	<data name="RAVENSCLAW" xml:space="default">
-		<value>Raven's Claw</value>
-	</data>
-	<data name="RAZORCREST" xml:space="default">
-		<value>Razor Crest</value>
-	</data>
-	<data name="YWINGREBEL" xml:space="default">
-		<value>Rebel Y-wing</value>
-	</data>
-	<data name="XWINGRESISTANCE" xml:space="default">
-		<value>Resistance X-wing</value>
-	</data>
-	<data name="ARC170REX" xml:space="default">
-		<value>Rex's ARC-170</value>
-	</data>
-	<data name="MILLENNIUMFALCONEP7" xml:space="default">
-		<value>Rey's Millennium Falcon</value>
-	</data>
-	<data name="SITHINFILTRATOR" xml:space="default">
-		<value>Scimitar</value>
-	</data>
-	<data name="SCYTHE" xml:space="default">
-		<value>Scythe</value>
-	</data>
-	<data name="SITHFIGHTER" xml:space="default">
-		<value>Sith Fighter</value>
-	</data>
-	<data name="SLAVE1" xml:space="default">
-		<value>Slave I</value>
-	</data>
-	<data name="GEONOSIANSTARFIGHTER1" xml:space="default">
-		<value>Sun Fac's Geonosian Starfighter</value>
-	</data>
-	<data name="TIEADVANCED" xml:space="default">
-		<value>TIE Advanced x1</value>
-	</data>
-	<data name="TIEDAGGER" xml:space="default">
-		<value>TIE Dagger</value>
-	</data>
-	<data name="TIEDEFENDER" xml:space="default">
-		<value>TIE Defender</value>
-	</data>
-	<data name="FIRSTORDERTIEECHELON" xml:space="default">
-		<value>TIE Echelon</value>
-	</data>
-	<data name="TIEREAPER" xml:space="default">
-		<value>TIE Reaper</value>
-	</data>
-	<data name="TIESILENCER" xml:space="default">
-		<value>TIE Silencer</value>
-	</data>
-	<data name="TIEINTERCEPTOR" xml:space="default">
-		<value>TIE/IN Interceptor Prototype</value>
-	</data>
-	<data name="UMBARANSTARFIGHTER" xml:space="default">
-		<value>Umbaran Starfighter</value>
-	</data>
-	<data name="VULTUREDROID" xml:space="default">
-		<value>Vulture Droid</value>
-	</data>
-	<data name="XWINGRED2" xml:space="default">
-		<value>Wedge Antilles's X-wing</value>
-	</data>
-	<data name="XANADUBLOOD" xml:space="default">
-		<value>Xanadu Blood</value>
-	</data>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="STAR_01" xml:space="preserve">
+    <value>1*</value>
+  </data>
+  <data name="STAR_02" xml:space="preserve">
+    <value>2*</value>
+  </data>
+  <data name="STAR_03" xml:space="preserve">
+    <value>3*</value>
+  </data>
+  <data name="STAR_04" xml:space="preserve">
+    <value>4*</value>
+  </data>
+  <data name="STAR_05" xml:space="preserve">
+    <value>5*</value>
+  </data>
+  <data name="STAR_06" xml:space="preserve">
+    <value>6*</value>
+  </data>
+  <data name="STAR_07" xml:space="preserve">
+    <value>7*</value>
+  </data>
+  <data name="RELIC_01" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="RELIC_02" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="RELIC_03" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="RELIC_04" xml:space="preserve">
+    <value>R4</value>
+  </data>
+  <data name="RELIC_05" xml:space="preserve">
+    <value>R5</value>
+  </data>
+  <data name="RELIC_06" xml:space="preserve">
+    <value>R6</value>
+  </data>
+  <data name="RELIC_07" xml:space="preserve">
+    <value>R7</value>
+  </data>
+  <data name="RELIC_08" xml:space="preserve">
+    <value>R8</value>
+  </data>
+  <data name="RELIC_09" xml:space="preserve">
+    <value>R9</value>
+  </data>
+  <data name="TRIPLEZERO" xml:space="preserve">
+    <value>0-0-0</value>
+  </data>
+  <data name="50RT" xml:space="preserve">
+    <value>50R-T</value>
+  </data>
+  <data name="ARCTROOPER501ST" xml:space="preserve">
+    <value>ARC Trooper</value>
+  </data>
+  <data name="AAYLASECURA" xml:space="preserve">
+    <value>Aayla Secura</value>
+  </data>
+  <data name="ADMIRALACKBAR" xml:space="preserve">
+    <value>Admiral Ackbar</value>
+  </data>
+  <data name="ADMIRALPIETT" xml:space="preserve">
+    <value>Admiral Piett</value>
+  </data>
+  <data name="ADMIRALRADDUS" xml:space="preserve">
+    <value>Admiral Raddus</value>
+  </data>
+  <data name="TRENCH" xml:space="preserve">
+    <value>Admiral Trench</value>
+  </data>
+  <data name="AHSOKATANO" xml:space="preserve">
+    <value>Ahsoka Tano</value>
+  </data>
+  <data name="FULCRUMAHSOKA" xml:space="preserve">
+    <value>Ahsoka Tano (Fulcrum)</value>
+  </data>
+  <data name="AMILYNHOLDO" xml:space="preserve">
+    <value>Amilyn Holdo</value>
+  </data>
+  <data name="ASAJVENTRESS" xml:space="preserve">
+    <value>Asajj Ventress</value>
+  </data>
+  <data name="AURRA_SING" xml:space="preserve">
+    <value>Aurra Sing</value>
+  </data>
+  <data name="B1BATTLEDROIDV2" xml:space="preserve">
+    <value>B1 Battle Droid</value>
+  </data>
+  <data name="B2SUPERBATTLEDROID" xml:space="preserve">
+    <value>B2 Super Battle Droid</value>
+  </data>
+  <data name="BB8" xml:space="preserve">
+    <value>BB-8</value>
+  </data>
+  <data name="BT1" xml:space="preserve">
+    <value>BT-1</value>
+  </data>
+  <data name="BARRISSOFFEE" xml:space="preserve">
+    <value>Barriss Offee</value>
+  </data>
+  <data name="BASTILASHAN" xml:space="preserve">
+    <value>Bastila Shan</value>
+  </data>
+  <data name="BASTILASHANDARK" xml:space="preserve">
+    <value>Bastila Shan (Fallen)</value>
+  </data>
+  <data name="BAZEMALBUS" xml:space="preserve">
+    <value>Baze Malbus</value>
+  </data>
+  <data name="BENSOLO" xml:space="preserve">
+    <value>Ben Solo</value>
+  </data>
+  <data name="BIGGSDARKLIGHTER" xml:space="preserve">
+    <value>Biggs Darklighter</value>
+  </data>
+  <data name="BISTAN" xml:space="preserve">
+    <value>Bistan</value>
+  </data>
+  <data name="BOKATAN" xml:space="preserve">
+    <value>Bo-Katan Kryze</value>
+  </data>
+  <data name="BOBAFETT" xml:space="preserve">
+    <value>Boba Fett</value>
+  </data>
+  <data name="BOBAFETTSCION" xml:space="preserve">
+    <value>Boba Fett, Scion of Jango</value>
+  </data>
+  <data name="BODHIROOK" xml:space="preserve">
+    <value>Bodhi Rook</value>
+  </data>
+  <data name="BOSSK" xml:space="preserve">
+    <value>Bossk</value>
+  </data>
+  <data name="BOUSHH" xml:space="preserve">
+    <value>Boushh (Leia Organa)</value>
+  </data>
+  <data name="C3POLEGENDARY" xml:space="preserve">
+    <value>C-3PO</value>
+  </data>
+  <data name="CC2224" xml:space="preserve">
+    <value>CC-2224 "Cody"</value>
+  </data>
+  <data name="CT210408" xml:space="preserve">
+    <value>CT-21-0408 "Echo"</value>
+  </data>
+  <data name="CT5555" xml:space="preserve">
+    <value>CT-5555 "Fives"</value>
+  </data>
+  <data name="CT7567" xml:space="preserve">
+    <value>CT-7567 "Rex"</value>
+  </data>
+  <data name="CADBANE" xml:space="preserve">
+    <value>Cad Bane</value>
+  </data>
+  <data name="CALKESTIS" xml:space="preserve">
+    <value>Cal Kestis</value>
+  </data>
+  <data name="CANDEROUSORDO" xml:space="preserve">
+    <value>Canderous Ordo</value>
+  </data>
+  <data name="CAPTAINDROGAN" xml:space="preserve">
+    <value>Captain Drogan</value>
+  </data>
+  <data name="HOTHHAN" xml:space="preserve">
+    <value>Captain Han Solo</value>
+  </data>
+  <data name="PHASMA" xml:space="preserve">
+    <value>Captain Phasma</value>
+  </data>
+  <data name="CAPTAINREX" xml:space="preserve">
+    <value>Captain Rex</value>
+  </data>
+  <data name="CARADUNE" xml:space="preserve">
+    <value>Cara Dune</value>
+  </data>
+  <data name="CARTHONASI" xml:space="preserve">
+    <value>Carth Onasi</value>
+  </data>
+  <data name="CASSIANANDOR" xml:space="preserve">
+    <value>Cassian Andor</value>
+  </data>
+  <data name="CEREJUNDA" xml:space="preserve">
+    <value>Cere Junda</value>
+  </data>
+  <data name="CHEWBACCALEGENDARY" xml:space="preserve">
+    <value>Chewbacca</value>
+  </data>
+  <data name="CHIEFCHIRPA" xml:space="preserve">
+    <value>Chief Chirpa</value>
+  </data>
+  <data name="CHIEFNEBIT" xml:space="preserve">
+    <value>Chief Nebit</value>
+  </data>
+  <data name="CHIRRUTIMWE" xml:space="preserve">
+    <value>Chirrut Îmwe</value>
+  </data>
+  <data name="CHOPPERS3" xml:space="preserve">
+    <value>Chopper</value>
+  </data>
+  <data name="CLONESERGEANTPHASEI" xml:space="preserve">
+    <value>Clone Sergeant - Phase I</value>
+  </data>
+  <data name="CLONEWARSCHEWBACCA" xml:space="preserve">
+    <value>Clone Wars Chewbacca</value>
+  </data>
+  <data name="COLONELSTARCK" xml:space="preserve">
+    <value>Colonel Starck</value>
+  </data>
+  <data name="COMMANDERAHSOKA" xml:space="preserve">
+    <value>Commander Ahsoka Tano</value>
+  </data>
+  <data name="COMMANDERLUKESKYWALKER" xml:space="preserve">
+    <value>Commander Luke Skywalker</value>
+  </data>
+  <data name="CORUSCANTUNDERWORLDPOLICE" xml:space="preserve">
+    <value>Coruscant Underworld Police</value>
+  </data>
+  <data name="COUNTDOOKU" xml:space="preserve">
+    <value>Count Dooku</value>
+  </data>
+  <data name="DARKTROOPER" xml:space="preserve">
+    <value>Dark Trooper</value>
+  </data>
+  <data name="DARTHMALAK" xml:space="preserve">
+    <value>Darth Malak</value>
+  </data>
+  <data name="DARTHMALGUS" xml:space="preserve">
+    <value>Darth Malgus</value>
+  </data>
+  <data name="MAUL" xml:space="preserve">
+    <value>Darth Maul</value>
+  </data>
+  <data name="DARTHNIHILUS" xml:space="preserve">
+    <value>Darth Nihilus</value>
+  </data>
+  <data name="DARTHREVAN" xml:space="preserve">
+    <value>Darth Revan</value>
+  </data>
+  <data name="DARTHSIDIOUS" xml:space="preserve">
+    <value>Darth Sidious</value>
+  </data>
+  <data name="DARTHSION" xml:space="preserve">
+    <value>Darth Sion</value>
+  </data>
+  <data name="DARTHTALON" xml:space="preserve">
+    <value>Darth Talon</value>
+  </data>
+  <data name="DARTHTRAYA" xml:space="preserve">
+    <value>Darth Traya</value>
+  </data>
+  <data name="VADER" xml:space="preserve">
+    <value>Darth Vader</value>
+  </data>
+  <data name="DASHRENDAR" xml:space="preserve">
+    <value>Dash Rendar</value>
+  </data>
+  <data name="DATHCHA" xml:space="preserve">
+    <value>Dathcha</value>
+  </data>
+  <data name="DEATHTROOPER" xml:space="preserve">
+    <value>Death Trooper</value>
+  </data>
+  <data name="DENGAR" xml:space="preserve">
+    <value>Dengar</value>
+  </data>
+  <data name="DIRECTORKRENNIC" xml:space="preserve">
+    <value>Director Krennic</value>
+  </data>
+  <data name="DOCTORAPHRA" xml:space="preserve">
+    <value>Doctor Aphra</value>
+  </data>
+  <data name="DROIDEKA" xml:space="preserve">
+    <value>Droideka</value>
+  </data>
+  <data name="BADBATCHECHO" xml:space="preserve">
+    <value>Echo</value>
+  </data>
+  <data name="EETHKOTH" xml:space="preserve">
+    <value>Eeth Koth</value>
+  </data>
+  <data name="EIGHTHBROTHER" xml:space="preserve">
+    <value>Eighth Brother</value>
+  </data>
+  <data name="EMBO" xml:space="preserve">
+    <value>Embo</value>
+  </data>
+  <data name="EMPERORPALPATINE" xml:space="preserve">
+    <value>Emperor Palpatine</value>
+  </data>
+  <data name="ENFYSNEST" xml:space="preserve">
+    <value>Enfys Nest</value>
+  </data>
+  <data name="EWOKELDER" xml:space="preserve">
+    <value>Ewok Elder</value>
+  </data>
+  <data name="EWOKSCOUT" xml:space="preserve">
+    <value>Ewok Scout</value>
+  </data>
+  <data name="EZRABRIDGERS3" xml:space="preserve">
+    <value>Ezra Bridger</value>
+  </data>
+  <data name="FENNECSHAND" xml:space="preserve">
+    <value>Fennec Shand</value>
+  </data>
+  <data name="FIFTHBROTHER" xml:space="preserve">
+    <value>Fifth Brother</value>
+  </data>
+  <data name="FINN" xml:space="preserve">
+    <value>Finn</value>
+  </data>
+  <data name="FIRSTORDEREXECUTIONER" xml:space="preserve">
+    <value>First Order Executioner</value>
+  </data>
+  <data name="FIRSTORDEROFFICERMALE" xml:space="preserve">
+    <value>First Order Officer</value>
+  </data>
+  <data name="FIRSTORDERSPECIALFORCESPILOT" xml:space="preserve">
+    <value>First Order SF TIE Pilot</value>
+  </data>
+  <data name="FIRSTORDERTROOPER" xml:space="preserve">
+    <value>First Order Stormtrooper</value>
+  </data>
+  <data name="FIRSTORDERTIEPILOT" xml:space="preserve">
+    <value>First Order TIE Pilot</value>
+  </data>
+  <data name="GAMORREANGUARD" xml:space="preserve">
+    <value>Gamorrean Guard</value>
+  </data>
+  <data name="GARSAXON" xml:space="preserve">
+    <value>Gar Saxon</value>
+  </data>
+  <data name="ZEBS3" xml:space="preserve">
+    <value>Garazeb "Zeb" Orrelios</value>
+  </data>
+  <data name="GRIEVOUS" xml:space="preserve">
+    <value>General Grievous</value>
+  </data>
+  <data name="GENERALHUX" xml:space="preserve">
+    <value>General Hux</value>
+  </data>
+  <data name="GENERALKENOBI" xml:space="preserve">
+    <value>General Kenobi</value>
+  </data>
+  <data name="GENERALSKYWALKER" xml:space="preserve">
+    <value>General Skywalker</value>
+  </data>
+  <data name="VEERS" xml:space="preserve">
+    <value>General Veers</value>
+  </data>
+  <data name="GEONOSIANBROODALPHA" xml:space="preserve">
+    <value>Geonosian Brood Alpha</value>
+  </data>
+  <data name="GEONOSIANSOLDIER" xml:space="preserve">
+    <value>Geonosian Soldier</value>
+  </data>
+  <data name="GEONOSIANSPY" xml:space="preserve">
+    <value>Geonosian Spy</value>
+  </data>
+  <data name="GRANDADMIRALTHRAWN" xml:space="preserve">
+    <value>Grand Admiral Thrawn</value>
+  </data>
+  <data name="GRANDINQUISITOR" xml:space="preserve">
+    <value>Grand Inquisitor</value>
+  </data>
+  <data name="GRANDMASTERYODA" xml:space="preserve">
+    <value>Grand Master Yoda</value>
+  </data>
+  <data name="GRANDMOFFTARKIN" xml:space="preserve">
+    <value>Grand Moff Tarkin</value>
+  </data>
+  <data name="GREEDO" xml:space="preserve">
+    <value>Greedo</value>
+  </data>
+  <data name="GREEFKARGA" xml:space="preserve">
+    <value>Greef Karga</value>
+  </data>
+  <data name="HK47" xml:space="preserve">
+    <value>HK-47</value>
+  </data>
+  <data name="HANSOLO" xml:space="preserve">
+    <value>Han Solo</value>
+  </data>
+  <data name="HERASYNDULLAS3" xml:space="preserve">
+    <value>Hera Syndulla</value>
+  </data>
+  <data name="HERMITYODA" xml:space="preserve">
+    <value>Hermit Yoda</value>
+  </data>
+  <data name="HONDO" xml:space="preserve">
+    <value>Hondo Ohnaka</value>
+  </data>
+  <data name="HOTHREBELSCOUT" xml:space="preserve">
+    <value>Hoth Rebel Scout</value>
+  </data>
+  <data name="HOTHREBELSOLDIER" xml:space="preserve">
+    <value>Hoth Rebel Soldier</value>
+  </data>
+  <data name="BADBATCHHUNTER" xml:space="preserve">
+    <value>Hunter</value>
+  </data>
+  <data name="MAGNAGUARD" xml:space="preserve">
+    <value>IG-100 MagnaGuard</value>
+  </data>
+  <data name="IG11" xml:space="preserve">
+    <value>IG-11</value>
+  </data>
+  <data name="IG86SENTINELDROID" xml:space="preserve">
+    <value>IG-86 Sentinel Droid</value>
+  </data>
+  <data name="IG88" xml:space="preserve">
+    <value>IG-88</value>
+  </data>
+  <data name="IDENVERSIOEMPIRE" xml:space="preserve">
+    <value>Iden Versio</value>
+  </data>
+  <data name="IMAGUNDI" xml:space="preserve">
+    <value>Ima-Gun Di</value>
+  </data>
+  <data name="IMPERIALPROBEDROID" xml:space="preserve">
+    <value>Imperial Probe Droid</value>
+  </data>
+  <data name="IMPERIALSUPERCOMMANDO" xml:space="preserve">
+    <value>Imperial Super Commando</value>
+  </data>
+  <data name="JABBATHEHUTT" xml:space="preserve">
+    <value>Jabba the Hutt</value>
+  </data>
+  <data name="JANGOFETT" xml:space="preserve">
+    <value>Jango Fett</value>
+  </data>
+  <data name="JAWA" xml:space="preserve">
+    <value>Jawa</value>
+  </data>
+  <data name="JAWAENGINEER" xml:space="preserve">
+    <value>Jawa Engineer</value>
+  </data>
+  <data name="JAWASCAVENGER" xml:space="preserve">
+    <value>Jawa Scavenger</value>
+  </data>
+  <data name="JEDIKNIGHTCONSULAR" xml:space="preserve">
+    <value>Jedi Consular</value>
+  </data>
+  <data name="ANAKINKNIGHT" xml:space="preserve">
+    <value>Jedi Knight Anakin</value>
+  </data>
+  <data name="JEDIKNIGHTCAL" xml:space="preserve">
+    <value>Jedi Knight Cal Kestis</value>
+  </data>
+  <data name="JEDIKNIGHTGUARDIAN" xml:space="preserve">
+    <value>Jedi Knight Guardian</value>
+  </data>
+  <data name="JEDIKNIGHTLUKE" xml:space="preserve">
+    <value>Jedi Knight Luke Skywalker</value>
+  </data>
+  <data name="JEDIKNIGHTREVAN" xml:space="preserve">
+    <value>Jedi Knight Revan</value>
+  </data>
+  <data name="JEDIMASTERKENOBI" xml:space="preserve">
+    <value>Jedi Master Kenobi</value>
+  </data>
+  <data name="GRANDMASTERLUKE" xml:space="preserve">
+    <value>Jedi Master Luke Skywalker</value>
+  </data>
+  <data name="JOLEEBINDO" xml:space="preserve">
+    <value>Jolee Bindo</value>
+  </data>
+  <data name="JUHANI" xml:space="preserve">
+    <value>Juhani</value>
+  </data>
+  <data name="JYNERSO" xml:space="preserve">
+    <value>Jyn Erso</value>
+  </data>
+  <data name="K2SO" xml:space="preserve">
+    <value>K-2SO</value>
+  </data>
+  <data name="KANANJARRUSS3" xml:space="preserve">
+    <value>Kanan Jarrus</value>
+  </data>
+  <data name="KIADIMUNDI" xml:space="preserve">
+    <value>Ki-Adi-Mundi</value>
+  </data>
+  <data name="KITFISTO" xml:space="preserve">
+    <value>Kit Fisto</value>
+  </data>
+  <data name="KRRSANTAN" xml:space="preserve">
+    <value>Krrsantan</value>
+  </data>
+  <data name="KUIIL" xml:space="preserve">
+    <value>Kuiil</value>
+  </data>
+  <data name="KYLEKATARN" xml:space="preserve">
+    <value>Kyle Katarn</value>
+  </data>
+  <data name="KYLOREN" xml:space="preserve">
+    <value>Kylo Ren</value>
+  </data>
+  <data name="KYLORENUNMASKED" xml:space="preserve">
+    <value>Kylo Ren (Unmasked)</value>
+  </data>
+  <data name="L3_37" xml:space="preserve">
+    <value>L3-37</value>
+  </data>
+  <data name="ADMINISTRATORLANDO" xml:space="preserve">
+    <value>Lando Calrissian</value>
+  </data>
+  <data name="GLLEIA" xml:space="preserve">
+    <value>Leia Organa</value>
+  </data>
+  <data name="LOBOT" xml:space="preserve">
+    <value>Lobot</value>
+  </data>
+  <data name="LOGRAY" xml:space="preserve">
+    <value>Logray</value>
+  </data>
+  <data name="LORDVADER" xml:space="preserve">
+    <value>Lord Vader</value>
+  </data>
+  <data name="LUKESKYWALKER" xml:space="preserve">
+    <value>Luke Skywalker (Farmboy)</value>
+  </data>
+  <data name="LUMINARAUNDULI" xml:space="preserve">
+    <value>Luminara Unduli</value>
+  </data>
+  <data name="MACEWINDU" xml:space="preserve">
+    <value>Mace Windu</value>
+  </data>
+  <data name="MAGMATROOPER" xml:space="preserve">
+    <value>Magmatrooper</value>
+  </data>
+  <data name="MARAJADE" xml:space="preserve">
+    <value>Mara Jade, The Emperor's Hand</value>
+  </data>
+  <data name="MAULS7" xml:space="preserve">
+    <value>Maul</value>
+  </data>
+  <data name="MERRIN" xml:space="preserve">
+    <value>Merrin</value>
+  </data>
+  <data name="MISSIONVAO" xml:space="preserve">
+    <value>Mission Vao</value>
+  </data>
+  <data name="HUMANTHUG" xml:space="preserve">
+    <value>Mob Enforcer</value>
+  </data>
+  <data name="MOFFGIDEONS1" xml:space="preserve">
+    <value>Moff Gideon</value>
+  </data>
+  <data name="MONMOTHMA" xml:space="preserve">
+    <value>Mon Mothma</value>
+  </data>
+  <data name="MOTHERTALZIN" xml:space="preserve">
+    <value>Mother Talzin</value>
+  </data>
+  <data name="NIGHTSISTERACOLYTE" xml:space="preserve">
+    <value>Nightsister Acolyte</value>
+  </data>
+  <data name="NIGHTSISTERINITIATE" xml:space="preserve">
+    <value>Nightsister Initiate</value>
+  </data>
+  <data name="NIGHTSISTERSPIRIT" xml:space="preserve">
+    <value>Nightsister Spirit</value>
+  </data>
+  <data name="NIGHTSISTERZOMBIE" xml:space="preserve">
+    <value>Nightsister Zombie</value>
+  </data>
+  <data name="NINTHSISTER" xml:space="preserve">
+    <value>Ninth Sister</value>
+  </data>
+  <data name="NUTEGUNRAY" xml:space="preserve">
+    <value>Nute Gunray</value>
+  </data>
+  <data name="OLDBENKENOBI" xml:space="preserve">
+    <value>Obi-Wan Kenobi (Old Ben)</value>
+  </data>
+  <data name="DAKA" xml:space="preserve">
+    <value>Old Daka</value>
+  </data>
+  <data name="BADBATCHOMEGA" xml:space="preserve">
+    <value>Omega</value>
+  </data>
+  <data name="PADMEAMIDALA" xml:space="preserve">
+    <value>Padmé Amidala</value>
+  </data>
+  <data name="PAO" xml:space="preserve">
+    <value>Pao</value>
+  </data>
+  <data name="PAPLOO" xml:space="preserve">
+    <value>Paploo</value>
+  </data>
+  <data name="PLOKOON" xml:space="preserve">
+    <value>Plo Koon</value>
+  </data>
+  <data name="POE" xml:space="preserve">
+    <value>Poe Dameron</value>
+  </data>
+  <data name="POGGLETHELESSER" xml:space="preserve">
+    <value>Poggle the Lesser</value>
+  </data>
+  <data name="PRINCESSKNEESAA" xml:space="preserve">
+    <value>Princess Kneesaa</value>
+  </data>
+  <data name="PRINCESSLEIA" xml:space="preserve">
+    <value>Princess Leia</value>
+  </data>
+  <data name="QIRA" xml:space="preserve">
+    <value>Qi'ra</value>
+  </data>
+  <data name="QUIGONJINN" xml:space="preserve">
+    <value>Qui-Gon Jinn</value>
+  </data>
+  <data name="R2D2_LEGENDARY" xml:space="preserve">
+    <value>R2-D2</value>
+  </data>
+  <data name="RANGETROOPER" xml:space="preserve">
+    <value>Range Trooper</value>
+  </data>
+  <data name="HOTHLEIA" xml:space="preserve">
+    <value>Rebel Officer Leia Organa</value>
+  </data>
+  <data name="EPIXFINN" xml:space="preserve">
+    <value>Resistance Hero Finn</value>
+  </data>
+  <data name="EPIXPOE" xml:space="preserve">
+    <value>Resistance Hero Poe</value>
+  </data>
+  <data name="RESISTANCEPILOT" xml:space="preserve">
+    <value>Resistance Pilot</value>
+  </data>
+  <data name="RESISTANCETROOPER" xml:space="preserve">
+    <value>Resistance Trooper</value>
+  </data>
+  <data name="GLREY" xml:space="preserve">
+    <value>Rey</value>
+  </data>
+  <data name="REYJEDITRAINING" xml:space="preserve">
+    <value>Rey (Jedi Training)</value>
+  </data>
+  <data name="REY" xml:space="preserve">
+    <value>Rey (Scavenger)</value>
+  </data>
+  <data name="ROSETICO" xml:space="preserve">
+    <value>Rose Tico</value>
+  </data>
+  <data name="ROYALGUARD" xml:space="preserve">
+    <value>Royal Guard</value>
+  </data>
+  <data name="SABINEWRENS3" xml:space="preserve">
+    <value>Sabine Wren</value>
+  </data>
+  <data name="SANASTARROS" xml:space="preserve">
+    <value>Sana Starros</value>
+  </data>
+  <data name="SAVAGEOPRESS" xml:space="preserve">
+    <value>Savage Opress</value>
+  </data>
+  <data name="SAWGERRERA" xml:space="preserve">
+    <value>Saw Gerrera</value>
+  </data>
+  <data name="SCARIFREBEL" xml:space="preserve">
+    <value>Scarif Rebel Pathfinder</value>
+  </data>
+  <data name="SCOUTTROOPER_V3" xml:space="preserve">
+    <value>Scout Trooper</value>
+  </data>
+  <data name="SECONDSISTER" xml:space="preserve">
+    <value>Second Sister</value>
+  </data>
+  <data name="SEVENTHSISTER" xml:space="preserve">
+    <value>Seventh Sister</value>
+  </data>
+  <data name="SHAAKTI" xml:space="preserve">
+    <value>Shaak Ti</value>
+  </data>
+  <data name="SHORETROOPER" xml:space="preserve">
+    <value>Shoretrooper</value>
+  </data>
+  <data name="SITHASSASSIN" xml:space="preserve">
+    <value>Sith Assassin</value>
+  </data>
+  <data name="SITHTROOPER" xml:space="preserve">
+    <value>Sith Empire Trooper</value>
+  </data>
+  <data name="SITHPALPATINE" xml:space="preserve">
+    <value>Sith Eternal Emperor</value>
+  </data>
+  <data name="SITHMARAUDER" xml:space="preserve">
+    <value>Sith Marauder</value>
+  </data>
+  <data name="FOSITHTROOPER" xml:space="preserve">
+    <value>Sith Trooper</value>
+  </data>
+  <data name="UNDERCOVERLANDO" xml:space="preserve">
+    <value>Skiff Guard (Lando Calrissian)</value>
+  </data>
+  <data name="SNOWTROOPER" xml:space="preserve">
+    <value>Snowtrooper</value>
+  </data>
+  <data name="STARKILLER" xml:space="preserve">
+    <value>Starkiller</value>
+  </data>
+  <data name="STORMTROOPER" xml:space="preserve">
+    <value>Stormtrooper</value>
+  </data>
+  <data name="STORMTROOPERHAN" xml:space="preserve">
+    <value>Stormtrooper Han</value>
+  </data>
+  <data name="SUNFAC" xml:space="preserve">
+    <value>Sun Fac</value>
+  </data>
+  <data name="SUPREMELEADERKYLOREN" xml:space="preserve">
+    <value>Supreme Leader Kylo Ren</value>
+  </data>
+  <data name="T3_M4" xml:space="preserve">
+    <value>T3-M4</value>
+  </data>
+  <data name="TIEFIGHTERPILOT" xml:space="preserve">
+    <value>TIE Fighter Pilot</value>
+  </data>
+  <data name="TALIA" xml:space="preserve">
+    <value>Talia</value>
+  </data>
+  <data name="TARFFUL" xml:space="preserve">
+    <value>Tarfful</value>
+  </data>
+  <data name="TARONMALICOS" xml:space="preserve">
+    <value>Taron Malicos</value>
+  </data>
+  <data name="BADBATCHTECH" xml:space="preserve">
+    <value>Tech</value>
+  </data>
+  <data name="TEEBO" xml:space="preserve">
+    <value>Teebo</value>
+  </data>
+  <data name="ARMORER" xml:space="preserve">
+    <value>The Armorer</value>
+  </data>
+  <data name="THEMANDALORIAN" xml:space="preserve">
+    <value>The Mandalorian</value>
+  </data>
+  <data name="THEMANDALORIANBESKARARMOR" xml:space="preserve">
+    <value>The Mandalorian (Beskar Armor)</value>
+  </data>
+  <data name="THIRDSISTER" xml:space="preserve">
+    <value>Third Sister</value>
+  </data>
+  <data name="C3POCHEWBACCA" xml:space="preserve">
+    <value>Threepio &amp; Chewie</value>
+  </data>
+  <data name="TUSKENCHIEFTAIN" xml:space="preserve">
+    <value>Tusken Chieftain</value>
+  </data>
+  <data name="TUSKENRAIDER" xml:space="preserve">
+    <value>Tusken Raider</value>
+  </data>
+  <data name="TUSKENSHAMAN" xml:space="preserve">
+    <value>Tusken Shaman</value>
+  </data>
+  <data name="TUSKENHUNTRESS" xml:space="preserve">
+    <value>Tusken Warrior</value>
+  </data>
+  <data name="URORRURRR" xml:space="preserve">
+    <value>URoRRuR'R'R</value>
+  </data>
+  <data name="UGNAUGHT" xml:space="preserve">
+    <value>Ugnaught</value>
+  </data>
+  <data name="YOUNGCHEWBACCA" xml:space="preserve">
+    <value>Vandor Chewbacca</value>
+  </data>
+  <data name="SMUGGLERCHEWBACCA" xml:space="preserve">
+    <value>Veteran Smuggler Chewbacca</value>
+  </data>
+  <data name="SMUGGLERHAN" xml:space="preserve">
+    <value>Veteran Smuggler Han Solo</value>
+  </data>
+  <data name="VISASMARR" xml:space="preserve">
+    <value>Visas Marr</value>
+  </data>
+  <data name="WAMPA" xml:space="preserve">
+    <value>Wampa</value>
+  </data>
+  <data name="WATTAMBOR" xml:space="preserve">
+    <value>Wat Tambor</value>
+  </data>
+  <data name="WEDGEANTILLES" xml:space="preserve">
+    <value>Wedge Antilles</value>
+  </data>
+  <data name="WICKET" xml:space="preserve">
+    <value>Wicket</value>
+  </data>
+  <data name="BADBATCHWRECKER" xml:space="preserve">
+    <value>Wrecker</value>
+  </data>
+  <data name="YOUNGHAN" xml:space="preserve">
+    <value>Young Han Solo</value>
+  </data>
+  <data name="YOUNGLANDO" xml:space="preserve">
+    <value>Young Lando Calrissian</value>
+  </data>
+  <data name="ZAALBAR" xml:space="preserve">
+    <value>Zaalbar</value>
+  </data>
+  <data name="ZAMWESELL" xml:space="preserve">
+    <value>Zam Wesell</value>
+  </data>
+  <data name="ZORIIBLISS_V2" xml:space="preserve">
+    <value>Zorii Bliss</value>
+  </data>
+  <data name="JEDISTARFIGHTERAHSOKATANO" xml:space="preserve">
+    <value>Ahsoka Tano's Jedi Starfighter</value>
+  </data>
+  <data name="JEDISTARFIGHTERANAKIN" xml:space="preserve">
+    <value>Anakin's Eta-2 Starfighter</value>
+  </data>
+  <data name="SITHBOMBER" xml:space="preserve">
+    <value>B-28 Extinction-class Bomber</value>
+  </data>
+  <data name="YWINGCLONEWARS" xml:space="preserve">
+    <value>BTL-B Y-wing Starfighter</value>
+  </data>
+  <data name="XWINGRED3" xml:space="preserve">
+    <value>Biggs Darklighter's X-wing</value>
+  </data>
+  <data name="UWINGSCARIF" xml:space="preserve">
+    <value>Bistan's U-wing</value>
+  </data>
+  <data name="UWINGROGUEONE" xml:space="preserve">
+    <value>Cassian's U-wing</value>
+  </data>
+  <data name="CAPITALCHIMAERA" xml:space="preserve">
+    <value>Chimaera</value>
+  </data>
+  <data name="ARC170CLONESERGEANT" xml:space="preserve">
+    <value>Clone Sergeant's ARC-170</value>
+  </data>
+  <data name="EBONHAWK" xml:space="preserve">
+    <value>Ebon Hawk</value>
+  </data>
+  <data name="EMPERORSSHUTTLE" xml:space="preserve">
+    <value>Emperor's Shuttle</value>
+  </data>
+  <data name="CAPITALJEDICRUISER" xml:space="preserve">
+    <value>Endurance</value>
+  </data>
+  <data name="CAPITALEXECUTOR" xml:space="preserve">
+    <value>Executor</value>
+  </data>
+  <data name="CAPITALSTARDESTROYER" xml:space="preserve">
+    <value>Executrix</value>
+  </data>
+  <data name="CAPITALFINALIZER" xml:space="preserve">
+    <value>Finalizer</value>
+  </data>
+  <data name="TIEFIGHTERFOSF" xml:space="preserve">
+    <value>First Order SF TIE Fighter</value>
+  </data>
+  <data name="TIEFIGHTERFIRSTORDER" xml:space="preserve">
+    <value>First Order TIE Fighter</value>
+  </data>
+  <data name="FURYCLASSINTERCEPTOR" xml:space="preserve">
+    <value>Fury-class Interceptor</value>
+  </data>
+  <data name="GAUNTLETSTARFIGHTER" xml:space="preserve">
+    <value>Gauntlet Starfighter</value>
+  </data>
+  <data name="GEONOSIANSTARFIGHTER2" xml:space="preserve">
+    <value>Geonosian Soldier's Starfighter</value>
+  </data>
+  <data name="GEONOSIANSTARFIGHTER3" xml:space="preserve">
+    <value>Geonosian Spy's Starfighter</value>
+  </data>
+  <data name="GHOST" xml:space="preserve">
+    <value>Ghost</value>
+  </data>
+  <data name="MILLENNIUMFALCON" xml:space="preserve">
+    <value>Han's Millennium Falcon</value>
+  </data>
+  <data name="CAPITALMONCALAMARICRUISER" xml:space="preserve">
+    <value>Home One</value>
+  </data>
+  <data name="HOUNDSTOOTH" xml:space="preserve">
+    <value>Hound's Tooth</value>
+  </data>
+  <data name="HYENABOMBER" xml:space="preserve">
+    <value>Hyena Bomber</value>
+  </data>
+  <data name="IG2000" xml:space="preserve">
+    <value>IG-2000</value>
+  </data>
+  <data name="TIEBOMBERIMPERIAL" xml:space="preserve">
+    <value>Imperial TIE Bomber</value>
+  </data>
+  <data name="TIEFIGHTERIMPERIAL" xml:space="preserve">
+    <value>Imperial TIE Fighter</value>
+  </data>
+  <data name="JEDISTARFIGHTERCONSULAR" xml:space="preserve">
+    <value>Jedi Consular's Starfighter</value>
+  </data>
+  <data name="COMMANDSHUTTLE" xml:space="preserve">
+    <value>Kylo Ren's Command Shuttle</value>
+  </data>
+  <data name="MILLENNIUMFALCONPRISTINE" xml:space="preserve">
+    <value>Lando's Millennium Falcon</value>
+  </data>
+  <data name="CAPITALLEVIATHAN" xml:space="preserve">
+    <value>Leviathan</value>
+  </data>
+  <data name="MG100STARFORTRESSSF17" xml:space="preserve">
+    <value>MG-100 StarFortress SF-17</value>
+  </data>
+  <data name="CAPITALMALEVOLENCE" xml:space="preserve">
+    <value>Malevolence</value>
+  </data>
+  <data name="SITHSUPREMACYCLASS" xml:space="preserve">
+    <value>Mark VI Interceptor</value>
+  </data>
+  <data name="CAPITALNEGOTIATOR" xml:space="preserve">
+    <value>Negotiator</value>
+  </data>
+  <data name="OUTRIDER" xml:space="preserve">
+    <value>Outrider</value>
+  </data>
+  <data name="PHANTOM2" xml:space="preserve">
+    <value>Phantom II</value>
+  </data>
+  <data name="BLADEOFDORIN" xml:space="preserve">
+    <value>Plo Koon's Jedi Starfighter</value>
+  </data>
+  <data name="XWINGBLACKONE" xml:space="preserve">
+    <value>Poe Dameron's X-wing</value>
+  </data>
+  <data name="CAPITALPROFUNDITY" xml:space="preserve">
+    <value>Profundity</value>
+  </data>
+  <data name="CAPITALRADDUS" xml:space="preserve">
+    <value>Raddus</value>
+  </data>
+  <data name="RAVENSCLAW" xml:space="preserve">
+    <value>Raven's Claw</value>
+  </data>
+  <data name="RAZORCREST" xml:space="preserve">
+    <value>Razor Crest</value>
+  </data>
+  <data name="YWINGREBEL" xml:space="preserve">
+    <value>Rebel Y-wing</value>
+  </data>
+  <data name="XWINGRESISTANCE" xml:space="preserve">
+    <value>Resistance X-wing</value>
+  </data>
+  <data name="ARC170REX" xml:space="preserve">
+    <value>Rex's ARC-170</value>
+  </data>
+  <data name="MILLENNIUMFALCONEP7" xml:space="preserve">
+    <value>Rey's Millennium Falcon</value>
+  </data>
+  <data name="SITHINFILTRATOR" xml:space="preserve">
+    <value>Scimitar</value>
+  </data>
+  <data name="SCYTHE" xml:space="preserve">
+    <value>Scythe</value>
+  </data>
+  <data name="SITHFIGHTER" xml:space="preserve">
+    <value>Sith Fighter</value>
+  </data>
+  <data name="SLAVE1" xml:space="preserve">
+    <value>Slave I</value>
+  </data>
+  <data name="GEONOSIANSTARFIGHTER1" xml:space="preserve">
+    <value>Sun Fac's Geonosian Starfighter</value>
+  </data>
+  <data name="TIEADVANCED" xml:space="preserve">
+    <value>TIE Advanced x1</value>
+  </data>
+  <data name="TIEDAGGER" xml:space="preserve">
+    <value>TIE Dagger</value>
+  </data>
+  <data name="TIEDEFENDER" xml:space="preserve">
+    <value>TIE Defender</value>
+  </data>
+  <data name="FIRSTORDERTIEECHELON" xml:space="preserve">
+    <value>TIE Echelon</value>
+  </data>
+  <data name="TIEREAPER" xml:space="preserve">
+    <value>TIE Reaper</value>
+  </data>
+  <data name="TIESILENCER" xml:space="preserve">
+    <value>TIE Silencer</value>
+  </data>
+  <data name="TIEINTERCEPTOR" xml:space="preserve">
+    <value>TIE/IN Interceptor Prototype</value>
+  </data>
+  <data name="UMBARANSTARFIGHTER" xml:space="preserve">
+    <value>Umbaran Starfighter</value>
+  </data>
+  <data name="VULTUREDROID" xml:space="preserve">
+    <value>Vulture Droid</value>
+  </data>
+  <data name="XWINGRED2" xml:space="preserve">
+    <value>Wedge Antilles's X-wing</value>
+  </data>
+  <data name="XANADUBLOOD" xml:space="preserve">
+    <value>Xanadu Blood</value>
+  </data>
+  <data name="CAPITALEXECUTOR_CHALLENGE" xml:space="preserve">
+    <value>Exec</value>
+  </data>
+  <data name="CAPITALLEVIATHAN_CHALLENGE" xml:space="preserve">
+    <value>Levi</value>
+  </data>
+  <data name="CAPITALPROFUNDITY_CHALLENGE" xml:space="preserve">
+    <value>Prof</value>
+  </data>
+  <data name="DOCTORAPHRA_CHALLENGE" xml:space="preserve">
+    <value>Aphra</value>
+  </data>
+  <data name="GLLEIA_CHALLENGE" xml:space="preserve">
+    <value>Leia</value>
+  </data>
+  <data name="GLREY_CHALLENGE" xml:space="preserve">
+    <value>Rey</value>
+  </data>
+  <data name="GRANDINQUISITOR_CHALLENGE" xml:space="preserve">
+    <value>GI</value>
+  </data>
+  <data name="GRANDMASTERLUKE_CHALLENGE" xml:space="preserve">
+    <value>GML</value>
+  </data>
+  <data name="JABBATHEHUTT_CHALLENGE" xml:space="preserve">
+    <value>Jabba</value>
+  </data>
+  <data name="JEDIKNIGHTCAL_CHALLENGE" xml:space="preserve">
+    <value>JKCK</value>
+  </data>
+  <data name="JEDIMASTERKENOBI_CHALLENGE" xml:space="preserve">
+    <value>JMK</value>
+  </data>
+  <data name="LORDVADER_CHALLENGE" xml:space="preserve">
+    <value>LV</value>
+  </data>
+  <data name="SITHPALPATINE_CHALLENGE" xml:space="preserve">
+    <value>SEE</value>
+  </data>
+  <data name="STARKILLER_CHALLENGE" xml:space="preserve">
+    <value>SK</value>
+  </data>
+  <data name="SUPREMELEADERKYLOREN_CHALLENGE" xml:space="preserve">
+    <value>SLKR</value>
+  </data>
 </root>

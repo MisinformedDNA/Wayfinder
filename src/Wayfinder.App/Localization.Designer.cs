@@ -22,7 +22,7 @@ namespace Wayfinder.App {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Localization {
+    public class Localization {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Wayfinder.App {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Wayfinder.App.Localization", typeof(Localization).Assembly);
@@ -51,7 +51,7 @@ namespace Wayfinder.App {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to 50R-T.
         /// </summary>
-        internal static string _50RT {
+        public static string _50RT {
             get {
                 return ResourceManager.GetString("50RT", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Aayla Secura.
         /// </summary>
-        internal static string AAYLASECURA {
+        public static string AAYLASECURA {
             get {
                 return ResourceManager.GetString("AAYLASECURA", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Lando Calrissian.
         /// </summary>
-        internal static string ADMINISTRATORLANDO {
+        public static string ADMINISTRATORLANDO {
             get {
                 return ResourceManager.GetString("ADMINISTRATORLANDO", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Admiral Ackbar.
         /// </summary>
-        internal static string ADMIRALACKBAR {
+        public static string ADMIRALACKBAR {
             get {
                 return ResourceManager.GetString("ADMIRALACKBAR", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Admiral Piett.
         /// </summary>
-        internal static string ADMIRALPIETT {
+        public static string ADMIRALPIETT {
             get {
                 return ResourceManager.GetString("ADMIRALPIETT", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Admiral Raddus.
         /// </summary>
-        internal static string ADMIRALRADDUS {
+        public static string ADMIRALRADDUS {
             get {
                 return ResourceManager.GetString("ADMIRALRADDUS", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ahsoka Tano.
         /// </summary>
-        internal static string AHSOKATANO {
+        public static string AHSOKATANO {
             get {
                 return ResourceManager.GetString("AHSOKATANO", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Amilyn Holdo.
         /// </summary>
-        internal static string AMILYNHOLDO {
+        public static string AMILYNHOLDO {
             get {
                 return ResourceManager.GetString("AMILYNHOLDO", resourceCulture);
             }
@@ -135,7 +135,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jedi Knight Anakin.
         /// </summary>
-        internal static string ANAKINKNIGHT {
+        public static string ANAKINKNIGHT {
             get {
                 return ResourceManager.GetString("ANAKINKNIGHT", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Clone Sergeant&apos;s ARC-170.
         /// </summary>
-        internal static string ARC170CLONESERGEANT {
+        public static string ARC170CLONESERGEANT {
             get {
                 return ResourceManager.GetString("ARC170CLONESERGEANT", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Rex&apos;s ARC-170.
         /// </summary>
-        internal static string ARC170REX {
+        public static string ARC170REX {
             get {
                 return ResourceManager.GetString("ARC170REX", resourceCulture);
             }
@@ -162,7 +162,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to ARC Trooper.
         /// </summary>
-        internal static string ARCTROOPER501ST {
+        public static string ARCTROOPER501ST {
             get {
                 return ResourceManager.GetString("ARCTROOPER501ST", resourceCulture);
             }
@@ -171,7 +171,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to The Armorer.
         /// </summary>
-        internal static string ARMORER {
+        public static string ARMORER {
             get {
                 return ResourceManager.GetString("ARMORER", resourceCulture);
             }
@@ -180,7 +180,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Asajj Ventress.
         /// </summary>
-        internal static string ASAJVENTRESS {
+        public static string ASAJVENTRESS {
             get {
                 return ResourceManager.GetString("ASAJVENTRESS", resourceCulture);
             }
@@ -189,7 +189,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Aurra Sing.
         /// </summary>
-        internal static string AURRA_SING {
+        public static string AURRA_SING {
             get {
                 return ResourceManager.GetString("AURRA_SING", resourceCulture);
             }
@@ -198,7 +198,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to B1 Battle Droid.
         /// </summary>
-        internal static string B1BATTLEDROIDV2 {
+        public static string B1BATTLEDROIDV2 {
             get {
                 return ResourceManager.GetString("B1BATTLEDROIDV2", resourceCulture);
             }
@@ -207,7 +207,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to B2 Super Battle Droid.
         /// </summary>
-        internal static string B2SUPERBATTLEDROID {
+        public static string B2SUPERBATTLEDROID {
             get {
                 return ResourceManager.GetString("B2SUPERBATTLEDROID", resourceCulture);
             }
@@ -216,7 +216,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Echo.
         /// </summary>
-        internal static string BADBATCHECHO {
+        public static string BADBATCHECHO {
             get {
                 return ResourceManager.GetString("BADBATCHECHO", resourceCulture);
             }
@@ -225,7 +225,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Hunter.
         /// </summary>
-        internal static string BADBATCHHUNTER {
+        public static string BADBATCHHUNTER {
             get {
                 return ResourceManager.GetString("BADBATCHHUNTER", resourceCulture);
             }
@@ -234,7 +234,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Omega.
         /// </summary>
-        internal static string BADBATCHOMEGA {
+        public static string BADBATCHOMEGA {
             get {
                 return ResourceManager.GetString("BADBATCHOMEGA", resourceCulture);
             }
@@ -243,7 +243,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Tech.
         /// </summary>
-        internal static string BADBATCHTECH {
+        public static string BADBATCHTECH {
             get {
                 return ResourceManager.GetString("BADBATCHTECH", resourceCulture);
             }
@@ -252,7 +252,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Wrecker.
         /// </summary>
-        internal static string BADBATCHWRECKER {
+        public static string BADBATCHWRECKER {
             get {
                 return ResourceManager.GetString("BADBATCHWRECKER", resourceCulture);
             }
@@ -261,7 +261,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Barriss Offee.
         /// </summary>
-        internal static string BARRISSOFFEE {
+        public static string BARRISSOFFEE {
             get {
                 return ResourceManager.GetString("BARRISSOFFEE", resourceCulture);
             }
@@ -270,7 +270,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Bastila Shan.
         /// </summary>
-        internal static string BASTILASHAN {
+        public static string BASTILASHAN {
             get {
                 return ResourceManager.GetString("BASTILASHAN", resourceCulture);
             }
@@ -279,7 +279,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Bastila Shan (Fallen).
         /// </summary>
-        internal static string BASTILASHANDARK {
+        public static string BASTILASHANDARK {
             get {
                 return ResourceManager.GetString("BASTILASHANDARK", resourceCulture);
             }
@@ -288,7 +288,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Baze Malbus.
         /// </summary>
-        internal static string BAZEMALBUS {
+        public static string BAZEMALBUS {
             get {
                 return ResourceManager.GetString("BAZEMALBUS", resourceCulture);
             }
@@ -297,7 +297,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to BB-8.
         /// </summary>
-        internal static string BB8 {
+        public static string BB8 {
             get {
                 return ResourceManager.GetString("BB8", resourceCulture);
             }
@@ -306,7 +306,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ben Solo.
         /// </summary>
-        internal static string BENSOLO {
+        public static string BENSOLO {
             get {
                 return ResourceManager.GetString("BENSOLO", resourceCulture);
             }
@@ -315,7 +315,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Biggs Darklighter.
         /// </summary>
-        internal static string BIGGSDARKLIGHTER {
+        public static string BIGGSDARKLIGHTER {
             get {
                 return ResourceManager.GetString("BIGGSDARKLIGHTER", resourceCulture);
             }
@@ -324,7 +324,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Bistan.
         /// </summary>
-        internal static string BISTAN {
+        public static string BISTAN {
             get {
                 return ResourceManager.GetString("BISTAN", resourceCulture);
             }
@@ -333,7 +333,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Plo Koon&apos;s Jedi Starfighter.
         /// </summary>
-        internal static string BLADEOFDORIN {
+        public static string BLADEOFDORIN {
             get {
                 return ResourceManager.GetString("BLADEOFDORIN", resourceCulture);
             }
@@ -342,7 +342,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Boba Fett.
         /// </summary>
-        internal static string BOBAFETT {
+        public static string BOBAFETT {
             get {
                 return ResourceManager.GetString("BOBAFETT", resourceCulture);
             }
@@ -351,7 +351,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Boba Fett, Scion of Jango.
         /// </summary>
-        internal static string BOBAFETTSCION {
+        public static string BOBAFETTSCION {
             get {
                 return ResourceManager.GetString("BOBAFETTSCION", resourceCulture);
             }
@@ -360,7 +360,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Bodhi Rook.
         /// </summary>
-        internal static string BODHIROOK {
+        public static string BODHIROOK {
             get {
                 return ResourceManager.GetString("BODHIROOK", resourceCulture);
             }
@@ -369,7 +369,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Bo-Katan Kryze.
         /// </summary>
-        internal static string BOKATAN {
+        public static string BOKATAN {
             get {
                 return ResourceManager.GetString("BOKATAN", resourceCulture);
             }
@@ -378,7 +378,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Bossk.
         /// </summary>
-        internal static string BOSSK {
+        public static string BOSSK {
             get {
                 return ResourceManager.GetString("BOSSK", resourceCulture);
             }
@@ -387,7 +387,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Boushh (Leia Organa).
         /// </summary>
-        internal static string BOUSHH {
+        public static string BOUSHH {
             get {
                 return ResourceManager.GetString("BOUSHH", resourceCulture);
             }
@@ -396,7 +396,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to BT-1.
         /// </summary>
-        internal static string BT1 {
+        public static string BT1 {
             get {
                 return ResourceManager.GetString("BT1", resourceCulture);
             }
@@ -405,7 +405,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Threepio &amp; Chewie.
         /// </summary>
-        internal static string C3POCHEWBACCA {
+        public static string C3POCHEWBACCA {
             get {
                 return ResourceManager.GetString("C3POCHEWBACCA", resourceCulture);
             }
@@ -414,7 +414,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to C-3PO.
         /// </summary>
-        internal static string C3POLEGENDARY {
+        public static string C3POLEGENDARY {
             get {
                 return ResourceManager.GetString("C3POLEGENDARY", resourceCulture);
             }
@@ -423,7 +423,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Cad Bane.
         /// </summary>
-        internal static string CADBANE {
+        public static string CADBANE {
             get {
                 return ResourceManager.GetString("CADBANE", resourceCulture);
             }
@@ -432,7 +432,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Cal Kestis.
         /// </summary>
-        internal static string CALKESTIS {
+        public static string CALKESTIS {
             get {
                 return ResourceManager.GetString("CALKESTIS", resourceCulture);
             }
@@ -441,7 +441,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Canderous Ordo.
         /// </summary>
-        internal static string CANDEROUSORDO {
+        public static string CANDEROUSORDO {
             get {
                 return ResourceManager.GetString("CANDEROUSORDO", resourceCulture);
             }
@@ -450,7 +450,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Chimaera.
         /// </summary>
-        internal static string CAPITALCHIMAERA {
+        public static string CAPITALCHIMAERA {
             get {
                 return ResourceManager.GetString("CAPITALCHIMAERA", resourceCulture);
             }
@@ -459,16 +459,25 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Executor.
         /// </summary>
-        internal static string CAPITALEXECUTOR {
+        public static string CAPITALEXECUTOR {
             get {
                 return ResourceManager.GetString("CAPITALEXECUTOR", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Exec.
+        /// </summary>
+        public static string CAPITALEXECUTOR_CHALLENGE {
+            get {
+                return ResourceManager.GetString("CAPITALEXECUTOR_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Finalizer.
         /// </summary>
-        internal static string CAPITALFINALIZER {
+        public static string CAPITALFINALIZER {
             get {
                 return ResourceManager.GetString("CAPITALFINALIZER", resourceCulture);
             }
@@ -477,7 +486,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Endurance.
         /// </summary>
-        internal static string CAPITALJEDICRUISER {
+        public static string CAPITALJEDICRUISER {
             get {
                 return ResourceManager.GetString("CAPITALJEDICRUISER", resourceCulture);
             }
@@ -486,16 +495,25 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Leviathan.
         /// </summary>
-        internal static string CAPITALLEVIATHAN {
+        public static string CAPITALLEVIATHAN {
             get {
                 return ResourceManager.GetString("CAPITALLEVIATHAN", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Levi.
+        /// </summary>
+        public static string CAPITALLEVIATHAN_CHALLENGE {
+            get {
+                return ResourceManager.GetString("CAPITALLEVIATHAN_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Malevolence.
         /// </summary>
-        internal static string CAPITALMALEVOLENCE {
+        public static string CAPITALMALEVOLENCE {
             get {
                 return ResourceManager.GetString("CAPITALMALEVOLENCE", resourceCulture);
             }
@@ -504,7 +522,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Home One.
         /// </summary>
-        internal static string CAPITALMONCALAMARICRUISER {
+        public static string CAPITALMONCALAMARICRUISER {
             get {
                 return ResourceManager.GetString("CAPITALMONCALAMARICRUISER", resourceCulture);
             }
@@ -513,7 +531,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Negotiator.
         /// </summary>
-        internal static string CAPITALNEGOTIATOR {
+        public static string CAPITALNEGOTIATOR {
             get {
                 return ResourceManager.GetString("CAPITALNEGOTIATOR", resourceCulture);
             }
@@ -522,16 +540,25 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Profundity.
         /// </summary>
-        internal static string CAPITALPROFUNDITY {
+        public static string CAPITALPROFUNDITY {
             get {
                 return ResourceManager.GetString("CAPITALPROFUNDITY", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Prof.
+        /// </summary>
+        public static string CAPITALPROFUNDITY_CHALLENGE {
+            get {
+                return ResourceManager.GetString("CAPITALPROFUNDITY_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Raddus.
         /// </summary>
-        internal static string CAPITALRADDUS {
+        public static string CAPITALRADDUS {
             get {
                 return ResourceManager.GetString("CAPITALRADDUS", resourceCulture);
             }
@@ -540,7 +567,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Executrix.
         /// </summary>
-        internal static string CAPITALSTARDESTROYER {
+        public static string CAPITALSTARDESTROYER {
             get {
                 return ResourceManager.GetString("CAPITALSTARDESTROYER", resourceCulture);
             }
@@ -549,7 +576,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Captain Drogan.
         /// </summary>
-        internal static string CAPTAINDROGAN {
+        public static string CAPTAINDROGAN {
             get {
                 return ResourceManager.GetString("CAPTAINDROGAN", resourceCulture);
             }
@@ -558,7 +585,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Captain Rex.
         /// </summary>
-        internal static string CAPTAINREX {
+        public static string CAPTAINREX {
             get {
                 return ResourceManager.GetString("CAPTAINREX", resourceCulture);
             }
@@ -567,7 +594,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Cara Dune.
         /// </summary>
-        internal static string CARADUNE {
+        public static string CARADUNE {
             get {
                 return ResourceManager.GetString("CARADUNE", resourceCulture);
             }
@@ -576,7 +603,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Carth Onasi.
         /// </summary>
-        internal static string CARTHONASI {
+        public static string CARTHONASI {
             get {
                 return ResourceManager.GetString("CARTHONASI", resourceCulture);
             }
@@ -585,7 +612,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Cassian Andor.
         /// </summary>
-        internal static string CASSIANANDOR {
+        public static string CASSIANANDOR {
             get {
                 return ResourceManager.GetString("CASSIANANDOR", resourceCulture);
             }
@@ -594,7 +621,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to CC-2224 &quot;Cody&quot;.
         /// </summary>
-        internal static string CC2224 {
+        public static string CC2224 {
             get {
                 return ResourceManager.GetString("CC2224", resourceCulture);
             }
@@ -603,7 +630,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Cere Junda.
         /// </summary>
-        internal static string CEREJUNDA {
+        public static string CEREJUNDA {
             get {
                 return ResourceManager.GetString("CEREJUNDA", resourceCulture);
             }
@@ -612,7 +639,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Chewbacca.
         /// </summary>
-        internal static string CHEWBACCALEGENDARY {
+        public static string CHEWBACCALEGENDARY {
             get {
                 return ResourceManager.GetString("CHEWBACCALEGENDARY", resourceCulture);
             }
@@ -621,7 +648,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Chief Chirpa.
         /// </summary>
-        internal static string CHIEFCHIRPA {
+        public static string CHIEFCHIRPA {
             get {
                 return ResourceManager.GetString("CHIEFCHIRPA", resourceCulture);
             }
@@ -630,7 +657,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Chief Nebit.
         /// </summary>
-        internal static string CHIEFNEBIT {
+        public static string CHIEFNEBIT {
             get {
                 return ResourceManager.GetString("CHIEFNEBIT", resourceCulture);
             }
@@ -639,7 +666,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Chirrut Îmwe.
         /// </summary>
-        internal static string CHIRRUTIMWE {
+        public static string CHIRRUTIMWE {
             get {
                 return ResourceManager.GetString("CHIRRUTIMWE", resourceCulture);
             }
@@ -648,7 +675,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Chopper.
         /// </summary>
-        internal static string CHOPPERS3 {
+        public static string CHOPPERS3 {
             get {
                 return ResourceManager.GetString("CHOPPERS3", resourceCulture);
             }
@@ -657,7 +684,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Clone Sergeant - Phase I.
         /// </summary>
-        internal static string CLONESERGEANTPHASEI {
+        public static string CLONESERGEANTPHASEI {
             get {
                 return ResourceManager.GetString("CLONESERGEANTPHASEI", resourceCulture);
             }
@@ -666,7 +693,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Clone Wars Chewbacca.
         /// </summary>
-        internal static string CLONEWARSCHEWBACCA {
+        public static string CLONEWARSCHEWBACCA {
             get {
                 return ResourceManager.GetString("CLONEWARSCHEWBACCA", resourceCulture);
             }
@@ -675,7 +702,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Colonel Starck.
         /// </summary>
-        internal static string COLONELSTARCK {
+        public static string COLONELSTARCK {
             get {
                 return ResourceManager.GetString("COLONELSTARCK", resourceCulture);
             }
@@ -684,7 +711,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Commander Ahsoka Tano.
         /// </summary>
-        internal static string COMMANDERAHSOKA {
+        public static string COMMANDERAHSOKA {
             get {
                 return ResourceManager.GetString("COMMANDERAHSOKA", resourceCulture);
             }
@@ -693,7 +720,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Commander Luke Skywalker.
         /// </summary>
-        internal static string COMMANDERLUKESKYWALKER {
+        public static string COMMANDERLUKESKYWALKER {
             get {
                 return ResourceManager.GetString("COMMANDERLUKESKYWALKER", resourceCulture);
             }
@@ -702,7 +729,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Kylo Ren&apos;s Command Shuttle.
         /// </summary>
-        internal static string COMMANDSHUTTLE {
+        public static string COMMANDSHUTTLE {
             get {
                 return ResourceManager.GetString("COMMANDSHUTTLE", resourceCulture);
             }
@@ -711,7 +738,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Coruscant Underworld Police.
         /// </summary>
-        internal static string CORUSCANTUNDERWORLDPOLICE {
+        public static string CORUSCANTUNDERWORLDPOLICE {
             get {
                 return ResourceManager.GetString("CORUSCANTUNDERWORLDPOLICE", resourceCulture);
             }
@@ -720,7 +747,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Count Dooku.
         /// </summary>
-        internal static string COUNTDOOKU {
+        public static string COUNTDOOKU {
             get {
                 return ResourceManager.GetString("COUNTDOOKU", resourceCulture);
             }
@@ -729,7 +756,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to CT-21-0408 &quot;Echo&quot;.
         /// </summary>
-        internal static string CT210408 {
+        public static string CT210408 {
             get {
                 return ResourceManager.GetString("CT210408", resourceCulture);
             }
@@ -738,7 +765,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to CT-5555 &quot;Fives&quot;.
         /// </summary>
-        internal static string CT5555 {
+        public static string CT5555 {
             get {
                 return ResourceManager.GetString("CT5555", resourceCulture);
             }
@@ -747,7 +774,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to CT-7567 &quot;Rex&quot;.
         /// </summary>
-        internal static string CT7567 {
+        public static string CT7567 {
             get {
                 return ResourceManager.GetString("CT7567", resourceCulture);
             }
@@ -756,7 +783,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Old Daka.
         /// </summary>
-        internal static string DAKA {
+        public static string DAKA {
             get {
                 return ResourceManager.GetString("DAKA", resourceCulture);
             }
@@ -765,7 +792,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Dark Trooper.
         /// </summary>
-        internal static string DARKTROOPER {
+        public static string DARKTROOPER {
             get {
                 return ResourceManager.GetString("DARKTROOPER", resourceCulture);
             }
@@ -774,7 +801,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Darth Malak.
         /// </summary>
-        internal static string DARTHMALAK {
+        public static string DARTHMALAK {
             get {
                 return ResourceManager.GetString("DARTHMALAK", resourceCulture);
             }
@@ -783,7 +810,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Darth Malgus.
         /// </summary>
-        internal static string DARTHMALGUS {
+        public static string DARTHMALGUS {
             get {
                 return ResourceManager.GetString("DARTHMALGUS", resourceCulture);
             }
@@ -792,7 +819,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Darth Nihilus.
         /// </summary>
-        internal static string DARTHNIHILUS {
+        public static string DARTHNIHILUS {
             get {
                 return ResourceManager.GetString("DARTHNIHILUS", resourceCulture);
             }
@@ -801,7 +828,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Darth Revan.
         /// </summary>
-        internal static string DARTHREVAN {
+        public static string DARTHREVAN {
             get {
                 return ResourceManager.GetString("DARTHREVAN", resourceCulture);
             }
@@ -810,7 +837,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Darth Sidious.
         /// </summary>
-        internal static string DARTHSIDIOUS {
+        public static string DARTHSIDIOUS {
             get {
                 return ResourceManager.GetString("DARTHSIDIOUS", resourceCulture);
             }
@@ -819,7 +846,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Darth Sion.
         /// </summary>
-        internal static string DARTHSION {
+        public static string DARTHSION {
             get {
                 return ResourceManager.GetString("DARTHSION", resourceCulture);
             }
@@ -828,7 +855,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Darth Talon.
         /// </summary>
-        internal static string DARTHTALON {
+        public static string DARTHTALON {
             get {
                 return ResourceManager.GetString("DARTHTALON", resourceCulture);
             }
@@ -837,7 +864,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Darth Traya.
         /// </summary>
-        internal static string DARTHTRAYA {
+        public static string DARTHTRAYA {
             get {
                 return ResourceManager.GetString("DARTHTRAYA", resourceCulture);
             }
@@ -846,7 +873,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Dash Rendar.
         /// </summary>
-        internal static string DASHRENDAR {
+        public static string DASHRENDAR {
             get {
                 return ResourceManager.GetString("DASHRENDAR", resourceCulture);
             }
@@ -855,7 +882,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Dathcha.
         /// </summary>
-        internal static string DATHCHA {
+        public static string DATHCHA {
             get {
                 return ResourceManager.GetString("DATHCHA", resourceCulture);
             }
@@ -864,7 +891,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Death Trooper.
         /// </summary>
-        internal static string DEATHTROOPER {
+        public static string DEATHTROOPER {
             get {
                 return ResourceManager.GetString("DEATHTROOPER", resourceCulture);
             }
@@ -873,7 +900,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Dengar.
         /// </summary>
-        internal static string DENGAR {
+        public static string DENGAR {
             get {
                 return ResourceManager.GetString("DENGAR", resourceCulture);
             }
@@ -882,7 +909,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Director Krennic.
         /// </summary>
-        internal static string DIRECTORKRENNIC {
+        public static string DIRECTORKRENNIC {
             get {
                 return ResourceManager.GetString("DIRECTORKRENNIC", resourceCulture);
             }
@@ -891,16 +918,25 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Doctor Aphra.
         /// </summary>
-        internal static string DOCTORAPHRA {
+        public static string DOCTORAPHRA {
             get {
                 return ResourceManager.GetString("DOCTORAPHRA", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Aphra.
+        /// </summary>
+        public static string DOCTORAPHRA_CHALLENGE {
+            get {
+                return ResourceManager.GetString("DOCTORAPHRA_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Droideka.
         /// </summary>
-        internal static string DROIDEKA {
+        public static string DROIDEKA {
             get {
                 return ResourceManager.GetString("DROIDEKA", resourceCulture);
             }
@@ -909,7 +945,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ebon Hawk.
         /// </summary>
-        internal static string EBONHAWK {
+        public static string EBONHAWK {
             get {
                 return ResourceManager.GetString("EBONHAWK", resourceCulture);
             }
@@ -918,7 +954,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Eeth Koth.
         /// </summary>
-        internal static string EETHKOTH {
+        public static string EETHKOTH {
             get {
                 return ResourceManager.GetString("EETHKOTH", resourceCulture);
             }
@@ -927,7 +963,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Eighth Brother.
         /// </summary>
-        internal static string EIGHTHBROTHER {
+        public static string EIGHTHBROTHER {
             get {
                 return ResourceManager.GetString("EIGHTHBROTHER", resourceCulture);
             }
@@ -936,7 +972,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Embo.
         /// </summary>
-        internal static string EMBO {
+        public static string EMBO {
             get {
                 return ResourceManager.GetString("EMBO", resourceCulture);
             }
@@ -945,7 +981,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Emperor Palpatine.
         /// </summary>
-        internal static string EMPERORPALPATINE {
+        public static string EMPERORPALPATINE {
             get {
                 return ResourceManager.GetString("EMPERORPALPATINE", resourceCulture);
             }
@@ -954,7 +990,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Emperor&apos;s Shuttle.
         /// </summary>
-        internal static string EMPERORSSHUTTLE {
+        public static string EMPERORSSHUTTLE {
             get {
                 return ResourceManager.GetString("EMPERORSSHUTTLE", resourceCulture);
             }
@@ -963,7 +999,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Enfys Nest.
         /// </summary>
-        internal static string ENFYSNEST {
+        public static string ENFYSNEST {
             get {
                 return ResourceManager.GetString("ENFYSNEST", resourceCulture);
             }
@@ -972,7 +1008,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Resistance Hero Finn.
         /// </summary>
-        internal static string EPIXFINN {
+        public static string EPIXFINN {
             get {
                 return ResourceManager.GetString("EPIXFINN", resourceCulture);
             }
@@ -981,7 +1017,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Resistance Hero Poe.
         /// </summary>
-        internal static string EPIXPOE {
+        public static string EPIXPOE {
             get {
                 return ResourceManager.GetString("EPIXPOE", resourceCulture);
             }
@@ -990,7 +1026,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ewok Elder.
         /// </summary>
-        internal static string EWOKELDER {
+        public static string EWOKELDER {
             get {
                 return ResourceManager.GetString("EWOKELDER", resourceCulture);
             }
@@ -999,7 +1035,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ewok Scout.
         /// </summary>
-        internal static string EWOKSCOUT {
+        public static string EWOKSCOUT {
             get {
                 return ResourceManager.GetString("EWOKSCOUT", resourceCulture);
             }
@@ -1008,7 +1044,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ezra Bridger.
         /// </summary>
-        internal static string EZRABRIDGERS3 {
+        public static string EZRABRIDGERS3 {
             get {
                 return ResourceManager.GetString("EZRABRIDGERS3", resourceCulture);
             }
@@ -1017,7 +1053,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Fennec Shand.
         /// </summary>
-        internal static string FENNECSHAND {
+        public static string FENNECSHAND {
             get {
                 return ResourceManager.GetString("FENNECSHAND", resourceCulture);
             }
@@ -1026,7 +1062,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Fifth Brother.
         /// </summary>
-        internal static string FIFTHBROTHER {
+        public static string FIFTHBROTHER {
             get {
                 return ResourceManager.GetString("FIFTHBROTHER", resourceCulture);
             }
@@ -1035,7 +1071,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Finn.
         /// </summary>
-        internal static string FINN {
+        public static string FINN {
             get {
                 return ResourceManager.GetString("FINN", resourceCulture);
             }
@@ -1044,7 +1080,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to First Order Executioner.
         /// </summary>
-        internal static string FIRSTORDEREXECUTIONER {
+        public static string FIRSTORDEREXECUTIONER {
             get {
                 return ResourceManager.GetString("FIRSTORDEREXECUTIONER", resourceCulture);
             }
@@ -1053,7 +1089,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to First Order Officer.
         /// </summary>
-        internal static string FIRSTORDEROFFICERMALE {
+        public static string FIRSTORDEROFFICERMALE {
             get {
                 return ResourceManager.GetString("FIRSTORDEROFFICERMALE", resourceCulture);
             }
@@ -1062,7 +1098,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to First Order SF TIE Pilot.
         /// </summary>
-        internal static string FIRSTORDERSPECIALFORCESPILOT {
+        public static string FIRSTORDERSPECIALFORCESPILOT {
             get {
                 return ResourceManager.GetString("FIRSTORDERSPECIALFORCESPILOT", resourceCulture);
             }
@@ -1071,7 +1107,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to TIE Echelon.
         /// </summary>
-        internal static string FIRSTORDERTIEECHELON {
+        public static string FIRSTORDERTIEECHELON {
             get {
                 return ResourceManager.GetString("FIRSTORDERTIEECHELON", resourceCulture);
             }
@@ -1080,7 +1116,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to First Order TIE Pilot.
         /// </summary>
-        internal static string FIRSTORDERTIEPILOT {
+        public static string FIRSTORDERTIEPILOT {
             get {
                 return ResourceManager.GetString("FIRSTORDERTIEPILOT", resourceCulture);
             }
@@ -1089,7 +1125,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to First Order Stormtrooper.
         /// </summary>
-        internal static string FIRSTORDERTROOPER {
+        public static string FIRSTORDERTROOPER {
             get {
                 return ResourceManager.GetString("FIRSTORDERTROOPER", resourceCulture);
             }
@@ -1098,7 +1134,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Sith Trooper.
         /// </summary>
-        internal static string FOSITHTROOPER {
+        public static string FOSITHTROOPER {
             get {
                 return ResourceManager.GetString("FOSITHTROOPER", resourceCulture);
             }
@@ -1107,7 +1143,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ahsoka Tano (Fulcrum).
         /// </summary>
-        internal static string FULCRUMAHSOKA {
+        public static string FULCRUMAHSOKA {
             get {
                 return ResourceManager.GetString("FULCRUMAHSOKA", resourceCulture);
             }
@@ -1116,7 +1152,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Fury-class Interceptor.
         /// </summary>
-        internal static string FURYCLASSINTERCEPTOR {
+        public static string FURYCLASSINTERCEPTOR {
             get {
                 return ResourceManager.GetString("FURYCLASSINTERCEPTOR", resourceCulture);
             }
@@ -1125,7 +1161,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Gamorrean Guard.
         /// </summary>
-        internal static string GAMORREANGUARD {
+        public static string GAMORREANGUARD {
             get {
                 return ResourceManager.GetString("GAMORREANGUARD", resourceCulture);
             }
@@ -1134,7 +1170,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Gar Saxon.
         /// </summary>
-        internal static string GARSAXON {
+        public static string GARSAXON {
             get {
                 return ResourceManager.GetString("GARSAXON", resourceCulture);
             }
@@ -1143,7 +1179,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Gauntlet Starfighter.
         /// </summary>
-        internal static string GAUNTLETSTARFIGHTER {
+        public static string GAUNTLETSTARFIGHTER {
             get {
                 return ResourceManager.GetString("GAUNTLETSTARFIGHTER", resourceCulture);
             }
@@ -1152,7 +1188,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to General Hux.
         /// </summary>
-        internal static string GENERALHUX {
+        public static string GENERALHUX {
             get {
                 return ResourceManager.GetString("GENERALHUX", resourceCulture);
             }
@@ -1161,7 +1197,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to General Kenobi.
         /// </summary>
-        internal static string GENERALKENOBI {
+        public static string GENERALKENOBI {
             get {
                 return ResourceManager.GetString("GENERALKENOBI", resourceCulture);
             }
@@ -1170,7 +1206,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to General Skywalker.
         /// </summary>
-        internal static string GENERALSKYWALKER {
+        public static string GENERALSKYWALKER {
             get {
                 return ResourceManager.GetString("GENERALSKYWALKER", resourceCulture);
             }
@@ -1179,7 +1215,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Geonosian Brood Alpha.
         /// </summary>
-        internal static string GEONOSIANBROODALPHA {
+        public static string GEONOSIANBROODALPHA {
             get {
                 return ResourceManager.GetString("GEONOSIANBROODALPHA", resourceCulture);
             }
@@ -1188,7 +1224,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Geonosian Soldier.
         /// </summary>
-        internal static string GEONOSIANSOLDIER {
+        public static string GEONOSIANSOLDIER {
             get {
                 return ResourceManager.GetString("GEONOSIANSOLDIER", resourceCulture);
             }
@@ -1197,7 +1233,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Geonosian Spy.
         /// </summary>
-        internal static string GEONOSIANSPY {
+        public static string GEONOSIANSPY {
             get {
                 return ResourceManager.GetString("GEONOSIANSPY", resourceCulture);
             }
@@ -1206,7 +1242,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Sun Fac&apos;s Geonosian Starfighter.
         /// </summary>
-        internal static string GEONOSIANSTARFIGHTER1 {
+        public static string GEONOSIANSTARFIGHTER1 {
             get {
                 return ResourceManager.GetString("GEONOSIANSTARFIGHTER1", resourceCulture);
             }
@@ -1215,7 +1251,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Geonosian Soldier&apos;s Starfighter.
         /// </summary>
-        internal static string GEONOSIANSTARFIGHTER2 {
+        public static string GEONOSIANSTARFIGHTER2 {
             get {
                 return ResourceManager.GetString("GEONOSIANSTARFIGHTER2", resourceCulture);
             }
@@ -1224,7 +1260,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Geonosian Spy&apos;s Starfighter.
         /// </summary>
-        internal static string GEONOSIANSTARFIGHTER3 {
+        public static string GEONOSIANSTARFIGHTER3 {
             get {
                 return ResourceManager.GetString("GEONOSIANSTARFIGHTER3", resourceCulture);
             }
@@ -1233,7 +1269,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ghost.
         /// </summary>
-        internal static string GHOST {
+        public static string GHOST {
             get {
                 return ResourceManager.GetString("GHOST", resourceCulture);
             }
@@ -1242,25 +1278,43 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Leia Organa.
         /// </summary>
-        internal static string GLLEIA {
+        public static string GLLEIA {
             get {
                 return ResourceManager.GetString("GLLEIA", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Leia.
+        /// </summary>
+        public static string GLLEIA_CHALLENGE {
+            get {
+                return ResourceManager.GetString("GLLEIA_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rey.
         /// </summary>
-        internal static string GLREY {
+        public static string GLREY {
             get {
                 return ResourceManager.GetString("GLREY", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rey.
+        /// </summary>
+        public static string GLREY_CHALLENGE {
+            get {
+                return ResourceManager.GetString("GLREY_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Grand Admiral Thrawn.
         /// </summary>
-        internal static string GRANDADMIRALTHRAWN {
+        public static string GRANDADMIRALTHRAWN {
             get {
                 return ResourceManager.GetString("GRANDADMIRALTHRAWN", resourceCulture);
             }
@@ -1269,25 +1323,43 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Grand Inquisitor.
         /// </summary>
-        internal static string GRANDINQUISITOR {
+        public static string GRANDINQUISITOR {
             get {
                 return ResourceManager.GetString("GRANDINQUISITOR", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to GI.
+        /// </summary>
+        public static string GRANDINQUISITOR_CHALLENGE {
+            get {
+                return ResourceManager.GetString("GRANDINQUISITOR_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Jedi Master Luke Skywalker.
         /// </summary>
-        internal static string GRANDMASTERLUKE {
+        public static string GRANDMASTERLUKE {
             get {
                 return ResourceManager.GetString("GRANDMASTERLUKE", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to GML.
+        /// </summary>
+        public static string GRANDMASTERLUKE_CHALLENGE {
+            get {
+                return ResourceManager.GetString("GRANDMASTERLUKE_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Grand Master Yoda.
         /// </summary>
-        internal static string GRANDMASTERYODA {
+        public static string GRANDMASTERYODA {
             get {
                 return ResourceManager.GetString("GRANDMASTERYODA", resourceCulture);
             }
@@ -1296,7 +1368,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Grand Moff Tarkin.
         /// </summary>
-        internal static string GRANDMOFFTARKIN {
+        public static string GRANDMOFFTARKIN {
             get {
                 return ResourceManager.GetString("GRANDMOFFTARKIN", resourceCulture);
             }
@@ -1305,7 +1377,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Greedo.
         /// </summary>
-        internal static string GREEDO {
+        public static string GREEDO {
             get {
                 return ResourceManager.GetString("GREEDO", resourceCulture);
             }
@@ -1314,7 +1386,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Greef Karga.
         /// </summary>
-        internal static string GREEFKARGA {
+        public static string GREEFKARGA {
             get {
                 return ResourceManager.GetString("GREEFKARGA", resourceCulture);
             }
@@ -1323,7 +1395,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to General Grievous.
         /// </summary>
-        internal static string GRIEVOUS {
+        public static string GRIEVOUS {
             get {
                 return ResourceManager.GetString("GRIEVOUS", resourceCulture);
             }
@@ -1332,7 +1404,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Han Solo.
         /// </summary>
-        internal static string HANSOLO {
+        public static string HANSOLO {
             get {
                 return ResourceManager.GetString("HANSOLO", resourceCulture);
             }
@@ -1341,7 +1413,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Hera Syndulla.
         /// </summary>
-        internal static string HERASYNDULLAS3 {
+        public static string HERASYNDULLAS3 {
             get {
                 return ResourceManager.GetString("HERASYNDULLAS3", resourceCulture);
             }
@@ -1350,7 +1422,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Hermit Yoda.
         /// </summary>
-        internal static string HERMITYODA {
+        public static string HERMITYODA {
             get {
                 return ResourceManager.GetString("HERMITYODA", resourceCulture);
             }
@@ -1359,7 +1431,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to HK-47.
         /// </summary>
-        internal static string HK47 {
+        public static string HK47 {
             get {
                 return ResourceManager.GetString("HK47", resourceCulture);
             }
@@ -1368,7 +1440,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Hondo Ohnaka.
         /// </summary>
-        internal static string HONDO {
+        public static string HONDO {
             get {
                 return ResourceManager.GetString("HONDO", resourceCulture);
             }
@@ -1377,7 +1449,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Captain Han Solo.
         /// </summary>
-        internal static string HOTHHAN {
+        public static string HOTHHAN {
             get {
                 return ResourceManager.GetString("HOTHHAN", resourceCulture);
             }
@@ -1386,7 +1458,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Rebel Officer Leia Organa.
         /// </summary>
-        internal static string HOTHLEIA {
+        public static string HOTHLEIA {
             get {
                 return ResourceManager.GetString("HOTHLEIA", resourceCulture);
             }
@@ -1395,7 +1467,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Hoth Rebel Scout.
         /// </summary>
-        internal static string HOTHREBELSCOUT {
+        public static string HOTHREBELSCOUT {
             get {
                 return ResourceManager.GetString("HOTHREBELSCOUT", resourceCulture);
             }
@@ -1404,7 +1476,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Hoth Rebel Soldier.
         /// </summary>
-        internal static string HOTHREBELSOLDIER {
+        public static string HOTHREBELSOLDIER {
             get {
                 return ResourceManager.GetString("HOTHREBELSOLDIER", resourceCulture);
             }
@@ -1413,7 +1485,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Hound&apos;s Tooth.
         /// </summary>
-        internal static string HOUNDSTOOTH {
+        public static string HOUNDSTOOTH {
             get {
                 return ResourceManager.GetString("HOUNDSTOOTH", resourceCulture);
             }
@@ -1422,7 +1494,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Mob Enforcer.
         /// </summary>
-        internal static string HUMANTHUG {
+        public static string HUMANTHUG {
             get {
                 return ResourceManager.GetString("HUMANTHUG", resourceCulture);
             }
@@ -1431,7 +1503,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Hyena Bomber.
         /// </summary>
-        internal static string HYENABOMBER {
+        public static string HYENABOMBER {
             get {
                 return ResourceManager.GetString("HYENABOMBER", resourceCulture);
             }
@@ -1440,7 +1512,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Iden Versio.
         /// </summary>
-        internal static string IDENVERSIOEMPIRE {
+        public static string IDENVERSIOEMPIRE {
             get {
                 return ResourceManager.GetString("IDENVERSIOEMPIRE", resourceCulture);
             }
@@ -1449,7 +1521,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to IG-11.
         /// </summary>
-        internal static string IG11 {
+        public static string IG11 {
             get {
                 return ResourceManager.GetString("IG11", resourceCulture);
             }
@@ -1458,7 +1530,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to IG-2000.
         /// </summary>
-        internal static string IG2000 {
+        public static string IG2000 {
             get {
                 return ResourceManager.GetString("IG2000", resourceCulture);
             }
@@ -1467,7 +1539,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to IG-86 Sentinel Droid.
         /// </summary>
-        internal static string IG86SENTINELDROID {
+        public static string IG86SENTINELDROID {
             get {
                 return ResourceManager.GetString("IG86SENTINELDROID", resourceCulture);
             }
@@ -1476,7 +1548,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to IG-88.
         /// </summary>
-        internal static string IG88 {
+        public static string IG88 {
             get {
                 return ResourceManager.GetString("IG88", resourceCulture);
             }
@@ -1485,7 +1557,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ima-Gun Di.
         /// </summary>
-        internal static string IMAGUNDI {
+        public static string IMAGUNDI {
             get {
                 return ResourceManager.GetString("IMAGUNDI", resourceCulture);
             }
@@ -1494,7 +1566,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Imperial Probe Droid.
         /// </summary>
-        internal static string IMPERIALPROBEDROID {
+        public static string IMPERIALPROBEDROID {
             get {
                 return ResourceManager.GetString("IMPERIALPROBEDROID", resourceCulture);
             }
@@ -1503,7 +1575,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Imperial Super Commando.
         /// </summary>
-        internal static string IMPERIALSUPERCOMMANDO {
+        public static string IMPERIALSUPERCOMMANDO {
             get {
                 return ResourceManager.GetString("IMPERIALSUPERCOMMANDO", resourceCulture);
             }
@@ -1512,16 +1584,25 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jabba the Hutt.
         /// </summary>
-        internal static string JABBATHEHUTT {
+        public static string JABBATHEHUTT {
             get {
                 return ResourceManager.GetString("JABBATHEHUTT", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Jabba.
+        /// </summary>
+        public static string JABBATHEHUTT_CHALLENGE {
+            get {
+                return ResourceManager.GetString("JABBATHEHUTT_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Jango Fett.
         /// </summary>
-        internal static string JANGOFETT {
+        public static string JANGOFETT {
             get {
                 return ResourceManager.GetString("JANGOFETT", resourceCulture);
             }
@@ -1530,7 +1611,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jawa.
         /// </summary>
-        internal static string JAWA {
+        public static string JAWA {
             get {
                 return ResourceManager.GetString("JAWA", resourceCulture);
             }
@@ -1539,7 +1620,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jawa Engineer.
         /// </summary>
-        internal static string JAWAENGINEER {
+        public static string JAWAENGINEER {
             get {
                 return ResourceManager.GetString("JAWAENGINEER", resourceCulture);
             }
@@ -1548,7 +1629,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jawa Scavenger.
         /// </summary>
-        internal static string JAWASCAVENGER {
+        public static string JAWASCAVENGER {
             get {
                 return ResourceManager.GetString("JAWASCAVENGER", resourceCulture);
             }
@@ -1557,16 +1638,25 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jedi Knight Cal Kestis.
         /// </summary>
-        internal static string JEDIKNIGHTCAL {
+        public static string JEDIKNIGHTCAL {
             get {
                 return ResourceManager.GetString("JEDIKNIGHTCAL", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to JKCK.
+        /// </summary>
+        public static string JEDIKNIGHTCAL_CHALLENGE {
+            get {
+                return ResourceManager.GetString("JEDIKNIGHTCAL_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Jedi Consular.
         /// </summary>
-        internal static string JEDIKNIGHTCONSULAR {
+        public static string JEDIKNIGHTCONSULAR {
             get {
                 return ResourceManager.GetString("JEDIKNIGHTCONSULAR", resourceCulture);
             }
@@ -1575,7 +1665,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jedi Knight Guardian.
         /// </summary>
-        internal static string JEDIKNIGHTGUARDIAN {
+        public static string JEDIKNIGHTGUARDIAN {
             get {
                 return ResourceManager.GetString("JEDIKNIGHTGUARDIAN", resourceCulture);
             }
@@ -1584,7 +1674,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jedi Knight Luke Skywalker.
         /// </summary>
-        internal static string JEDIKNIGHTLUKE {
+        public static string JEDIKNIGHTLUKE {
             get {
                 return ResourceManager.GetString("JEDIKNIGHTLUKE", resourceCulture);
             }
@@ -1593,7 +1683,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jedi Knight Revan.
         /// </summary>
-        internal static string JEDIKNIGHTREVAN {
+        public static string JEDIKNIGHTREVAN {
             get {
                 return ResourceManager.GetString("JEDIKNIGHTREVAN", resourceCulture);
             }
@@ -1602,16 +1692,25 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jedi Master Kenobi.
         /// </summary>
-        internal static string JEDIMASTERKENOBI {
+        public static string JEDIMASTERKENOBI {
             get {
                 return ResourceManager.GetString("JEDIMASTERKENOBI", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to JMK.
+        /// </summary>
+        public static string JEDIMASTERKENOBI_CHALLENGE {
+            get {
+                return ResourceManager.GetString("JEDIMASTERKENOBI_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Ahsoka Tano&apos;s Jedi Starfighter.
         /// </summary>
-        internal static string JEDISTARFIGHTERAHSOKATANO {
+        public static string JEDISTARFIGHTERAHSOKATANO {
             get {
                 return ResourceManager.GetString("JEDISTARFIGHTERAHSOKATANO", resourceCulture);
             }
@@ -1620,7 +1719,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Anakin&apos;s Eta-2 Starfighter.
         /// </summary>
-        internal static string JEDISTARFIGHTERANAKIN {
+        public static string JEDISTARFIGHTERANAKIN {
             get {
                 return ResourceManager.GetString("JEDISTARFIGHTERANAKIN", resourceCulture);
             }
@@ -1629,7 +1728,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jedi Consular&apos;s Starfighter.
         /// </summary>
-        internal static string JEDISTARFIGHTERCONSULAR {
+        public static string JEDISTARFIGHTERCONSULAR {
             get {
                 return ResourceManager.GetString("JEDISTARFIGHTERCONSULAR", resourceCulture);
             }
@@ -1638,7 +1737,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jolee Bindo.
         /// </summary>
-        internal static string JOLEEBINDO {
+        public static string JOLEEBINDO {
             get {
                 return ResourceManager.GetString("JOLEEBINDO", resourceCulture);
             }
@@ -1647,7 +1746,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Juhani.
         /// </summary>
-        internal static string JUHANI {
+        public static string JUHANI {
             get {
                 return ResourceManager.GetString("JUHANI", resourceCulture);
             }
@@ -1656,7 +1755,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Jyn Erso.
         /// </summary>
-        internal static string JYNERSO {
+        public static string JYNERSO {
             get {
                 return ResourceManager.GetString("JYNERSO", resourceCulture);
             }
@@ -1665,7 +1764,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to K-2SO.
         /// </summary>
-        internal static string K2SO {
+        public static string K2SO {
             get {
                 return ResourceManager.GetString("K2SO", resourceCulture);
             }
@@ -1674,7 +1773,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Kanan Jarrus.
         /// </summary>
-        internal static string KANANJARRUSS3 {
+        public static string KANANJARRUSS3 {
             get {
                 return ResourceManager.GetString("KANANJARRUSS3", resourceCulture);
             }
@@ -1683,7 +1782,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ki-Adi-Mundi.
         /// </summary>
-        internal static string KIADIMUNDI {
+        public static string KIADIMUNDI {
             get {
                 return ResourceManager.GetString("KIADIMUNDI", resourceCulture);
             }
@@ -1692,7 +1791,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Kit Fisto.
         /// </summary>
-        internal static string KITFISTO {
+        public static string KITFISTO {
             get {
                 return ResourceManager.GetString("KITFISTO", resourceCulture);
             }
@@ -1701,7 +1800,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Krrsantan.
         /// </summary>
-        internal static string KRRSANTAN {
+        public static string KRRSANTAN {
             get {
                 return ResourceManager.GetString("KRRSANTAN", resourceCulture);
             }
@@ -1710,7 +1809,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Kuiil.
         /// </summary>
-        internal static string KUIIL {
+        public static string KUIIL {
             get {
                 return ResourceManager.GetString("KUIIL", resourceCulture);
             }
@@ -1719,7 +1818,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Kyle Katarn.
         /// </summary>
-        internal static string KYLEKATARN {
+        public static string KYLEKATARN {
             get {
                 return ResourceManager.GetString("KYLEKATARN", resourceCulture);
             }
@@ -1728,7 +1827,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Kylo Ren.
         /// </summary>
-        internal static string KYLOREN {
+        public static string KYLOREN {
             get {
                 return ResourceManager.GetString("KYLOREN", resourceCulture);
             }
@@ -1737,7 +1836,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Kylo Ren (Unmasked).
         /// </summary>
-        internal static string KYLORENUNMASKED {
+        public static string KYLORENUNMASKED {
             get {
                 return ResourceManager.GetString("KYLORENUNMASKED", resourceCulture);
             }
@@ -1746,7 +1845,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to L3-37.
         /// </summary>
-        internal static string L3_37 {
+        public static string L3_37 {
             get {
                 return ResourceManager.GetString("L3_37", resourceCulture);
             }
@@ -1755,7 +1854,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Lobot.
         /// </summary>
-        internal static string LOBOT {
+        public static string LOBOT {
             get {
                 return ResourceManager.GetString("LOBOT", resourceCulture);
             }
@@ -1764,7 +1863,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Logray.
         /// </summary>
-        internal static string LOGRAY {
+        public static string LOGRAY {
             get {
                 return ResourceManager.GetString("LOGRAY", resourceCulture);
             }
@@ -1773,16 +1872,25 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Lord Vader.
         /// </summary>
-        internal static string LORDVADER {
+        public static string LORDVADER {
             get {
                 return ResourceManager.GetString("LORDVADER", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to LV.
+        /// </summary>
+        public static string LORDVADER_CHALLENGE {
+            get {
+                return ResourceManager.GetString("LORDVADER_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Luke Skywalker (Farmboy).
         /// </summary>
-        internal static string LUKESKYWALKER {
+        public static string LUKESKYWALKER {
             get {
                 return ResourceManager.GetString("LUKESKYWALKER", resourceCulture);
             }
@@ -1791,7 +1899,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Luminara Unduli.
         /// </summary>
-        internal static string LUMINARAUNDULI {
+        public static string LUMINARAUNDULI {
             get {
                 return ResourceManager.GetString("LUMINARAUNDULI", resourceCulture);
             }
@@ -1800,7 +1908,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Mace Windu.
         /// </summary>
-        internal static string MACEWINDU {
+        public static string MACEWINDU {
             get {
                 return ResourceManager.GetString("MACEWINDU", resourceCulture);
             }
@@ -1809,7 +1917,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Magmatrooper.
         /// </summary>
-        internal static string MAGMATROOPER {
+        public static string MAGMATROOPER {
             get {
                 return ResourceManager.GetString("MAGMATROOPER", resourceCulture);
             }
@@ -1818,7 +1926,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to IG-100 MagnaGuard.
         /// </summary>
-        internal static string MAGNAGUARD {
+        public static string MAGNAGUARD {
             get {
                 return ResourceManager.GetString("MAGNAGUARD", resourceCulture);
             }
@@ -1827,7 +1935,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Mara Jade, The Emperor&apos;s Hand.
         /// </summary>
-        internal static string MARAJADE {
+        public static string MARAJADE {
             get {
                 return ResourceManager.GetString("MARAJADE", resourceCulture);
             }
@@ -1836,7 +1944,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Darth Maul.
         /// </summary>
-        internal static string MAUL {
+        public static string MAUL {
             get {
                 return ResourceManager.GetString("MAUL", resourceCulture);
             }
@@ -1845,7 +1953,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Maul.
         /// </summary>
-        internal static string MAULS7 {
+        public static string MAULS7 {
             get {
                 return ResourceManager.GetString("MAULS7", resourceCulture);
             }
@@ -1854,7 +1962,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Merrin.
         /// </summary>
-        internal static string MERRIN {
+        public static string MERRIN {
             get {
                 return ResourceManager.GetString("MERRIN", resourceCulture);
             }
@@ -1863,7 +1971,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to MG-100 StarFortress SF-17.
         /// </summary>
-        internal static string MG100STARFORTRESSSF17 {
+        public static string MG100STARFORTRESSSF17 {
             get {
                 return ResourceManager.GetString("MG100STARFORTRESSSF17", resourceCulture);
             }
@@ -1872,7 +1980,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Han&apos;s Millennium Falcon.
         /// </summary>
-        internal static string MILLENNIUMFALCON {
+        public static string MILLENNIUMFALCON {
             get {
                 return ResourceManager.GetString("MILLENNIUMFALCON", resourceCulture);
             }
@@ -1881,7 +1989,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Rey&apos;s Millennium Falcon.
         /// </summary>
-        internal static string MILLENNIUMFALCONEP7 {
+        public static string MILLENNIUMFALCONEP7 {
             get {
                 return ResourceManager.GetString("MILLENNIUMFALCONEP7", resourceCulture);
             }
@@ -1890,7 +1998,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Lando&apos;s Millennium Falcon.
         /// </summary>
-        internal static string MILLENNIUMFALCONPRISTINE {
+        public static string MILLENNIUMFALCONPRISTINE {
             get {
                 return ResourceManager.GetString("MILLENNIUMFALCONPRISTINE", resourceCulture);
             }
@@ -1899,7 +2007,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Mission Vao.
         /// </summary>
-        internal static string MISSIONVAO {
+        public static string MISSIONVAO {
             get {
                 return ResourceManager.GetString("MISSIONVAO", resourceCulture);
             }
@@ -1908,7 +2016,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Moff Gideon.
         /// </summary>
-        internal static string MOFFGIDEONS1 {
+        public static string MOFFGIDEONS1 {
             get {
                 return ResourceManager.GetString("MOFFGIDEONS1", resourceCulture);
             }
@@ -1917,7 +2025,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Mon Mothma.
         /// </summary>
-        internal static string MONMOTHMA {
+        public static string MONMOTHMA {
             get {
                 return ResourceManager.GetString("MONMOTHMA", resourceCulture);
             }
@@ -1926,7 +2034,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Mother Talzin.
         /// </summary>
-        internal static string MOTHERTALZIN {
+        public static string MOTHERTALZIN {
             get {
                 return ResourceManager.GetString("MOTHERTALZIN", resourceCulture);
             }
@@ -1935,7 +2043,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Nightsister Acolyte.
         /// </summary>
-        internal static string NIGHTSISTERACOLYTE {
+        public static string NIGHTSISTERACOLYTE {
             get {
                 return ResourceManager.GetString("NIGHTSISTERACOLYTE", resourceCulture);
             }
@@ -1944,7 +2052,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Nightsister Initiate.
         /// </summary>
-        internal static string NIGHTSISTERINITIATE {
+        public static string NIGHTSISTERINITIATE {
             get {
                 return ResourceManager.GetString("NIGHTSISTERINITIATE", resourceCulture);
             }
@@ -1953,7 +2061,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Nightsister Spirit.
         /// </summary>
-        internal static string NIGHTSISTERSPIRIT {
+        public static string NIGHTSISTERSPIRIT {
             get {
                 return ResourceManager.GetString("NIGHTSISTERSPIRIT", resourceCulture);
             }
@@ -1962,7 +2070,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Nightsister Zombie.
         /// </summary>
-        internal static string NIGHTSISTERZOMBIE {
+        public static string NIGHTSISTERZOMBIE {
             get {
                 return ResourceManager.GetString("NIGHTSISTERZOMBIE", resourceCulture);
             }
@@ -1971,7 +2079,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ninth Sister.
         /// </summary>
-        internal static string NINTHSISTER {
+        public static string NINTHSISTER {
             get {
                 return ResourceManager.GetString("NINTHSISTER", resourceCulture);
             }
@@ -1980,7 +2088,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Nute Gunray.
         /// </summary>
-        internal static string NUTEGUNRAY {
+        public static string NUTEGUNRAY {
             get {
                 return ResourceManager.GetString("NUTEGUNRAY", resourceCulture);
             }
@@ -1989,7 +2097,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Obi-Wan Kenobi (Old Ben).
         /// </summary>
-        internal static string OLDBENKENOBI {
+        public static string OLDBENKENOBI {
             get {
                 return ResourceManager.GetString("OLDBENKENOBI", resourceCulture);
             }
@@ -1998,7 +2106,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Outrider.
         /// </summary>
-        internal static string OUTRIDER {
+        public static string OUTRIDER {
             get {
                 return ResourceManager.GetString("OUTRIDER", resourceCulture);
             }
@@ -2007,7 +2115,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Padmé Amidala.
         /// </summary>
-        internal static string PADMEAMIDALA {
+        public static string PADMEAMIDALA {
             get {
                 return ResourceManager.GetString("PADMEAMIDALA", resourceCulture);
             }
@@ -2016,7 +2124,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Pao.
         /// </summary>
-        internal static string PAO {
+        public static string PAO {
             get {
                 return ResourceManager.GetString("PAO", resourceCulture);
             }
@@ -2025,7 +2133,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Paploo.
         /// </summary>
-        internal static string PAPLOO {
+        public static string PAPLOO {
             get {
                 return ResourceManager.GetString("PAPLOO", resourceCulture);
             }
@@ -2034,7 +2142,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Phantom II.
         /// </summary>
-        internal static string PHANTOM2 {
+        public static string PHANTOM2 {
             get {
                 return ResourceManager.GetString("PHANTOM2", resourceCulture);
             }
@@ -2043,7 +2151,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Captain Phasma.
         /// </summary>
-        internal static string PHASMA {
+        public static string PHASMA {
             get {
                 return ResourceManager.GetString("PHASMA", resourceCulture);
             }
@@ -2052,7 +2160,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Plo Koon.
         /// </summary>
-        internal static string PLOKOON {
+        public static string PLOKOON {
             get {
                 return ResourceManager.GetString("PLOKOON", resourceCulture);
             }
@@ -2061,7 +2169,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Poe Dameron.
         /// </summary>
-        internal static string POE {
+        public static string POE {
             get {
                 return ResourceManager.GetString("POE", resourceCulture);
             }
@@ -2070,7 +2178,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Poggle the Lesser.
         /// </summary>
-        internal static string POGGLETHELESSER {
+        public static string POGGLETHELESSER {
             get {
                 return ResourceManager.GetString("POGGLETHELESSER", resourceCulture);
             }
@@ -2079,7 +2187,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Princess Kneesaa.
         /// </summary>
-        internal static string PRINCESSKNEESAA {
+        public static string PRINCESSKNEESAA {
             get {
                 return ResourceManager.GetString("PRINCESSKNEESAA", resourceCulture);
             }
@@ -2088,7 +2196,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Princess Leia.
         /// </summary>
-        internal static string PRINCESSLEIA {
+        public static string PRINCESSLEIA {
             get {
                 return ResourceManager.GetString("PRINCESSLEIA", resourceCulture);
             }
@@ -2097,7 +2205,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Qi&apos;ra.
         /// </summary>
-        internal static string QIRA {
+        public static string QIRA {
             get {
                 return ResourceManager.GetString("QIRA", resourceCulture);
             }
@@ -2106,7 +2214,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Qui-Gon Jinn.
         /// </summary>
-        internal static string QUIGONJINN {
+        public static string QUIGONJINN {
             get {
                 return ResourceManager.GetString("QUIGONJINN", resourceCulture);
             }
@@ -2115,7 +2223,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to R2-D2.
         /// </summary>
-        internal static string R2D2_LEGENDARY {
+        public static string R2D2_LEGENDARY {
             get {
                 return ResourceManager.GetString("R2D2_LEGENDARY", resourceCulture);
             }
@@ -2124,7 +2232,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Range Trooper.
         /// </summary>
-        internal static string RANGETROOPER {
+        public static string RANGETROOPER {
             get {
                 return ResourceManager.GetString("RANGETROOPER", resourceCulture);
             }
@@ -2133,7 +2241,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Raven&apos;s Claw.
         /// </summary>
-        internal static string RAVENSCLAW {
+        public static string RAVENSCLAW {
             get {
                 return ResourceManager.GetString("RAVENSCLAW", resourceCulture);
             }
@@ -2142,7 +2250,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Razor Crest.
         /// </summary>
-        internal static string RAZORCREST {
+        public static string RAZORCREST {
             get {
                 return ResourceManager.GetString("RAZORCREST", resourceCulture);
             }
@@ -2151,7 +2259,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to R1.
         /// </summary>
-        internal static string RELIC_01 {
+        public static string RELIC_01 {
             get {
                 return ResourceManager.GetString("RELIC_01", resourceCulture);
             }
@@ -2160,7 +2268,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to R2.
         /// </summary>
-        internal static string RELIC_02 {
+        public static string RELIC_02 {
             get {
                 return ResourceManager.GetString("RELIC_02", resourceCulture);
             }
@@ -2169,7 +2277,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to R3.
         /// </summary>
-        internal static string RELIC_03 {
+        public static string RELIC_03 {
             get {
                 return ResourceManager.GetString("RELIC_03", resourceCulture);
             }
@@ -2178,7 +2286,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to R4.
         /// </summary>
-        internal static string RELIC_04 {
+        public static string RELIC_04 {
             get {
                 return ResourceManager.GetString("RELIC_04", resourceCulture);
             }
@@ -2187,7 +2295,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to R5.
         /// </summary>
-        internal static string RELIC_05 {
+        public static string RELIC_05 {
             get {
                 return ResourceManager.GetString("RELIC_05", resourceCulture);
             }
@@ -2196,7 +2304,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to R6.
         /// </summary>
-        internal static string RELIC_06 {
+        public static string RELIC_06 {
             get {
                 return ResourceManager.GetString("RELIC_06", resourceCulture);
             }
@@ -2205,7 +2313,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to R7.
         /// </summary>
-        internal static string RELIC_07 {
+        public static string RELIC_07 {
             get {
                 return ResourceManager.GetString("RELIC_07", resourceCulture);
             }
@@ -2214,7 +2322,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to R8.
         /// </summary>
-        internal static string RELIC_08 {
+        public static string RELIC_08 {
             get {
                 return ResourceManager.GetString("RELIC_08", resourceCulture);
             }
@@ -2223,7 +2331,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to R9.
         /// </summary>
-        internal static string RELIC_09 {
+        public static string RELIC_09 {
             get {
                 return ResourceManager.GetString("RELIC_09", resourceCulture);
             }
@@ -2232,7 +2340,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Resistance Pilot.
         /// </summary>
-        internal static string RESISTANCEPILOT {
+        public static string RESISTANCEPILOT {
             get {
                 return ResourceManager.GetString("RESISTANCEPILOT", resourceCulture);
             }
@@ -2241,7 +2349,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Resistance Trooper.
         /// </summary>
-        internal static string RESISTANCETROOPER {
+        public static string RESISTANCETROOPER {
             get {
                 return ResourceManager.GetString("RESISTANCETROOPER", resourceCulture);
             }
@@ -2250,7 +2358,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Rey (Scavenger).
         /// </summary>
-        internal static string REY {
+        public static string REY {
             get {
                 return ResourceManager.GetString("REY", resourceCulture);
             }
@@ -2259,7 +2367,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Rey (Jedi Training).
         /// </summary>
-        internal static string REYJEDITRAINING {
+        public static string REYJEDITRAINING {
             get {
                 return ResourceManager.GetString("REYJEDITRAINING", resourceCulture);
             }
@@ -2268,7 +2376,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Rose Tico.
         /// </summary>
-        internal static string ROSETICO {
+        public static string ROSETICO {
             get {
                 return ResourceManager.GetString("ROSETICO", resourceCulture);
             }
@@ -2277,7 +2385,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Royal Guard.
         /// </summary>
-        internal static string ROYALGUARD {
+        public static string ROYALGUARD {
             get {
                 return ResourceManager.GetString("ROYALGUARD", resourceCulture);
             }
@@ -2286,7 +2394,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Sabine Wren.
         /// </summary>
-        internal static string SABINEWRENS3 {
+        public static string SABINEWRENS3 {
             get {
                 return ResourceManager.GetString("SABINEWRENS3", resourceCulture);
             }
@@ -2295,7 +2403,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Sana Starros.
         /// </summary>
-        internal static string SANASTARROS {
+        public static string SANASTARROS {
             get {
                 return ResourceManager.GetString("SANASTARROS", resourceCulture);
             }
@@ -2304,7 +2412,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Savage Opress.
         /// </summary>
-        internal static string SAVAGEOPRESS {
+        public static string SAVAGEOPRESS {
             get {
                 return ResourceManager.GetString("SAVAGEOPRESS", resourceCulture);
             }
@@ -2313,7 +2421,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Saw Gerrera.
         /// </summary>
-        internal static string SAWGERRERA {
+        public static string SAWGERRERA {
             get {
                 return ResourceManager.GetString("SAWGERRERA", resourceCulture);
             }
@@ -2322,7 +2430,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Scarif Rebel Pathfinder.
         /// </summary>
-        internal static string SCARIFREBEL {
+        public static string SCARIFREBEL {
             get {
                 return ResourceManager.GetString("SCARIFREBEL", resourceCulture);
             }
@@ -2331,7 +2439,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Scout Trooper.
         /// </summary>
-        internal static string SCOUTTROOPER_V3 {
+        public static string SCOUTTROOPER_V3 {
             get {
                 return ResourceManager.GetString("SCOUTTROOPER_V3", resourceCulture);
             }
@@ -2340,7 +2448,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Scythe.
         /// </summary>
-        internal static string SCYTHE {
+        public static string SCYTHE {
             get {
                 return ResourceManager.GetString("SCYTHE", resourceCulture);
             }
@@ -2349,7 +2457,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Second Sister.
         /// </summary>
-        internal static string SECONDSISTER {
+        public static string SECONDSISTER {
             get {
                 return ResourceManager.GetString("SECONDSISTER", resourceCulture);
             }
@@ -2358,7 +2466,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Seventh Sister.
         /// </summary>
-        internal static string SEVENTHSISTER {
+        public static string SEVENTHSISTER {
             get {
                 return ResourceManager.GetString("SEVENTHSISTER", resourceCulture);
             }
@@ -2367,7 +2475,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Shaak Ti.
         /// </summary>
-        internal static string SHAAKTI {
+        public static string SHAAKTI {
             get {
                 return ResourceManager.GetString("SHAAKTI", resourceCulture);
             }
@@ -2376,7 +2484,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Shoretrooper.
         /// </summary>
-        internal static string SHORETROOPER {
+        public static string SHORETROOPER {
             get {
                 return ResourceManager.GetString("SHORETROOPER", resourceCulture);
             }
@@ -2385,7 +2493,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Sith Assassin.
         /// </summary>
-        internal static string SITHASSASSIN {
+        public static string SITHASSASSIN {
             get {
                 return ResourceManager.GetString("SITHASSASSIN", resourceCulture);
             }
@@ -2394,7 +2502,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to B-28 Extinction-class Bomber.
         /// </summary>
-        internal static string SITHBOMBER {
+        public static string SITHBOMBER {
             get {
                 return ResourceManager.GetString("SITHBOMBER", resourceCulture);
             }
@@ -2403,7 +2511,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Sith Fighter.
         /// </summary>
-        internal static string SITHFIGHTER {
+        public static string SITHFIGHTER {
             get {
                 return ResourceManager.GetString("SITHFIGHTER", resourceCulture);
             }
@@ -2412,7 +2520,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Scimitar.
         /// </summary>
-        internal static string SITHINFILTRATOR {
+        public static string SITHINFILTRATOR {
             get {
                 return ResourceManager.GetString("SITHINFILTRATOR", resourceCulture);
             }
@@ -2421,7 +2529,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Sith Marauder.
         /// </summary>
-        internal static string SITHMARAUDER {
+        public static string SITHMARAUDER {
             get {
                 return ResourceManager.GetString("SITHMARAUDER", resourceCulture);
             }
@@ -2430,16 +2538,25 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Sith Eternal Emperor.
         /// </summary>
-        internal static string SITHPALPATINE {
+        public static string SITHPALPATINE {
             get {
                 return ResourceManager.GetString("SITHPALPATINE", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SEE.
+        /// </summary>
+        public static string SITHPALPATINE_CHALLENGE {
+            get {
+                return ResourceManager.GetString("SITHPALPATINE_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mark VI Interceptor.
         /// </summary>
-        internal static string SITHSUPREMACYCLASS {
+        public static string SITHSUPREMACYCLASS {
             get {
                 return ResourceManager.GetString("SITHSUPREMACYCLASS", resourceCulture);
             }
@@ -2448,7 +2565,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Sith Empire Trooper.
         /// </summary>
-        internal static string SITHTROOPER {
+        public static string SITHTROOPER {
             get {
                 return ResourceManager.GetString("SITHTROOPER", resourceCulture);
             }
@@ -2457,7 +2574,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Slave I.
         /// </summary>
-        internal static string SLAVE1 {
+        public static string SLAVE1 {
             get {
                 return ResourceManager.GetString("SLAVE1", resourceCulture);
             }
@@ -2466,7 +2583,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Veteran Smuggler Chewbacca.
         /// </summary>
-        internal static string SMUGGLERCHEWBACCA {
+        public static string SMUGGLERCHEWBACCA {
             get {
                 return ResourceManager.GetString("SMUGGLERCHEWBACCA", resourceCulture);
             }
@@ -2475,7 +2592,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Veteran Smuggler Han Solo.
         /// </summary>
-        internal static string SMUGGLERHAN {
+        public static string SMUGGLERHAN {
             get {
                 return ResourceManager.GetString("SMUGGLERHAN", resourceCulture);
             }
@@ -2484,7 +2601,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Snowtrooper.
         /// </summary>
-        internal static string SNOWTROOPER {
+        public static string SNOWTROOPER {
             get {
                 return ResourceManager.GetString("SNOWTROOPER", resourceCulture);
             }
@@ -2493,7 +2610,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to 1*.
         /// </summary>
-        internal static string STAR_01 {
+        public static string STAR_01 {
             get {
                 return ResourceManager.GetString("STAR_01", resourceCulture);
             }
@@ -2502,7 +2619,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to 2*.
         /// </summary>
-        internal static string STAR_02 {
+        public static string STAR_02 {
             get {
                 return ResourceManager.GetString("STAR_02", resourceCulture);
             }
@@ -2511,7 +2628,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to 3*.
         /// </summary>
-        internal static string STAR_03 {
+        public static string STAR_03 {
             get {
                 return ResourceManager.GetString("STAR_03", resourceCulture);
             }
@@ -2520,7 +2637,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to 4*.
         /// </summary>
-        internal static string STAR_04 {
+        public static string STAR_04 {
             get {
                 return ResourceManager.GetString("STAR_04", resourceCulture);
             }
@@ -2529,7 +2646,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to 5*.
         /// </summary>
-        internal static string STAR_05 {
+        public static string STAR_05 {
             get {
                 return ResourceManager.GetString("STAR_05", resourceCulture);
             }
@@ -2538,7 +2655,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to 6*.
         /// </summary>
-        internal static string STAR_06 {
+        public static string STAR_06 {
             get {
                 return ResourceManager.GetString("STAR_06", resourceCulture);
             }
@@ -2547,7 +2664,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to 7*.
         /// </summary>
-        internal static string STAR_07 {
+        public static string STAR_07 {
             get {
                 return ResourceManager.GetString("STAR_07", resourceCulture);
             }
@@ -2556,16 +2673,25 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Starkiller.
         /// </summary>
-        internal static string STARKILLER {
+        public static string STARKILLER {
             get {
                 return ResourceManager.GetString("STARKILLER", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SK.
+        /// </summary>
+        public static string STARKILLER_CHALLENGE {
+            get {
+                return ResourceManager.GetString("STARKILLER_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Stormtrooper.
         /// </summary>
-        internal static string STORMTROOPER {
+        public static string STORMTROOPER {
             get {
                 return ResourceManager.GetString("STORMTROOPER", resourceCulture);
             }
@@ -2574,7 +2700,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Stormtrooper Han.
         /// </summary>
-        internal static string STORMTROOPERHAN {
+        public static string STORMTROOPERHAN {
             get {
                 return ResourceManager.GetString("STORMTROOPERHAN", resourceCulture);
             }
@@ -2583,7 +2709,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Sun Fac.
         /// </summary>
-        internal static string SUNFAC {
+        public static string SUNFAC {
             get {
                 return ResourceManager.GetString("SUNFAC", resourceCulture);
             }
@@ -2592,16 +2718,25 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Supreme Leader Kylo Ren.
         /// </summary>
-        internal static string SUPREMELEADERKYLOREN {
+        public static string SUPREMELEADERKYLOREN {
             get {
                 return ResourceManager.GetString("SUPREMELEADERKYLOREN", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SLKR.
+        /// </summary>
+        public static string SUPREMELEADERKYLOREN_CHALLENGE {
+            get {
+                return ResourceManager.GetString("SUPREMELEADERKYLOREN_CHALLENGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to T3-M4.
         /// </summary>
-        internal static string T3_M4 {
+        public static string T3_M4 {
             get {
                 return ResourceManager.GetString("T3_M4", resourceCulture);
             }
@@ -2610,7 +2745,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Talia.
         /// </summary>
-        internal static string TALIA {
+        public static string TALIA {
             get {
                 return ResourceManager.GetString("TALIA", resourceCulture);
             }
@@ -2619,7 +2754,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Tarfful.
         /// </summary>
-        internal static string TARFFUL {
+        public static string TARFFUL {
             get {
                 return ResourceManager.GetString("TARFFUL", resourceCulture);
             }
@@ -2628,7 +2763,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Taron Malicos.
         /// </summary>
-        internal static string TARONMALICOS {
+        public static string TARONMALICOS {
             get {
                 return ResourceManager.GetString("TARONMALICOS", resourceCulture);
             }
@@ -2637,7 +2772,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Teebo.
         /// </summary>
-        internal static string TEEBO {
+        public static string TEEBO {
             get {
                 return ResourceManager.GetString("TEEBO", resourceCulture);
             }
@@ -2646,7 +2781,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to The Mandalorian.
         /// </summary>
-        internal static string THEMANDALORIAN {
+        public static string THEMANDALORIAN {
             get {
                 return ResourceManager.GetString("THEMANDALORIAN", resourceCulture);
             }
@@ -2655,7 +2790,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to The Mandalorian (Beskar Armor).
         /// </summary>
-        internal static string THEMANDALORIANBESKARARMOR {
+        public static string THEMANDALORIANBESKARARMOR {
             get {
                 return ResourceManager.GetString("THEMANDALORIANBESKARARMOR", resourceCulture);
             }
@@ -2664,7 +2799,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Third Sister.
         /// </summary>
-        internal static string THIRDSISTER {
+        public static string THIRDSISTER {
             get {
                 return ResourceManager.GetString("THIRDSISTER", resourceCulture);
             }
@@ -2673,7 +2808,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to TIE Advanced x1.
         /// </summary>
-        internal static string TIEADVANCED {
+        public static string TIEADVANCED {
             get {
                 return ResourceManager.GetString("TIEADVANCED", resourceCulture);
             }
@@ -2682,7 +2817,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Imperial TIE Bomber.
         /// </summary>
-        internal static string TIEBOMBERIMPERIAL {
+        public static string TIEBOMBERIMPERIAL {
             get {
                 return ResourceManager.GetString("TIEBOMBERIMPERIAL", resourceCulture);
             }
@@ -2691,7 +2826,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to TIE Dagger.
         /// </summary>
-        internal static string TIEDAGGER {
+        public static string TIEDAGGER {
             get {
                 return ResourceManager.GetString("TIEDAGGER", resourceCulture);
             }
@@ -2700,7 +2835,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to TIE Defender.
         /// </summary>
-        internal static string TIEDEFENDER {
+        public static string TIEDEFENDER {
             get {
                 return ResourceManager.GetString("TIEDEFENDER", resourceCulture);
             }
@@ -2709,7 +2844,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to First Order TIE Fighter.
         /// </summary>
-        internal static string TIEFIGHTERFIRSTORDER {
+        public static string TIEFIGHTERFIRSTORDER {
             get {
                 return ResourceManager.GetString("TIEFIGHTERFIRSTORDER", resourceCulture);
             }
@@ -2718,7 +2853,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to First Order SF TIE Fighter.
         /// </summary>
-        internal static string TIEFIGHTERFOSF {
+        public static string TIEFIGHTERFOSF {
             get {
                 return ResourceManager.GetString("TIEFIGHTERFOSF", resourceCulture);
             }
@@ -2727,7 +2862,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Imperial TIE Fighter.
         /// </summary>
-        internal static string TIEFIGHTERIMPERIAL {
+        public static string TIEFIGHTERIMPERIAL {
             get {
                 return ResourceManager.GetString("TIEFIGHTERIMPERIAL", resourceCulture);
             }
@@ -2736,7 +2871,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to TIE Fighter Pilot.
         /// </summary>
-        internal static string TIEFIGHTERPILOT {
+        public static string TIEFIGHTERPILOT {
             get {
                 return ResourceManager.GetString("TIEFIGHTERPILOT", resourceCulture);
             }
@@ -2745,7 +2880,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to TIE/IN Interceptor Prototype.
         /// </summary>
-        internal static string TIEINTERCEPTOR {
+        public static string TIEINTERCEPTOR {
             get {
                 return ResourceManager.GetString("TIEINTERCEPTOR", resourceCulture);
             }
@@ -2754,7 +2889,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to TIE Reaper.
         /// </summary>
-        internal static string TIEREAPER {
+        public static string TIEREAPER {
             get {
                 return ResourceManager.GetString("TIEREAPER", resourceCulture);
             }
@@ -2763,7 +2898,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to TIE Silencer.
         /// </summary>
-        internal static string TIESILENCER {
+        public static string TIESILENCER {
             get {
                 return ResourceManager.GetString("TIESILENCER", resourceCulture);
             }
@@ -2772,7 +2907,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Admiral Trench.
         /// </summary>
-        internal static string TRENCH {
+        public static string TRENCH {
             get {
                 return ResourceManager.GetString("TRENCH", resourceCulture);
             }
@@ -2781,7 +2916,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to 0-0-0.
         /// </summary>
-        internal static string TRIPLEZERO {
+        public static string TRIPLEZERO {
             get {
                 return ResourceManager.GetString("TRIPLEZERO", resourceCulture);
             }
@@ -2790,7 +2925,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Tusken Chieftain.
         /// </summary>
-        internal static string TUSKENCHIEFTAIN {
+        public static string TUSKENCHIEFTAIN {
             get {
                 return ResourceManager.GetString("TUSKENCHIEFTAIN", resourceCulture);
             }
@@ -2799,7 +2934,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Tusken Warrior.
         /// </summary>
-        internal static string TUSKENHUNTRESS {
+        public static string TUSKENHUNTRESS {
             get {
                 return ResourceManager.GetString("TUSKENHUNTRESS", resourceCulture);
             }
@@ -2808,7 +2943,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Tusken Raider.
         /// </summary>
-        internal static string TUSKENRAIDER {
+        public static string TUSKENRAIDER {
             get {
                 return ResourceManager.GetString("TUSKENRAIDER", resourceCulture);
             }
@@ -2817,7 +2952,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Tusken Shaman.
         /// </summary>
-        internal static string TUSKENSHAMAN {
+        public static string TUSKENSHAMAN {
             get {
                 return ResourceManager.GetString("TUSKENSHAMAN", resourceCulture);
             }
@@ -2826,7 +2961,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Ugnaught.
         /// </summary>
-        internal static string UGNAUGHT {
+        public static string UGNAUGHT {
             get {
                 return ResourceManager.GetString("UGNAUGHT", resourceCulture);
             }
@@ -2835,7 +2970,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Umbaran Starfighter.
         /// </summary>
-        internal static string UMBARANSTARFIGHTER {
+        public static string UMBARANSTARFIGHTER {
             get {
                 return ResourceManager.GetString("UMBARANSTARFIGHTER", resourceCulture);
             }
@@ -2844,7 +2979,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Skiff Guard (Lando Calrissian).
         /// </summary>
-        internal static string UNDERCOVERLANDO {
+        public static string UNDERCOVERLANDO {
             get {
                 return ResourceManager.GetString("UNDERCOVERLANDO", resourceCulture);
             }
@@ -2853,7 +2988,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to URoRRuR&apos;R&apos;R.
         /// </summary>
-        internal static string URORRURRR {
+        public static string URORRURRR {
             get {
                 return ResourceManager.GetString("URORRURRR", resourceCulture);
             }
@@ -2862,7 +2997,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Cassian&apos;s U-wing.
         /// </summary>
-        internal static string UWINGROGUEONE {
+        public static string UWINGROGUEONE {
             get {
                 return ResourceManager.GetString("UWINGROGUEONE", resourceCulture);
             }
@@ -2871,7 +3006,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Bistan&apos;s U-wing.
         /// </summary>
-        internal static string UWINGSCARIF {
+        public static string UWINGSCARIF {
             get {
                 return ResourceManager.GetString("UWINGSCARIF", resourceCulture);
             }
@@ -2880,7 +3015,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Darth Vader.
         /// </summary>
-        internal static string VADER {
+        public static string VADER {
             get {
                 return ResourceManager.GetString("VADER", resourceCulture);
             }
@@ -2889,7 +3024,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to General Veers.
         /// </summary>
-        internal static string VEERS {
+        public static string VEERS {
             get {
                 return ResourceManager.GetString("VEERS", resourceCulture);
             }
@@ -2898,7 +3033,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Visas Marr.
         /// </summary>
-        internal static string VISASMARR {
+        public static string VISASMARR {
             get {
                 return ResourceManager.GetString("VISASMARR", resourceCulture);
             }
@@ -2907,7 +3042,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Vulture Droid.
         /// </summary>
-        internal static string VULTUREDROID {
+        public static string VULTUREDROID {
             get {
                 return ResourceManager.GetString("VULTUREDROID", resourceCulture);
             }
@@ -2916,7 +3051,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Wampa.
         /// </summary>
-        internal static string WAMPA {
+        public static string WAMPA {
             get {
                 return ResourceManager.GetString("WAMPA", resourceCulture);
             }
@@ -2925,7 +3060,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Wat Tambor.
         /// </summary>
-        internal static string WATTAMBOR {
+        public static string WATTAMBOR {
             get {
                 return ResourceManager.GetString("WATTAMBOR", resourceCulture);
             }
@@ -2934,7 +3069,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Wedge Antilles.
         /// </summary>
-        internal static string WEDGEANTILLES {
+        public static string WEDGEANTILLES {
             get {
                 return ResourceManager.GetString("WEDGEANTILLES", resourceCulture);
             }
@@ -2943,7 +3078,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Wicket.
         /// </summary>
-        internal static string WICKET {
+        public static string WICKET {
             get {
                 return ResourceManager.GetString("WICKET", resourceCulture);
             }
@@ -2952,7 +3087,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Xanadu Blood.
         /// </summary>
-        internal static string XANADUBLOOD {
+        public static string XANADUBLOOD {
             get {
                 return ResourceManager.GetString("XANADUBLOOD", resourceCulture);
             }
@@ -2961,7 +3096,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Poe Dameron&apos;s X-wing.
         /// </summary>
-        internal static string XWINGBLACKONE {
+        public static string XWINGBLACKONE {
             get {
                 return ResourceManager.GetString("XWINGBLACKONE", resourceCulture);
             }
@@ -2970,7 +3105,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Wedge Antilles&apos;s X-wing.
         /// </summary>
-        internal static string XWINGRED2 {
+        public static string XWINGRED2 {
             get {
                 return ResourceManager.GetString("XWINGRED2", resourceCulture);
             }
@@ -2979,7 +3114,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Biggs Darklighter&apos;s X-wing.
         /// </summary>
-        internal static string XWINGRED3 {
+        public static string XWINGRED3 {
             get {
                 return ResourceManager.GetString("XWINGRED3", resourceCulture);
             }
@@ -2988,7 +3123,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Resistance X-wing.
         /// </summary>
-        internal static string XWINGRESISTANCE {
+        public static string XWINGRESISTANCE {
             get {
                 return ResourceManager.GetString("XWINGRESISTANCE", resourceCulture);
             }
@@ -2997,7 +3132,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Vandor Chewbacca.
         /// </summary>
-        internal static string YOUNGCHEWBACCA {
+        public static string YOUNGCHEWBACCA {
             get {
                 return ResourceManager.GetString("YOUNGCHEWBACCA", resourceCulture);
             }
@@ -3006,7 +3141,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Young Han Solo.
         /// </summary>
-        internal static string YOUNGHAN {
+        public static string YOUNGHAN {
             get {
                 return ResourceManager.GetString("YOUNGHAN", resourceCulture);
             }
@@ -3015,7 +3150,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Young Lando Calrissian.
         /// </summary>
-        internal static string YOUNGLANDO {
+        public static string YOUNGLANDO {
             get {
                 return ResourceManager.GetString("YOUNGLANDO", resourceCulture);
             }
@@ -3024,7 +3159,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to BTL-B Y-wing Starfighter.
         /// </summary>
-        internal static string YWINGCLONEWARS {
+        public static string YWINGCLONEWARS {
             get {
                 return ResourceManager.GetString("YWINGCLONEWARS", resourceCulture);
             }
@@ -3033,7 +3168,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Rebel Y-wing.
         /// </summary>
-        internal static string YWINGREBEL {
+        public static string YWINGREBEL {
             get {
                 return ResourceManager.GetString("YWINGREBEL", resourceCulture);
             }
@@ -3042,7 +3177,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Zaalbar.
         /// </summary>
-        internal static string ZAALBAR {
+        public static string ZAALBAR {
             get {
                 return ResourceManager.GetString("ZAALBAR", resourceCulture);
             }
@@ -3051,7 +3186,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Zam Wesell.
         /// </summary>
-        internal static string ZAMWESELL {
+        public static string ZAMWESELL {
             get {
                 return ResourceManager.GetString("ZAMWESELL", resourceCulture);
             }
@@ -3060,7 +3195,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Garazeb &quot;Zeb&quot; Orrelios.
         /// </summary>
-        internal static string ZEBS3 {
+        public static string ZEBS3 {
             get {
                 return ResourceManager.GetString("ZEBS3", resourceCulture);
             }
@@ -3069,7 +3204,7 @@ namespace Wayfinder.App {
         /// <summary>
         ///   Looks up a localized string similar to Zorii Bliss.
         /// </summary>
-        internal static string ZORIIBLISS_V2 {
+        public static string ZORIIBLISS_V2 {
             get {
                 return ResourceManager.GetString("ZORIIBLISS_V2", resourceCulture);
             }
