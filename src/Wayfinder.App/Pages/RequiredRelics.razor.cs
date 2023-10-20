@@ -11,7 +11,7 @@ namespace Wayfinder.App.Pages
         private Func<Challenge, string> _challengeConverter = default!;
         private RequiredRelicUnitsViewModel _viewModel = default!;
 
-        [Inject] private IStringLocalizer<RequiredRelics> Localizer { get; set; } = default!;
+        [Inject] private IStringLocalizer<Localization> Localizer { get; set; } = default!;
 
         protected override async Task OnInitializedAsync()
         {
