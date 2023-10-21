@@ -6,12 +6,12 @@ namespace Wayfinder.App.Features.RequiredUnits
 {
     public partial class RequiredRelicUnitsViewModel : RequiredUnitsViewModel
     {
-        private readonly IStringLocalizer<Localization> _localizer;
+        private readonly IStringLocalizer<Resources> _localizer;
 
         [GeneratedRegex("^RELIC")]
         private static partial Regex IsRelicRequirement();
 
-        public RequiredRelicUnitsViewModel(IStringLocalizer<Localization> localizer)
+        public RequiredRelicUnitsViewModel(IStringLocalizer<Resources> localizer)
         {
             _localizer = localizer;
         }

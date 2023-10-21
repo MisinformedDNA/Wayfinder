@@ -11,7 +11,7 @@ namespace Wayfinder.Tests.RequiredUnits
 
         public RequiredRelicUnitsViewModelTests()
         {
-            var localizerMock = Substitute.For<IStringLocalizer<Localization>>();
+            var localizerMock = Substitute.For<IStringLocalizer<Resources>>();
             localizerMock[Arg.Any<string>()].Returns(new LocalizedString("", _fixture.Create<string>()));
 
             _viewModel = new RequiredRelicUnitsViewModel(localizerMock);
