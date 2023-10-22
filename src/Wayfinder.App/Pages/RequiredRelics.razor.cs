@@ -9,6 +9,7 @@ namespace Wayfinder.App.Pages
     public partial class RequiredRelics
     {
         private Func<Journey, string> _journeyConverter = default!;
+        private Func<List<string>, string> _multiSelectTextFunc = default!;
         private RequiredRelicUnitsViewModel _viewModel = default!;
 
         [Inject] private IStringLocalizer<Resources> Localizer { get; set; } = default!;
@@ -21,6 +22,9 @@ namespace Wayfinder.App.Pages
             await _viewModel.InitializeAsync();
 
             _journeyConverter = x => Localizer[x.Id];
+            _multiSelectTextFunc = x => x.Count == _viewModel.Journeys.Count
+                ? "All"
+                : string.Join(", ", x);
         }
 
         private void OnSelectedJourneysChanged(IEnumerable<Journey> journeys)

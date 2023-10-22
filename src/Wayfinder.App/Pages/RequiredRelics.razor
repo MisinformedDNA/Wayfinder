@@ -12,7 +12,14 @@
     </MudCardHeader>
 
     <MudCardContent>
-        <MudSelect T="Journey" Label="Journeys" MultiSelection="true" SelectedValues="_viewModel.SelectedJourneys" ToStringFunc="@_journeyConverter" SelectedValuesChanged="@OnSelectedJourneysChanged">
+        <MudSelect T="Journey"
+                   Label="Journeys"
+                   MultiSelection="true"
+                   MultiSelectionTextFunc="@_multiSelectTextFunc"
+                   ToStringFunc="@_journeyConverter"
+                   SelectAll="true"
+                   SelectedValues="_viewModel.SelectedJourneys"
+                   SelectedValuesChanged="@OnSelectedJourneysChanged">
             @foreach (var journey in _viewModel.Journeys)
             {
                 <MudSelectItem T="Journey" Value="journey">@(Localizer[journey.Id])</MudSelectItem>
