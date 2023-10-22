@@ -2,13 +2,13 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Localization;
 using Wayfinder.App.Features.RequiredUnits;
-using Wayfinder.Services.Challenges;
+using Wayfinder.Services.Journeys;
 
 namespace Wayfinder.App.Pages
 {
     public partial class RequiredRelics
     {
-        private Func<Challenge, string> _challengeConverter = default!;
+        private Func<Journey, string> _journeyConverter = default!;
         private RequiredRelicUnitsViewModel _viewModel = default!;
 
         [Inject] private IStringLocalizer<Resources> Localizer { get; set; } = default!;
@@ -20,12 +20,12 @@ namespace Wayfinder.App.Pages
             _viewModel = ScopedServices.GetRequiredService<RequiredRelicUnitsViewModel>();
             await _viewModel.InitializeAsync();
 
-            _challengeConverter = x => Localizer[x.ChallengeId];
+            _journeyConverter = x => Localizer[x.Id];
         }
 
-        private void OnSelectedChallengesChanged(IEnumerable<Challenge> challenges)
+        private void OnSelectedJourneysChanged(IEnumerable<Journey> journeys)
         {
-            _viewModel.SelectedChallenges = challenges.ToList();
+            _viewModel.SelectedJourneys = journeys.ToList();
         }
     }
 }

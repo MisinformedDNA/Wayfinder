@@ -1122,49 +1122,49 @@
   <data name="XANADUBLOOD" xml:space="preserve">
     <value>Xanadu Blood</value>
   </data>
-  <data name="CAPITALEXECUTOR_CHALLENGE" xml:space="preserve">
-    <value>Exec</value>
+  <data name="JOURNEY_CAPITALEXECUTOR" xml:space="preserve">
+    <value>Executor</value>
   </data>
-  <data name="CAPITALLEVIATHAN_CHALLENGE" xml:space="preserve">
-    <value>Levi</value>
+  <data name="JOURNEY_CAPITALLEVIATHAN" xml:space="preserve">
+    <value>Leviathan</value>
   </data>
-  <data name="CAPITALPROFUNDITY_CHALLENGE" xml:space="preserve">
-    <value>Prof</value>
+  <data name="JOURNEY_CAPITALPROFUNDITY" xml:space="preserve">
+    <value>Profundity</value>
   </data>
-  <data name="DOCTORAPHRA_CHALLENGE" xml:space="preserve">
-    <value>Aphra</value>
+  <data name="JOURNEY_DOCTORAPHRA" xml:space="preserve">
+    <value>Doctor Aphra</value>
   </data>
-  <data name="GLLEIA_CHALLENGE" xml:space="preserve">
-    <value>Leia</value>
+  <data name="JOURNEY_GLLEIA" xml:space="preserve">
+    <value>Leia Organa</value>
   </data>
-  <data name="GLREY_CHALLENGE" xml:space="preserve">
+  <data name="JOURNEY_GLREY" xml:space="preserve">
     <value>Rey</value>
   </data>
-  <data name="GRANDINQUISITOR_CHALLENGE" xml:space="preserve">
-    <value>GI</value>
+  <data name="JOURNEY_GRANDINQUISITOR" xml:space="preserve">
+    <value>Grand Inquisitor</value>
   </data>
-  <data name="GRANDMASTERLUKE_CHALLENGE" xml:space="preserve">
-    <value>GML</value>
+  <data name="JOURNEY_GRANDMASTERLUKE" xml:space="preserve">
+    <value>Jedi Master Luke Skywalker</value>
   </data>
-  <data name="JABBATHEHUTT_CHALLENGE" xml:space="preserve">
-    <value>Jabba</value>
+  <data name="JOURNEY_JABBATHEHUTT" xml:space="preserve">
+    <value>Jabba the Hutt</value>
   </data>
-  <data name="JEDIKNIGHTCAL_CHALLENGE" xml:space="preserve">
-    <value>JKCK</value>
+  <data name="JOURNEY_JEDIKNIGHTCAL" xml:space="preserve">
+    <value>Jedi Knight Cal Kestis</value>
   </data>
-  <data name="JEDIMASTERKENOBI_CHALLENGE" xml:space="preserve">
-    <value>JMK</value>
+  <data name="JOURNEY_JEDIMASTERKENOBI" xml:space="preserve">
+    <value>Jedi Master Kenobi</value>
   </data>
-  <data name="LORDVADER_CHALLENGE" xml:space="preserve">
-    <value>LV</value>
+  <data name="JOURNEY_LORDVADER" xml:space="preserve">
+    <value>Lord Vader</value>
   </data>
-  <data name="SITHPALPATINE_CHALLENGE" xml:space="preserve">
-    <value>SEE</value>
+  <data name="JOURNEY_SITHPALPATINE" xml:space="preserve">
+    <value>Sith Eternal Emperor</value>
   </data>
-  <data name="STARKILLER_CHALLENGE" xml:space="preserve">
-    <value>SK</value>
+  <data name="JOURNEY_STARKILLER" xml:space="preserve">
+    <value>Starkiller</value>
   </data>
-  <data name="SUPREMELEADERKYLOREN_CHALLENGE" xml:space="preserve">
-    <value>SLKR</value>
+  <data name="JOURNEY_SUPREMELEADERKYLOREN" xml:space="preserve">
+    <value>Supreme Leader Kylo Ren</value>
   </data>
 </root>

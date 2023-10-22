@@ -18,11 +18,11 @@ namespace Wayfinder.Tests.RequiredUnits
         }
 
         [Fact]
-        public async Task Challenges_are_loaded_by_default()
+        public async Task Journeys_are_loaded_by_default()
         {
             await _viewModel.InitializeAsync();
 
-            _viewModel.Challenges.Should().HaveCountGreaterThan(1);
+            _viewModel.Journeys.Should().HaveCountGreaterThan(1);
         }
 
         [Fact]
@@ -34,11 +34,11 @@ namespace Wayfinder.Tests.RequiredUnits
         }
 
         [Fact]
-        public async Task Multiple_challenges_are_selected_by_default()
+        public async Task Multiple_journeys_are_selected_by_default()
         {
             await _viewModel.InitializeAsync();
 
-            _viewModel.SelectedChallenges.Should().HaveCountGreaterThan(1);
+            _viewModel.SelectedJourneys.Should().HaveCountGreaterThan(1);
         }
 
         [Fact]
@@ -50,11 +50,11 @@ namespace Wayfinder.Tests.RequiredUnits
         }
 
         [Fact]
-        public async Task Challenges_without_relic_requirements_are_not_included()
+        public async Task Journeys_without_relic_requirements_are_not_included()
         {
             await _viewModel.InitializeAsync();
 
-            _viewModel.Challenges.Should().NotContain(x => x.ChallengeId.Contains("CALKESTIS"));
+            _viewModel.Journeys.Should().NotContain(x => x.Id.Contains("CALKESTIS"));
         }
 
         [Fact]
@@ -67,22 +67,22 @@ namespace Wayfinder.Tests.RequiredUnits
         }
 
         [Fact]
-        public async Task Changing_selected_challenges_does_not_affect_challenges()
+        public async Task Changing_selected_journeys_does_not_affect_journeys()
         {
             await _viewModel.InitializeAsync();
 
-            _viewModel.Challenges.Should().HaveCountGreaterThan(1);
-            _viewModel.SelectedChallenges.Clear();
+            _viewModel.Journeys.Should().HaveCountGreaterThan(1);
+            _viewModel.SelectedJourneys.Clear();
 
-            _viewModel.Challenges.Should().NotBeEmpty();
+            _viewModel.Journeys.Should().NotBeEmpty();
         }
 
         [Fact]
-        public async Task If_no_challenges_are_selected_no_requirements_are_included()
+        public async Task If_no_journeys_are_selected_no_requirements_are_included()
         {
             await _viewModel.InitializeAsync();
 
-            _viewModel.SelectedChallenges.Clear();
+            _viewModel.SelectedJourneys.Clear();
             _viewModel.LoadRequiredUnits();
 
             _viewModel.Requirements.Should().BeEmpty();

@@ -466,15 +466,6 @@ namespace Wayfinder.App {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Exec.
-        /// </summary>
-        public static string CAPITALEXECUTOR_CHALLENGE {
-            get {
-                return ResourceManager.GetString("CAPITALEXECUTOR_CHALLENGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Finalizer.
         /// </summary>
         public static string CAPITALFINALIZER {
@@ -498,15 +489,6 @@ namespace Wayfinder.App {
         public static string CAPITALLEVIATHAN {
             get {
                 return ResourceManager.GetString("CAPITALLEVIATHAN", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Levi.
-        /// </summary>
-        public static string CAPITALLEVIATHAN_CHALLENGE {
-            get {
-                return ResourceManager.GetString("CAPITALLEVIATHAN_CHALLENGE", resourceCulture);
             }
         }
         
@@ -543,15 +525,6 @@ namespace Wayfinder.App {
         public static string CAPITALPROFUNDITY {
             get {
                 return ResourceManager.GetString("CAPITALPROFUNDITY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Prof.
-        /// </summary>
-        public static string CAPITALPROFUNDITY_CHALLENGE {
-            get {
-                return ResourceManager.GetString("CAPITALPROFUNDITY_CHALLENGE", resourceCulture);
             }
         }
         
@@ -925,15 +898,6 @@ namespace Wayfinder.App {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Aphra.
-        /// </summary>
-        public static string DOCTORAPHRA_CHALLENGE {
-            get {
-                return ResourceManager.GetString("DOCTORAPHRA_CHALLENGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Droideka.
         /// </summary>
         public static string DROIDEKA {
@@ -1285,29 +1249,11 @@ namespace Wayfinder.App {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Leia.
-        /// </summary>
-        public static string GLLEIA_CHALLENGE {
-            get {
-                return ResourceManager.GetString("GLLEIA_CHALLENGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Rey.
         /// </summary>
         public static string GLREY {
             get {
                 return ResourceManager.GetString("GLREY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Rey.
-        /// </summary>
-        public static string GLREY_CHALLENGE {
-            get {
-                return ResourceManager.GetString("GLREY_CHALLENGE", resourceCulture);
             }
         }
         
@@ -1330,29 +1276,11 @@ namespace Wayfinder.App {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to GI.
-        /// </summary>
-        public static string GRANDINQUISITOR_CHALLENGE {
-            get {
-                return ResourceManager.GetString("GRANDINQUISITOR_CHALLENGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Jedi Master Luke Skywalker.
         /// </summary>
         public static string GRANDMASTERLUKE {
             get {
                 return ResourceManager.GetString("GRANDMASTERLUKE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to GML.
-        /// </summary>
-        public static string GRANDMASTERLUKE_CHALLENGE {
-            get {
-                return ResourceManager.GetString("GRANDMASTERLUKE_CHALLENGE", resourceCulture);
             }
         }
         
@@ -1591,15 +1519,6 @@ namespace Wayfinder.App {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Jabba.
-        /// </summary>
-        public static string JABBATHEHUTT_CHALLENGE {
-            get {
-                return ResourceManager.GetString("JABBATHEHUTT_CHALLENGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Jango Fett.
         /// </summary>
         public static string JANGOFETT {
@@ -1641,15 +1560,6 @@ namespace Wayfinder.App {
         public static string JEDIKNIGHTCAL {
             get {
                 return ResourceManager.GetString("JEDIKNIGHTCAL", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to JKCK.
-        /// </summary>
-        public static string JEDIKNIGHTCAL_CHALLENGE {
-            get {
-                return ResourceManager.GetString("JEDIKNIGHTCAL_CHALLENGE", resourceCulture);
             }
         }
         
@@ -1699,15 +1609,6 @@ namespace Wayfinder.App {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to JMK.
-        /// </summary>
-        public static string JEDIMASTERKENOBI_CHALLENGE {
-            get {
-                return ResourceManager.GetString("JEDIMASTERKENOBI_CHALLENGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Ahsoka Tano&apos;s Jedi Starfighter.
         /// </summary>
         public static string JEDISTARFIGHTERAHSOKATANO {
@@ -1740,6 +1641,141 @@ namespace Wayfinder.App {
         public static string JOLEEBINDO {
             get {
                 return ResourceManager.GetString("JOLEEBINDO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Executor.
+        /// </summary>
+        public static string JOURNEY_CAPITALEXECUTOR {
+            get {
+                return ResourceManager.GetString("JOURNEY_CAPITALEXECUTOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Leviathan.
+        /// </summary>
+        public static string JOURNEY_CAPITALLEVIATHAN {
+            get {
+                return ResourceManager.GetString("JOURNEY_CAPITALLEVIATHAN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Profundity.
+        /// </summary>
+        public static string JOURNEY_CAPITALPROFUNDITY {
+            get {
+                return ResourceManager.GetString("JOURNEY_CAPITALPROFUNDITY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Doctor Aphra.
+        /// </summary>
+        public static string JOURNEY_DOCTORAPHRA {
+            get {
+                return ResourceManager.GetString("JOURNEY_DOCTORAPHRA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Leia Organa.
+        /// </summary>
+        public static string JOURNEY_GLLEIA {
+            get {
+                return ResourceManager.GetString("JOURNEY_GLLEIA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rey.
+        /// </summary>
+        public static string JOURNEY_GLREY {
+            get {
+                return ResourceManager.GetString("JOURNEY_GLREY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grand Inquisitor.
+        /// </summary>
+        public static string JOURNEY_GRANDINQUISITOR {
+            get {
+                return ResourceManager.GetString("JOURNEY_GRANDINQUISITOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jedi Master Luke Skywalker.
+        /// </summary>
+        public static string JOURNEY_GRANDMASTERLUKE {
+            get {
+                return ResourceManager.GetString("JOURNEY_GRANDMASTERLUKE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jabba the Hutt.
+        /// </summary>
+        public static string JOURNEY_JABBATHEHUTT {
+            get {
+                return ResourceManager.GetString("JOURNEY_JABBATHEHUTT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jedi Knight Cal Kestis.
+        /// </summary>
+        public static string JOURNEY_JEDIKNIGHTCAL {
+            get {
+                return ResourceManager.GetString("JOURNEY_JEDIKNIGHTCAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jedi Master Kenobi.
+        /// </summary>
+        public static string JOURNEY_JEDIMASTERKENOBI {
+            get {
+                return ResourceManager.GetString("JOURNEY_JEDIMASTERKENOBI", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lord Vader.
+        /// </summary>
+        public static string JOURNEY_LORDVADER {
+            get {
+                return ResourceManager.GetString("JOURNEY_LORDVADER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sith Eternal Emperor.
+        /// </summary>
+        public static string JOURNEY_SITHPALPATINE {
+            get {
+                return ResourceManager.GetString("JOURNEY_SITHPALPATINE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Starkiller.
+        /// </summary>
+        public static string JOURNEY_STARKILLER {
+            get {
+                return ResourceManager.GetString("JOURNEY_STARKILLER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Supreme Leader Kylo Ren.
+        /// </summary>
+        public static string JOURNEY_SUPREMELEADERKYLOREN {
+            get {
+                return ResourceManager.GetString("JOURNEY_SUPREMELEADERKYLOREN", resourceCulture);
             }
         }
         
@@ -1875,15 +1911,6 @@ namespace Wayfinder.App {
         public static string LORDVADER {
             get {
                 return ResourceManager.GetString("LORDVADER", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to LV.
-        /// </summary>
-        public static string LORDVADER_CHALLENGE {
-            get {
-                return ResourceManager.GetString("LORDVADER_CHALLENGE", resourceCulture);
             }
         }
         
@@ -2545,15 +2572,6 @@ namespace Wayfinder.App {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to SEE.
-        /// </summary>
-        public static string SITHPALPATINE_CHALLENGE {
-            get {
-                return ResourceManager.GetString("SITHPALPATINE_CHALLENGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Mark VI Interceptor.
         /// </summary>
         public static string SITHSUPREMACYCLASS {
@@ -2680,15 +2698,6 @@ namespace Wayfinder.App {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to SK.
-        /// </summary>
-        public static string STARKILLER_CHALLENGE {
-            get {
-                return ResourceManager.GetString("STARKILLER_CHALLENGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Stormtrooper.
         /// </summary>
         public static string STORMTROOPER {
@@ -2721,15 +2730,6 @@ namespace Wayfinder.App {
         public static string SUPREMELEADERKYLOREN {
             get {
                 return ResourceManager.GetString("SUPREMELEADERKYLOREN", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to SLKR.
-        /// </summary>
-        public static string SUPREMELEADERKYLOREN_CHALLENGE {
-            get {
-                return ResourceManager.GetString("SUPREMELEADERKYLOREN_CHALLENGE", resourceCulture);
             }
         }
         

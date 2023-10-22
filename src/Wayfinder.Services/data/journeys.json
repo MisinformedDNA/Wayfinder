@@ -1,6 +1,6 @@
 [
   {
-    "ChallengeId": "LORDVADER_CHALLENGE",
+    "Id": "JOURNEY_LORDVADER",
     "Requirements": [
       {
         "UnitId": "BADBATCHHUNTER",
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "ChallengeId": "JEDIMASTERKENOBI_CHALLENGE",
+    "Id": "JOURNEY_JEDIMASTERKENOBI",
     "Requirements": [
       {
         "UnitId": "GENERALKENOBI",
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "ChallengeId": "JABBATHEHUTT_CHALLENGE",
+    "Id": "JOURNEY_JABBATHEHUTT",
     "Requirements": [
       {
         "UnitId": "KRRSANTAN",
@@ -195,7 +195,7 @@
     ]
   },
   {
-    "ChallengeId": "GRANDMASTERLUKE_CHALLENGE",
+    "Id": "JOURNEY_GRANDMASTERLUKE",
     "Requirements": [
       {
         "UnitId": "OLDBENKENOBI",
@@ -260,7 +260,7 @@
     ]
   },
   {
-    "ChallengeId": "SITHPALPATINE_CHALLENGE",
+    "Id": "JOURNEY_SITHPALPATINE",
     "Requirements": [
       {
         "UnitId": "EMPERORPALPATINE",
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "ChallengeId": "GLREY_CHALLENGE",
+    "Id": "JOURNEY_GLREY",
     "Requirements": [
       {
         "UnitId": "REYJEDITRAINING",
@@ -382,7 +382,7 @@
     ]
   },
   {
-    "ChallengeId": "SUPREMELEADERKYLOREN_CHALLENGE",
+    "Id": "JOURNEY_SUPREMELEADERKYLOREN",
     "Requirements": [
       {
         "UnitId": "KYLORENUNMASKED",
@@ -439,7 +439,7 @@
     ]
   },
   {
-    "ChallengeId": "GLLEIA_CHALLENGE",
+    "Id": "JOURNEY_GLLEIA",
     "Requirements": [
       {
         "UnitId": "CAPTAINREX",
@@ -504,7 +504,7 @@
     ]
   },
   {
-    "ChallengeId": "CAPITALEXECUTOR_CHALLENGE",
+    "Id": "JOURNEY_CAPITALEXECUTOR",
     "Requirements": [
       {
         "UnitId": "VADER",
@@ -565,7 +565,7 @@
     ]
   },
   {
-    "ChallengeId": "CAPITALPROFUNDITY_CHALLENGE",
+    "Id": "JOURNEY_CAPITALPROFUNDITY",
     "Requirements": [
       {
         "UnitId": "ADMIRALRADDUS",
@@ -626,7 +626,7 @@
     ]
   },
   {
-    "ChallengeId": "CAPITALLEVIATHAN_CHALLENGE",
+    "Id": "JOURNEY_CAPITALLEVIATHAN",
     "Requirements": [
       {
         "UnitId": "DARTHREVAN",
@@ -695,7 +695,7 @@
     ]
   },
   {
-    "ChallengeId": "GRANDINQUISITOR_CHALLENGE",
+    "Id": "JOURNEY_GRANDINQUISITOR",
     "Requirements": [
       {
         "UnitId": "SECONDSISTER",
@@ -720,7 +720,7 @@
     ]
   },
   {
-    "ChallengeId": "STARKILLER_CHALLENGE",
+    "Id": "JOURNEY_STARKILLER",
     "Requirements": [
       {
         "UnitId": "DASHRENDAR",
@@ -741,7 +741,7 @@
     ]
   },
   {
-    "ChallengeId": "DOCTORAPHRA_CHALLENGE",
+    "Id": "JOURNEY_DOCTORAPHRA",
     "Requirements": [
       {
         "UnitId": "HONDO",
@@ -762,7 +762,7 @@
     ]
   },
   {
-    "ChallengeId": "JEDIKNIGHTCAL_CHALLENGE",
+    "Id": "JOURNEY_JEDIKNIGHTCAL",
     "Requirements": [
       {
         "UnitId": "CALKESTIS",

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Localization;
 using System.Text.RegularExpressions;
-using Wayfinder.Services.Challenges;
+using Wayfinder.Services.Journeys;
 
 namespace Wayfinder.App.Features.RequiredUnits
 {
@@ -19,34 +19,34 @@ namespace Wayfinder.App.Features.RequiredUnits
         public override async Task InitializeAsync()
         {
             await LoadAllUnitsAsync();
-            await LoadChallengesAsync();
+            await LoadJourneysAsync();
 
-            SelectedChallenges = new(Challenges);
+            SelectedJourneys = new(Journeys);
         }
 
-        protected async Task LoadChallengesAsync()
+        protected async Task LoadJourneysAsync()
         {
-            await base.LoadAllChallengesAsync();
+            await base.LoadAllJourneysAsync();
 
-            List<Challenge> challenges = new();
-            foreach (var challenge in AllChallenges)
+            List<Journey> journeys = new();
+            foreach (var journey in AllJourneys)
             {
-                var requirements = challenge.Requirements
+                var requirements = journey.Requirements
                     .Where(x => IsRelicRequirement().IsMatch(x.Level))
                     .ToList();
 
                 if (requirements.Any())
-                    challenges.Add(new Challenge(challenge.ChallengeId, requirements));
+                    journeys.Add(new Journey(journey.Id, requirements));
             }
 
-            Challenges = challenges;
+            Journeys = journeys;
         }
 
         public override void LoadRequiredUnits()
         {
-            var query = from g in SelectedChallenges
+            var query = from g in SelectedJourneys
                         from r in g.Requirements
-                        select new { GoalUnit = g.ChallengeId, RequiredUnit = r.UnitId, RequiredLevel = r.Level } into d
+                        select new { GoalUnit = g.Id, RequiredUnit = r.UnitId, RequiredLevel = r.Level } into d
                         group d by d.RequiredUnit into ru
                         select new RequiredUnit(_localizer[ru.Key], ru.Select(x => new RequiredDetail(_localizer[x.GoalUnit], _localizer[x.RequiredLevel])).ToList());
 

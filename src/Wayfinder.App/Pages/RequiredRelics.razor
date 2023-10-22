@@ -1,5 +1,5 @@
 ﻿@page "/required-relics"
-@using Wayfinder.Services.Challenges;
+@using Wayfinder.Services.Journeys;
 @using Wayfinder.Services.Models;
 
 @inherits OwningComponentBase
@@ -10,10 +10,10 @@
     </MudCardHeader>
 
     <MudCardContent>
-        <MudSelect T="Challenge" Label="Challenges" MultiSelection="true" SelectedValues="_viewModel.SelectedChallenges" ToStringFunc="@_challengeConverter" SelectedValuesChanged="@OnSelectedChallengesChanged">
-            @foreach (var challenge in _viewModel.Challenges)
+        <MudSelect T="Journey" Label="Journeys" MultiSelection="true" SelectedValues="_viewModel.SelectedJourneys" ToStringFunc="@_journeyConverter" SelectedValuesChanged="@OnSelectedJourneysChanged">
+            @foreach (var journey in _viewModel.Journeys)
             {
-                <MudSelectItem T="Challenge" Value="challenge">@(Localizer[challenge.ChallengeId])</MudSelectItem>
+                <MudSelectItem T="Journey" Value="journey">@(Localizer[journey.Id])</MudSelectItem>
             }
         </MudSelect>
     </MudCardContent>
