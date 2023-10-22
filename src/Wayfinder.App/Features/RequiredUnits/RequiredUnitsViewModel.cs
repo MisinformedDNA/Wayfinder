@@ -40,7 +40,14 @@ public partial class RequiredUnitsViewModel : ObservableObject
 
     protected async Task LoadAllUnitsAsync() => AllUnits = await GameService.GetUnitsAsync();
 
-    protected virtual async Task LoadAllJourneysAsync() => AllJourneys = await JourneyService.GetAsync();
+    protected virtual async Task LoadAllJourneysAsync()
+    {
+        var resourceManager = Resources.ResourceManager;
+        var journeys = await JourneyService.GetAsync();
+        AllJourneys = journeys
+            .OrderBy(x => resourceManager.GetString(x.Id) ?? x.Id)
+            .ToList();
+    }
 
     //internal static async Task<List<Journey>> GetAllJourneysAsync() => await JourneyService.GetAsync();
 
