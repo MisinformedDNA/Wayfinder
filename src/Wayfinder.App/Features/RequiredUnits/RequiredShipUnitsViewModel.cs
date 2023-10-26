@@ -3,12 +3,12 @@ using System.Text.RegularExpressions;
 
 namespace Wayfinder.App.Features.RequiredUnits
 {
-    public partial class RequiredRelicUnitsViewModel : RequiredUnitsViewModel
+    public partial class RequiredShipUnitsViewModel : RequiredUnitsViewModel
     {
-        [GeneratedRegex("^RELIC")]
+        [GeneratedRegex("^STAR")]
         protected override partial Regex IsValidRequirement();
 
-        public RequiredRelicUnitsViewModel(IStringLocalizer<Resources> localizer)
+        public RequiredShipUnitsViewModel(IStringLocalizer<Resources> localizer)
             : base(localizer)
         { }
     }

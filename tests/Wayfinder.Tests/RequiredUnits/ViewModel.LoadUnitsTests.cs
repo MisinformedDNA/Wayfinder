@@ -1,11 +1,10 @@
-﻿using FluentAssertions;
-using Wayfinder.App.Features.RequiredUnits;
+﻿using Wayfinder.App.Features.RequiredUnits;
 
 namespace Wayfinder.Tests.RequiredUnits
 {
     public class LoadUnitsTests
     {
-        private readonly RequiredUnitsViewModel _viewModel = new();
+        private readonly RequiredUnitsViewModel _viewModel = new RequiredShipUnitsViewModel(null!);
 
         [Fact]
         public async Task List_all_units_for_one_character()
@@ -17,7 +16,7 @@ namespace Wayfinder.Tests.RequiredUnits
 
             _viewModel.LoadRequiredUnits();
 
-            _viewModel.Units.Should().HaveCount(15);
+            _viewModel.Requirements.Should().HaveCount(15);
         }
 
         [Fact]
@@ -25,7 +24,7 @@ namespace Wayfinder.Tests.RequiredUnits
         {
             await _viewModel.InitializeAsync();
 
-            _viewModel.SelectedUnits.Should().HaveSameCount(_viewModel.AllObjectives);
+            _viewModel.SelectedJourneys.Should().HaveSameCount(_viewModel.Journeys);
         }
 
         [Fact]
@@ -39,7 +38,7 @@ namespace Wayfinder.Tests.RequiredUnits
 
             _viewModel.LoadRequiredUnits();
 
-            _viewModel.Units.Should().HaveCountGreaterThan(15).And.HaveCountLessThan(30);
+            _viewModel.Requirements.Should().HaveCountGreaterThan(15).And.HaveCountLessThan(30);
         }
 
         [Fact]
@@ -53,7 +52,7 @@ namespace Wayfinder.Tests.RequiredUnits
 
             _viewModel.LoadRequiredUnits();
 
-            var unit = _viewModel.Units.Should().Contain(x => x.UnitId == "JEDIKNIGHTLUKE").Subject;
+            var unit = _viewModel.Requirements.Should().Contain(x => x.UnitId == "JEDIKNIGHTLUKE").Subject;
             unit.Details.Should().HaveCount(2);
         }
     }

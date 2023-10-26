@@ -1,59 +1,17 @@
 ﻿@page "/required-relics"
 
-@using Wayfinder.Services;
-@using Wayfinder.Services.Journeys;
-@using Wayfinder.Services.Models;
+@using Microsoft.Extensions.DependencyInjection;
+@using Wayfinder.App.Features.RequiredUnits;
 
 @inherits OwningComponentBase
 
-<MudCard>
-    <MudCardHeader Class="mud-theme-primary">
-        <MudText>Required Relics</MudText>
-    </MudCardHeader>
+<RequiredUnits Title="Required Relics" ViewModel="@ViewModel" />
 
-    <MudCardContent>
-        <MudSelect T="Journey"
-                   Label="Journeys"
-                   MultiSelection="true"
-                   MultiSelectionTextFunc="@_multiSelectTextFunc"
-                   ToStringFunc="@_journeyConverter"
-                   SelectAll="true"
-                   SelectedValues="_viewModel.SelectedJourneys"
-                   SelectedValuesChanged="@OnSelectedJourneysChanged">
-            @foreach (var journey in _viewModel.Journeys)
-            {
-                <MudSelectItem T="Journey" Value="journey">@(Localizer[journey.Id])</MudSelectItem>
-            }
-        </MudSelect>
-    </MudCardContent>
+@code {
+    private RequiredUnitsViewModel ViewModel { get; set; } = default!;
 
-    <MudList>
-
-        @if (_viewModel.Requirements is not null)
-        {
-            var units = _viewModel.Requirements.OrderBy(x => Localizer[x.UnitId].Value);
-            foreach (var unit in units)
-            {
-                <MudListItem>
-                    <strong>@(Localizer[unit.UnitId]):</strong>
-                    <span> </span>
-
-                    @{
-                        bool isFirst = true;
-                        foreach (var item in unit.Details)
-                        {
-                            if (!isFirst)
-                            {
-                                <span>, </span>
-                            }
-
-                            <span>@(Localizer[item.Level].Value) (@(Abbreviations.GetAbbreviation(Localizer[item.GoalUnitId])))</span>
-                            isFirst = false;
-                        }
-                    }
-                </MudListItem>
-            }
-        }
-
-    </MudList>
-</MudCard>
+    protected override void OnInitialized()
+    {
+        ViewModel = ScopedServices.GetRequiredService<RequiredRelicUnitsViewModel>();
+    }
+}

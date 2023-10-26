@@ -1,0 +1,61 @@
+﻿@using System.Text.RegularExpressions;
+@using Wayfinder.Services;
+@using Wayfinder.App.Features.RequiredUnits;
+@using Wayfinder.Services.Journeys;
+
+@inherits OwningComponentBase
+
+<MudCard>
+    <MudCardHeader Class="mud-theme-primary">
+        <MudText>@Title</MudText>
+    </MudCardHeader>
+
+    <MudCardContent>
+        @if (ViewModel?.Journeys is not null)
+        {
+            <MudSelect T="Journey"
+                       Label="Journeys"
+                       MultiSelection="true"
+                       MultiSelectionTextFunc="@_multiSelectTextFunc"
+                       ToStringFunc="@_journeyConverter"
+                       SelectAll="true"
+                       SelectedValues="@ViewModel.SelectedJourneys"
+                       SelectedValuesChanged="@OnSelectedJourneysChanged">
+                @foreach (var journey in @ViewModel.Journeys)
+                {
+                    <MudSelectItem T="Journey" Value="journey">@(Localizer[journey.Id])</MudSelectItem>
+                }
+            </MudSelect>
+        }
+    </MudCardContent>
+
+    <MudList>
+
+        @if (@ViewModel?.Requirements is not null)
+        {
+            var units = @ViewModel.Requirements.OrderBy(x => Localizer[x.UnitId].Value);
+            foreach (var unit in units)
+            {
+                <MudListItem>
+                    <strong>@(Localizer[unit.UnitId]):</strong>
+                    <span> </span>
+
+                    @{
+                        bool isFirst = true;
+                        foreach (var item in unit.Details)
+                        {
+                            if (!isFirst)
+                            {
+                                <span>, </span>
+                            }
+
+                            <span>@(Localizer[item.Level].Value) (@(Abbreviations.GetAbbreviation(Localizer[item.GoalUnitId])))</span>
+                            isFirst = false;
+                        }
+                    }
+                </MudListItem>
+            }
+        }
+
+    </MudList>
+</MudCard>

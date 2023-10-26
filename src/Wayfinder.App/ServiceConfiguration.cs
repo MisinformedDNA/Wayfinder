@@ -10,5 +10,6 @@ public static class ServiceConfiguration
         services
             .AddMudServices()
             .AddLocalization()
-            .AddTransient<RequiredRelicUnitsViewModel>();
+            .AddTransient<RequiredRelicUnitsViewModel>()
+            .AddTransient<RequiredShipUnitsViewModel>();
 }
