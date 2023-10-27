@@ -4,12 +4,12 @@ using Wayfinder.App.Features.RequiredUnits;
 
 namespace Wayfinder.Tests.RequiredUnits
 {
-    public class RequiredRelicUnitsViewModelTests
+    public class RequiredUnitsViewModelTests
     {
         private readonly IFixture _fixture = new Fixture();
         private readonly RequiredRelicUnitsViewModel _viewModel;
 
-        public RequiredRelicUnitsViewModelTests()
+        public RequiredUnitsViewModelTests()
         {
             var localizerMock = Substitute.For<IStringLocalizer<Resources>>();
             localizerMock[Arg.Any<string>()].Returns(new LocalizedString("", _fixture.Create<string>()));
@@ -26,23 +26,15 @@ namespace Wayfinder.Tests.RequiredUnits
         }
 
         [Fact]
-        public async Task All_units_are_loaded_by_default()
+        public async Task All_journeys_are_selected_by_default()
         {
             await _viewModel.InitializeAsync();
 
-            _viewModel.AllUnits.Should().HaveCountGreaterThan(1);
+            _viewModel.SelectedJourneys.Should().HaveSameCount(_viewModel.Journeys);
         }
 
         [Fact]
-        public async Task Multiple_journeys_are_selected_by_default()
-        {
-            await _viewModel.InitializeAsync();
-
-            _viewModel.SelectedJourneys.Should().HaveCountGreaterThan(1);
-        }
-
-        [Fact]
-        public async Task Multiple_requirements_are_set_by_default()
+        public async Task Multiple_requirements_are_included_by_default()
         {
             await _viewModel.InitializeAsync();
 
@@ -71,8 +63,8 @@ namespace Wayfinder.Tests.RequiredUnits
         {
             await _viewModel.InitializeAsync();
 
-            _viewModel.Journeys.Should().HaveCountGreaterThan(1);
-            _viewModel.SelectedJourneys.Clear();
+            _viewModel.Journeys.Should().NotBeEmpty();
+            _viewModel.SelectedJourneys = new();
 
             _viewModel.Journeys.Should().NotBeEmpty();
         }
@@ -82,8 +74,7 @@ namespace Wayfinder.Tests.RequiredUnits
         {
             await _viewModel.InitializeAsync();
 
-            _viewModel.SelectedJourneys.Clear();
-            _viewModel.LoadRequiredUnits();
+            _viewModel.SelectedJourneys = new();
 
             _viewModel.Requirements.Should().BeEmpty();
         }

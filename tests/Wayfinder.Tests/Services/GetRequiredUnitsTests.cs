@@ -12,8 +12,8 @@ public class GetRequiredUnitsTests
     }
 
     [Theory]
-    [InlineData("LORDVADER_CHALLENGE")]
-    [InlineData("CAPITALEXECUTOR_CHALLENGE")]
+    [InlineData("JOURNEY_LORDVADER")]
+    [InlineData("JOURNEY_CAPITALEXECUTOR")]
     public async Task Has_unit(string unitId)
     {
         var units = await JourneyService.GetAsync();
@@ -21,7 +21,7 @@ public class GetRequiredUnitsTests
     }
 
     [Theory]
-    [InlineData("LORDVADER_CHALLENGE", 15)]
+    [InlineData("JOURNEY_LORDVADER", 15)]
     public async Task Has_X_requirements(string unitId, int numOfRequirements)
     {
         var units = await JourneyService.GetAsync();

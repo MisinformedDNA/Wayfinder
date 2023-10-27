@@ -1,9 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using Microsoft.Extensions.Localization;
 using System.Text.RegularExpressions;
-using Wayfinder.Services;
 using Wayfinder.Services.Journeys;
-using Wayfinder.Services.Models;
 
 namespace Wayfinder.App.Features.RequiredUnits;
 
@@ -17,12 +15,8 @@ public abstract partial class RequiredUnitsViewModel : ObservableObject
     }
 
     [ObservableProperty] List<Journey> _selectedJourneys = new();
-    [ObservableProperty] List<Unit> _selectedUnits = new();
     [ObservableProperty] private List<RequiredUnit> _requirements = new();
     [ObservableProperty] private List<Journey> _journeys = new();
-
-    public IReadOnlyList<Unit> AllUnits { get; set; } = default!;
-    protected List<Journey> AllJourneys { get; set; } = new();
 
     partial void OnSelectedJourneysChanged(List<Journey> value)
     {
@@ -33,7 +27,6 @@ public abstract partial class RequiredUnitsViewModel : ObservableObject
 
     public async Task InitializeAsync()
     {
-        await LoadAllUnitsAsync();
         await LoadJourneysAsync();
 
         SelectedJourneys = new(Journeys);
@@ -41,34 +34,23 @@ public abstract partial class RequiredUnitsViewModel : ObservableObject
 
     protected async Task LoadJourneysAsync()
     {
-        await LoadAllJourneysAsync();
+        var allJourneys = await JourneyService.GetAsync();
 
         List<Journey> journeys = new();
-        foreach (var journey in AllJourneys)
+        foreach (var journey in allJourneys)
         {
-            var requirements = journey.Requirements
+            var matchingRequirements = journey.Requirements
                 .Where(x => IsValidRequirement().IsMatch(x.Level))
                 .ToList();
 
-            if (requirements.Any())
-                journeys.Add(new Journey(journey.Id, requirements));
+            if (matchingRequirements.Any())
+                journeys.Add(new Journey(journey.Id, matchingRequirements));
         }
 
-        Journeys = journeys;
-    }
-
-    protected async Task LoadAllUnitsAsync() => AllUnits = await GameService.GetUnitsAsync();
-
-    protected virtual async Task LoadAllJourneysAsync()
-    {
-        var resourceManager = Resources.ResourceManager;
-        var journeys = await JourneyService.GetAsync();
-        AllJourneys = journeys
-            .OrderBy(x => resourceManager.GetString(x.Id) ?? x.Id)
+        Journeys = journeys
+            .OrderBy(x => _localizer[x.Id].Value ?? x.Id)
             .ToList();
     }
-
-    //internal static async Task<List<Journey>> GetAllJourneysAsync() => await JourneyService.GetAsync();
 
     public void LoadRequiredUnits()
     {
